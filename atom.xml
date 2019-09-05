@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wjingc.github.io/"/>
-  <updated>2019-08-12T15:43:35.206Z</updated>
+  <updated>2019-09-05T12:32:49.889Z</updated>
   <id>http://wjingc.github.io/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>text</title>
+    <link href="http://wjingc.github.io/2019/09/05/text/"/>
+    <id>http://wjingc.github.io/2019/09/05/text/</id>
+    <published>2019-09-05T12:32:49.000Z</published>
+    <updated>2019-09-05T12:32:49.889Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>newblog</title>
@@ -35,9 +49,9 @@
     </summary>
     
     
-      <category term="Github" scheme="http://wjingc.github.io/tags/Github/"/>
-    
       <category term="hexo" scheme="http://wjingc.github.io/tags/hexo/"/>
+    
+      <category term="Github" scheme="http://wjingc.github.io/tags/Github/"/>
     
       <category term="Blog" scheme="http://wjingc.github.io/tags/Blog/"/>
     
@@ -99,15 +113,15 @@
       <category term="博客搭建" scheme="http://wjingc.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-      <category term="MacOS" scheme="http://wjingc.github.io/tags/MacOS/"/>
-    
-      <category term="Github" scheme="http://wjingc.github.io/tags/Github/"/>
-    
       <category term="gitee" scheme="http://wjingc.github.io/tags/gitee/"/>
     
       <category term="hexo" scheme="http://wjingc.github.io/tags/hexo/"/>
     
       <category term="ssh key" scheme="http://wjingc.github.io/tags/ssh-key/"/>
+    
+      <category term="Github" scheme="http://wjingc.github.io/tags/Github/"/>
+    
+      <category term="MacOS" scheme="http://wjingc.github.io/tags/MacOS/"/>
     
   </entry>
   
@@ -284,13 +298,13 @@
       <category term="博客搭建" scheme="http://wjingc.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-      <category term="MacOS Mojave 10.14.4" scheme="http://wjingc.github.io/tags/MacOS-Mojave-10-14-4/"/>
+      <category term="Github" scheme="http://wjingc.github.io/tags/Github/"/>
     
       <category term="MacOS" scheme="http://wjingc.github.io/tags/MacOS/"/>
     
-      <category term="Hexo" scheme="http://wjingc.github.io/tags/Hexo/"/>
+      <category term="MacOS Mojave 10.14.4" scheme="http://wjingc.github.io/tags/MacOS-Mojave-10-14-4/"/>
     
-      <category term="Github" scheme="http://wjingc.github.io/tags/Github/"/>
+      <category term="Hexo" scheme="http://wjingc.github.io/tags/Hexo/"/>
     
       <category term="Deepin" scheme="http://wjingc.github.io/tags/Deepin/"/>
     
@@ -356,9 +370,9 @@
       <category term="博客搭建" scheme="http://wjingc.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-      <category term="Hexo" scheme="http://wjingc.github.io/tags/Hexo/"/>
-    
       <category term="Github" scheme="http://wjingc.github.io/tags/Github/"/>
+    
+      <category term="Hexo" scheme="http://wjingc.github.io/tags/Hexo/"/>
     
       <category term="Blog" scheme="http://wjingc.github.io/tags/Blog/"/>
     
@@ -396,9 +410,9 @@ db.json     package.json    source
       <category term="博客搭建" scheme="http://wjingc.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-      <category term="Hexo" scheme="http://wjingc.github.io/tags/Hexo/"/>
-    
       <category term="Github" scheme="http://wjingc.github.io/tags/Github/"/>
+    
+      <category term="Hexo" scheme="http://wjingc.github.io/tags/Hexo/"/>
     
       <category term="NexT" scheme="http://wjingc.github.io/tags/NexT/"/>
     

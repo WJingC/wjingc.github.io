@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>text</title>
+      <link href="/2019/09/05/text/"/>
+      <url>/2019/09/05/text/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>newblog</title>
       <link href="/2019/08/12/newblog/"/>
       <url>/2019/08/12/newblog/</url>
@@ -14,9 +27,9 @@
       
         <tags>
             
-            <tag> Github </tag>
-            
             <tag> hexo </tag>
+            
+            <tag> Github </tag>
             
             <tag> Blog </tag>
             
@@ -78,15 +91,15 @@
       
         <tags>
             
-            <tag> MacOS </tag>
-            
-            <tag> Github </tag>
-            
             <tag> gitee </tag>
             
             <tag> hexo </tag>
             
             <tag> ssh key </tag>
+            
+            <tag> Github </tag>
+            
+            <tag> MacOS </tag>
             
         </tags>
       
@@ -230,13 +243,13 @@
       
         <tags>
             
-            <tag> MacOS Mojave 10.14.4 </tag>
+            <tag> Github </tag>
             
             <tag> MacOS </tag>
             
-            <tag> Hexo </tag>
+            <tag> MacOS Mojave 10.14.4 </tag>
             
-            <tag> Github </tag>
+            <tag> Hexo </tag>
             
             <tag> Deepin </tag>
             
@@ -300,9 +313,9 @@
       
         <tags>
             
-            <tag> Hexo </tag>
-            
             <tag> Github </tag>
+            
+            <tag> Hexo </tag>
             
             <tag> Blog </tag>
             
@@ -331,9 +344,9 @@
       
         <tags>
             
-            <tag> Hexo </tag>
-            
             <tag> Github </tag>
+            
+            <tag> Hexo </tag>
             
             <tag> NexT </tag>
             
