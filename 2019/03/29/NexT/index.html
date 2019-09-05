@@ -1,0 +1,1735 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="配置Hexo-NexT，使你的博客酷炫, Coding Tao">
+    <meta name="description" content="目录NexT安装
+切换到Blog文件夹下（就是hexo init的文件夹），查看文件
+
+cd [Blog]
+
+ls
+_config.yml node_modules    scaffolds   themes
+db.json     pac">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>配置Hexo-NexT，使你的博客酷炫 | Coding Tao</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <style type="text/css">
+        
+    </style>
+
+    <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+
+
+<body>
+
+<header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Coding Tao</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fa fa-navicon"></i></a>
+<ul class="right">
+    
+    <li class="hide-on-med-and-down">
+        <a href="/" class="waves-effect waves-light">
+            
+            <i class="fa fa-home"></i>
+            
+            <span>首页</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/tags" class="waves-effect waves-light">
+            
+            <i class="fa fa-tags"></i>
+            
+            <span>标签</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/categories" class="waves-effect waves-light">
+            
+            <i class="fa fa-bookmark"></i>
+            
+            <span>分类</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/archives" class="waves-effect waves-light">
+            
+            <i class="fa fa-archive"></i>
+            
+            <span>归档</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/about" class="waves-effect waves-light">
+            
+            <i class="fa fa-user-circle-o"></i>
+            
+            <span>关于</span>
+        </a>
+    </li>
+    
+    <li>
+        <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+            <i id="searchIcon" class="fa fa-search" title="搜索"></i>
+        </a>
+    </li>
+</ul>
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Coding Tao</div>
+        <div class="logo-desc">
+            
+            路漫漫其修远兮，吾将上下而求索。
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li>
+            <a href="/" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-home"></i>
+                
+                首页
+            </a>
+        </li>
+        
+        <li>
+            <a href="/tags" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-tags"></i>
+                
+                标签
+            </a>
+        </li>
+        
+        <li>
+            <a href="/categories" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-bookmark"></i>
+                
+                分类
+            </a>
+        </li>
+        
+        <li>
+            <a href="/archives" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-archive"></i>
+                
+                归档
+            </a>
+        </li>
+        
+        <li>
+            <a href="/about" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-user-circle-o"></i>
+                
+                关于
+            </a>
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/wjingc" class="waves-effect waves-light" target="_blank">
+                <i class="fa fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/wjingc" class="github-corner tooltipped hide-on-med-and-down" target="_blank" data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewbox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"/>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"/>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"/>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/2.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <div class="description center-align post-title">
+                        配置Hexo-NexT，使你的博客酷炫
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #toc-content .is-active-link::before {
+        background-color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 20px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Hexo/" target="_blank">
+                                <span class="chip bg-color">Hexo</span>
+                            </a>
+                        
+                            <a href="/tags/Github/" target="_blank">
+                                <span class="chip bg-color">Github</span>
+                            </a>
+                        
+                            <a href="/tags/NexT/" target="_blank">
+                                <span class="chip bg-color">NexT</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/博客搭建/" class="post-category" target="_blank">
+                                博客搭建
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                <div class="post-date info-break-policy">
+                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2019-03-29
+                </div>
+
+                
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
+                        3.8k
+                    </div>
+                    
+
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                        18 分
+                    </div>
+                    
+                
+				
+				
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="fa fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h3 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h3><h4 id="NexT安装"><a href="#NexT安装" class="headerlink" title="NexT安装"></a>NexT安装</h4><ul>
+<li>切换到<strong>Blog</strong>文件夹下（就是<code>hexo init</code>的文件夹），查看文件</li>
+</ul>
+<pre><code>cd [Blog]
+
+ls
+_config.yml node_modules    scaffolds   themes
+db.json     package.json    source
+</code></pre><ul>
+<li>通过git安装，前提是你的电脑安装了git.</li>
+</ul>
+<pre><code>git clone https://github.com/iissnan/hexo-theme-next themes/next
+</code></pre><a id="more"></a>
+<ul>
+<li>查看标签列表</li>
+</ul>
+<pre><code>git tag -l
+输出：
+...
+v5.1.3
+v5.1.4
+</code></pre><ul>
+<li>切换到<strong>v5.1.4</strong> </li>
+</ul>
+<pre><code>git checkout tags/v5.1.4
+输出：
+HEAD is now at 4f75fe5... 2018 NY update.
+</code></pre><ul>
+<li>通过<strong>curl</strong>安装NexT</li>
+</ul>
+<pre><code>mkdir themes/next
+curl -s https://api.github.com/repos/iissnan/hexo-theme-next/releases/latest | grep tarball_url | cut -d &#39;&quot;&#39; -f 4 | wget -i - -O- | tar -zx -C themes/next --strip-components=1
+</code></pre><ul>
+<li>更新主题NexT</li>
+</ul>
+<pre><code>cd themes/next
+git pull
+</code></pre><ul>
+<li>切换成NexT主题，在hexo根文件夹下，编辑<strong>_config.yml</strong>文件</li>
+</ul>
+<pre><code>theme: next
+
+//切换后，用命令清除下缓存
+hexo clean
+
+//执行hexo s本地产看NexT主题效果
+hexo s
+</code></pre><h4 id="切换主题"><a href="#切换主题" class="headerlink" title="切换主题"></a>切换主题</h4><ul>
+<li>在列表中选择一款自己喜欢的主题风格。</li>
+</ul>
+<pre><code># Schemes
+#scheme: Muse  //默认主题
+scheme: Mist
+#scheme: Pisces
+#scheme: Gemini
+</code></pre><h4 id="设置Menu"><a href="#设置Menu" class="headerlink" title="设置Menu"></a>设置Menu</h4><ul>
+<li><p>默认只有两个首页和归档，如下图所示：  </p>
+<p><img src="https://upload-images.jianshu.io/upload_images/3072214-cbbe8efe8b4b7bbc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/438/format/webp" alt="img"></p>
+</li>
+<li><p>如果还要添加，编辑<code>themes/next/_config.yml</code>：</p>
+</li>
+</ul>
+<pre><code>menu:
+  home: / || home  //首页
+  about: /about/ || user  //关于
+  tags: /tags/ || tags  //标签
+  categories: /categories/ || th   //分类
+  archives: /archives/ || archive //归档
+  schedule: /schedule/ || calendar   //日程表
+  sitemap: /sitemap.xml || sitemap   //站点地图
+</code></pre><ul>
+<li><p>将需要的Menu前面<code>#</code>号去掉。如下图所示: </p>
+<p><img src="https://upload-images.jianshu.io/upload_images/3072214-47bacb2e4f2852f4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p>
+</li>
+</ul>
+<h4 id="初始化对应的Menu文件夹"><a href="#初始化对应的Menu文件夹" class="headerlink" title="初始化对应的Menu文件夹"></a>初始化对应的Menu文件夹</h4><p>没有创建Menu对应的文件夹，<code>Blog/source</code>文件目录如下：</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/3072214-a71568665089efaf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p>
+<ul>
+<li><p>在博客网站点击标签菜单可能会提示：</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/3072214-a1cce579d49cb369.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/484/format/webp" alt="img"></p>
+</li>
+<li><p>比如要创建标签文件夹，终端中输入（前提在<strong>Hexo</strong>文件路径下）：</p>
+</li>
+</ul>
+<pre><code>  hexo new page &quot;tags&quot;
+输出：
+INFO  Created: ~/Desktop/MyBlog/Blog/source/tags/index.md
+</code></pre><ul>
+<li><p>成功过后目录如下：</p>
+</li>
+<li><p>编辑<code>Blog/source/tags</code>中<strong>index.md</strong>文件，添加<code>type: &quot;tags&quot;</code>，其他Menu也同理创建。</p>
+</li>
+</ul>
+<pre><code>title: tags
+date: 2018-01-20 18:57:48
+type: &quot;tags&quot;
+</code></pre><h4 id="设置动态背景"><a href="#设置动态背景" class="headerlink" title="设置动态背景"></a>设置动态背景</h4><ul>
+<li><p><strong>主题配置文件</strong>内置4种特效，选择你喜欢的，设置成<strong>ture</strong>就OK啦。</p>
+<pre><code># Canvas-nest
+canvas_nest: false
+
+# three_waves
+three_waves: true
+
+# canvas_lines
+canvas_lines: false
+
+# canvas_sphere
+canvas_sphere: false
+</code></pre></li>
+</ul>
+<h4 id="在右上角或者左上角实现fork-me-on-github"><a href="#在右上角或者左上角实现fork-me-on-github" class="headerlink" title="在右上角或者左上角实现fork me on github"></a>在右上角或者左上角实现fork me on github</h4><ul>
+<li>效果图如下所示：</li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/3072214-7a59adb6558e5756.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p>
+<ul>
+<li>在<a href="https://github.com/blog/273-github-ribbons" target="_blank" rel="noopener">GitHub Ribbons</a>或<a href="http://tholman.com/github-corners/" target="_blank" rel="noopener">GitHub Corners</a>选择一款你喜欢的挂饰，拷贝方框内的代码：</li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/3072214-8b79d3a1ec518d12.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p>
+<ul>
+<li>将刚刚复制的挂饰代码，添加到<code>Blog/themes/next/layout/_layout.swig</code>文件中，添加位置如下图所示(放在<code>&lt;div class=&quot;headband&quot;&gt;&lt;/div&gt;</code>下方)：</li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/3072214-15e34a9841adc5b4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p>
+<h4 id="添加添加RSS"><a href="#添加添加RSS" class="headerlink" title="添加添加RSS"></a>添加添加RSS</h4><ul>
+<li>切换到<strong>Blog</strong>文件夹（hexo init的文件夹）下</li>
+</ul>
+<pre><code>cd [Blog]
+</code></pre><ul>
+<li>安装Hexo插件</li>
+</ul>
+<pre><code> npm install --save hexo-generator-feed
+</code></pre><ul>
+<li>安装成功之后，编辑<code>Blog/_config.yml</code>文件，在文件末尾添加</li>
+</ul>
+<pre><code># Extensions
+## Plugins: http://hexo.io/plugins/
+plugins: hexo-generate-feed
+</code></pre><ul>
+<li>配置主题<code>_config.yml</code>文件，<code>command+f</code>搜索<code>rss</code>，在后面加上<code>/atom.xml</code> </li>
+</ul>
+<pre><code># Set rss to false to disable feed link.
+# Leave rss as empty to use site&#39;s feed link.
+# Set rss to specific value if you have burned your feed already.
+rss: /atom.xml //注意：有一个空格
+</code></pre><ul>
+<li>之后，终端输入<code>hexo s</code>查看效果</li>
+</ul>
+<pre><code>hexo s
+</code></pre><p>  <img src="https://upload-images.jianshu.io/upload_images/3072214-313c1804b92eb9a0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/344/format/webp" alt="img"></p>
+<h4 id="修改文章内链接文本样式"><a href="#修改文章内链接文本样式" class="headerlink" title="修改文章内链接文本样式"></a>修改文章内链接文本样式</h4><ul>
+<li>修改<code>Blog/themes/next/source/css/_common/components/post/post.styl</code>，在末尾添加CSS样式：</li>
+</ul>
+<pre><code>// 文章内链接文本样式
+.post-body p a{
+  color: #0593d3; //原始链接颜色
+  border-bottom: none;
+  border-bottom: 1px solid #0593d3; //底部分割线颜色
+  &amp;:hover {
+    color: #fc6423; //鼠标经过颜色
+    border-bottom: none;
+    border-bottom: 1px solid #fc6423; //底部分割线颜色
+  }
+}
+</code></pre><ul>
+<li>设置后，效果如下</li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/3072214-36e89e89696a255a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"> </p>
+<h4 id="修改底部标签样式"><a href="#修改底部标签样式" class="headerlink" title="修改底部标签样式"></a>修改底部标签样式</h4><ul>
+<li>修改<code>Blog\themes\next\layout\_macro\post.swig</code>中文件，<code>command+f</code>搜索<code>rel=&quot;tag&quot;&gt;#</code>，将<code>#</code>替换成<code>&lt;i class=&quot;fa fa-tag&quot;&gt;&lt;/i&gt;</code>。输入以下命令，查看效果：</li>
+</ul>
+<pre><code>hexo clean
+hexo s
+</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/3072214-36dcbfd6cd83d271.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/386/format/webp" alt="img"></p>
+<h4 id="在文章末尾添加“文章结束”标记"><a href="#在文章末尾添加“文章结束”标记" class="headerlink" title="在文章末尾添加“文章结束”标记"></a>在文章末尾添加“文章结束”标记</h4><ul>
+<li>在路径<code>Blog\themes\next\layout\_macro</code>文件夹中新建<code>passage-end-tag.swig</code>文件。</li>
+</ul>
+<pre><code>//切换到路径_macro
+cd [_macro路径]
+
+//创建passage-end-tag.swig文件
+touch passage-end-tag.swig
+</code></pre><ul>
+<li>在passage-end-tag.swig添加以下内容，直接用文本编辑器打开，粘贴以下内容后保存</li>
+</ul>
+<pre><code>&lt;div&gt;
+    {% if not is_index %}
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    {% endif %}
+&lt;/div&gt;
+</code></pre><ul>
+<li>打开<code>Blog\themes\next\layout\_macro\post.swig</code>，在<code>post-body</code>之后，<code>post-footer</code>之前（<strong>post-footer之前两个DIV</strong>），添加以下代码：</li>
+</ul>
+<pre><code>&lt;div&gt;
+  {% if not is_index %}
+    {% include 'passage-end-tag.swig' %}
+  {% endif %}
+&lt;/div&gt;
+</code></pre><ul>
+<li>添加位置，如下图所示：  </li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/3072214-976a8cf36c994dc7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p>
+<ul>
+<li>修改主题配置文件<strong>_config.yml</strong>，在末尾添加：</li>
+</ul>
+<pre><code># 文章末尾添加“本文结束”标记
+passage_end_tag:
+  enabled: true
+</code></pre><ul>
+<li>配置完成之后，效果如下： </li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/3072214-b1b5a73b99793610.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/788/format/webp" alt="img"></p>
+<h4 id="设置头像并设置动画效果"><a href="#设置头像并设置动画效果" class="headerlink" title="设置头像并设置动画效果"></a>设置头像并设置动画效果</h4><ul>
+<li>在<code>Blog/_config.yml</code>中添加头像链接地址：</li>
+</ul>
+<pre><code>//添加头像地址
+avatar: [ http://....]
+</code></pre><ul>
+<li>设置头像圆角并旋转，打开<code>Blog/themes/next/source/css/_common/components/sidebar/sidebar-author.styl</code>，添加以下代码：</li>
+</ul>
+<pre><code>.site-author-image {
+  display: block;
+  margin: 0 auto;
+  padding: $site-author-image-padding;
+  max-width: $site-author-image-width;
+  height: $site-author-image-height;
+  border: $site-author-image-border-width solid $site-author-image-border-color;
+  /* 头像圆形 */
+  border-radius: 80px;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  box-shadow: inset 0 -1px 0 #333sf;
+  /* 设置循环动画 [animation: (play)动画名称 (2s)动画播放时长单位秒或微秒 (ase-out)动画播放的速度曲线为以低速结束 
+    (1s)等待1秒然后开始动画 (1)动画播放次数(infinite为循环播放) ]*/
+
+  /* 鼠标经过头像旋转360度 */
+  -webkit-transition: -webkit-transform 1.0s ease-out;
+  -moz-transition: -moz-transform 1.0s ease-out;
+  transition: transform 1.0s ease-out;
+}
+img:hover {
+  /* 鼠标经过停止头像旋转 
+  -webkit-animation-play-state:paused;
+  animation-play-state:paused;*/
+  /* 鼠标经过头像旋转360度 */
+  -webkit-transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+}
+/* Z 轴旋转动画 */
+@-webkit-keyframes play {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(-360deg);
+  }
+}
+@-moz-keyframes play {
+  0% {
+    -moz-transform: rotateZ(0deg);
+  }
+  100% {
+    -moz-transform: rotateZ(-360deg);
+  }
+}
+@keyframes play {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(-360deg);
+  }
+}
+</code></pre><ul>
+<li>效果如下：</li>
+</ul>
+<h4 id="修改代码块自定义样式"><a href="#修改代码块自定义样式" class="headerlink" title="修改代码块自定义样式"></a>修改代码块<code></code>自定义样式</h4><ul>
+<li>打开<code>Blog\themes\next\source\css\_custom\custom.styl</code>，添加以下代码：</li>
+</ul>
+<pre><code>// Custom styles.
+code {
+    color: #ff7600;
+    background: #fbf7f8;
+    margin: 2px;
+}
+// 大代码块的自定义样式
+.highlight, pre {
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 3px;
+}
+.highlight, code, pre {
+    border: 1px solid #d6d6d6;
+}
+</code></pre><h4 id="侧边栏社交小图标设置"><a href="#侧边栏社交小图标设置" class="headerlink" title="侧边栏社交小图标设置"></a>侧边栏社交小图标设置</h4><ul>
+<li>打开主题配置文件<code>_config.yml</code>，<code>command+f</code>搜索<code>Social</code>，将你有的社交账号前面的<code>#</code>号去掉。格式为：</li>
+</ul>
+<pre><code>[社交平台名]: [社交地址] || [图标名称]
+</code></pre><pre><code>#social:
+  GitHub: https://github.com/yourname || github
+  简书: https://www.jianshu.com/u/63445e24e8bf || heartbeat
+  掘金: https://juejin.im/user/5a371ae551882512d0607108 || spinner
+  #E-Mail: mailto:yourname@gmail.com || envelope
+  #Google: https://plus.google.com/yourname || google
+  #Twitter: https://twitter.com/yourname || twitter
+  #FB Page: https://www.facebook.com/yourname || facebook
+  #VK Group: https://vk.com/yourname || vk
+  #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
+  #YouTube: https://youtube.com/yourname || youtube
+  #Instagram: https://instagram.com/yourname || instagram
+  #Skype: skype:yourname?call|chat || skype
+</code></pre><ul>
+<li>效果图如下：</li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/3072214-8291624f1f133bb4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/624/format/webp" alt="img"></p>
+<ul>
+<li>图标可以去<a href="http://fontawesome.io/icons/" target="_blank" rel="noopener">Font Awesome Icon</a>网站去找，找到后复制名字到相应的位置即可。</li>
+</ul>
+<h4 id="主页文章添加阴影效果"><a href="#主页文章添加阴影效果" class="headerlink" title="主页文章添加阴影效果"></a>主页文章添加阴影效果</h4><ul>
+<li>打开<code>Blog\themes\next\source\css\_custom\custom.styl</code>，添加以下代码：</li>
+</ul>
+<pre><code>// 主页文章添加阴影效果
+ .post {
+   margin-top: 60px;
+   margin-bottom: 60px;
+   padding: 25px;
+   -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
+   -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
+  }
+</code></pre><ul>
+<li>效果如下：</li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/3072214-8d203b9886de2f5f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p>
+<h4 id="网站底部加上访问量"><a href="#网站底部加上访问量" class="headerlink" title="网站底部加上访问量"></a>网站底部加上访问量</h4><ul>
+<li>打开<code>Blog/themes/next/layout/_partials/footer.swig</code>文件，在<code>copyright</code>加上如下代码：</li>
+</ul>
+<pre><code>&lt;script async src=&quot;https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt;
+</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/3072214-edfa365aee1b5839.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p>
+<ul>
+<li>在适当的位置添加显示统计代码</li>
+</ul>
+<pre><code>&lt;div class=&quot;powered-by&quot;&gt;
+&lt;i class=&quot;fa fa-user-md&quot;&gt;&lt;/i&gt;&lt;span id=&quot;busuanzi_container_site_uv&quot;&gt;
+  本站访客数:&lt;span id=&quot;busuanzi_value_site_uv&quot;&gt;&lt;/span&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/3072214-63afac6bc7922943.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"> </p>
+<ul>
+<li>设置统计方式</li>
+</ul>
+<pre><code>//pv的方式，单个用户连续点击n篇文章，记录n次访问量
+&lt;span id=&quot;busuanzi_container_site_pv&quot;&gt;
+    本站总访问量&lt;span id=&quot;busuanzi_value_site_pv&quot;&gt;&lt;/span&gt;次
+&lt;/span&gt;
+
+//uv的方式，单个用户连续点击n篇文章，只记录1次访客数
+&lt;span id=&quot;busuanzi_container_site_uv&quot;&gt;
+  本站总访问量&lt;span id=&quot;busuanzi_value_site_uv&quot;&gt;&lt;/span&gt;次
+&lt;/span&gt;
+</code></pre><ul>
+<li><p>效果图如下： </p>
+<p><img src="https://upload-images.jianshu.io/upload_images/3072214-5372d142a230191c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p>
+</li>
+</ul>
+<h4 id="网站底部字数统计"><a href="#网站底部字数统计" class="headerlink" title="网站底部字数统计"></a>网站底部字数统计</h4><ul>
+<li>安装hexo插件，切换到根目录：</li>
+</ul>
+<pre><code>npm install hexo-wordcount --save
+</code></pre><ul>
+<li>在<code>Blog/themes/next/layout/_partials/footer.swig</code>末尾添加代码：</li>
+</ul>
+<pre><code>&lt;div class=&quot;theme-info&quot;&gt;
+  &lt;div class=&quot;powered-by&quot;&gt;&lt;/div&gt;
+  &lt;span class=&quot;post-count&quot;&gt;博客全站共{{ totalcount(site) }}字&lt;/span&gt;
+&lt;/div&gt;
+</code></pre><ul>
+<li><p>效果图如下图所示： </p>
+<p><img src="https://upload-images.jianshu.io/upload_images/3072214-6c9e57b47b80946a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p>
+</li>
+</ul>
+<h4 id="设置网站的图标Favicon"><a href="#设置网站的图标Favicon" class="headerlink" title="设置网站的图标Favicon"></a>设置网站的图标Favicon</h4><ul>
+<li>在图标网站找一张你喜欢的图标（大：32x32 小：16x16），图标网站：<a href="http://www.easyicon.net/" target="_blank" rel="noopener">easyicon</a>或者<a href="http://www.iconfont.cn/" target="_blank" rel="noopener">阿里巴巴矢量图标库</a>。将下载下来的小图和中图放在<code>Blog/themes/next/source/images</code>，将默认的两张图片替换掉。命名和默认的一样也可以自己定义： </li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/3072214-cf67d50c1502275d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/786/format/webp" alt="img"></p>
+<ul>
+<li>修改主题配置文件，如果你自定义了图片名字，需要做修改：</li>
+</ul>
+<pre><code># For example, you put your favicons into `hexo-site/source/images` directory.
+# Then need to rename &amp; redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
+favicon:
+  small: /images/favicon-16x16-next.png  //16X16小图
+  medium: /images/favicon-32x32-next.png  //32X32大图
+  apple_touch_icon: /images/apple-touch-icon-next.png  //apple-touch-icon 
+  safari_pinned_tab: /images/logo.svg 
+  #android_manifest: /images/manifest.json
+  #ms_browserconfig: /images/browserconfig.xml
+</code></pre><h4 id="实现文章统计功能"><a href="#实现文章统计功能" class="headerlink" title="实现文章统计功能"></a>实现文章统计功能</h4><ul>
+<li>安装Hexo插件，参考<strong>网站底部字数统计</strong>。</li>
+<li>编辑主题配置文件，配置如下：</li>
+</ul>
+<pre><code># Post wordcount display settings
+# Dependencies: https://github.com/willin/hexo-wordcount
+post_wordcount:
+  item_text: true
+  wordcount: true
+  min2read: true
+  totalcount: true
+  separated_meta: true
+</code></pre><ul>
+<li>效果图： </li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/3072214-6e0b5bbaf686557c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/454/format/webp" alt="img"></p>
+<h4 id="添加网页顶部进度加载条"><a href="#添加网页顶部进度加载条" class="headerlink" title="添加网页顶部进度加载条"></a>添加网页顶部进度加载条</h4><ul>
+<li>编辑主题配置文件，<code>command+F</code>搜索<code>pace</code>，将其值改为<code>ture</code>就可以了，选择一款你喜欢的样式。</li>
+</ul>
+<pre><code># Progress bar in the top during page loading.
+pace: ture
+# Themes list:
+#pace-theme-big-counter
+#pace-theme-bounce
+#pace-theme-barber-shop
+#pace-theme-center-atom
+#pace-theme-center-circle
+#pace-theme-center-radar
+#pace-theme-center-simple
+#pace-theme-corner-indicator
+#pace-theme-fill-left
+#pace-theme-flash
+#pace-theme-loading-bar
+#pace-theme-mac-osx
+#pace-theme-minimal
+# For example
+# pace_theme: pace-theme-center-simple
+pace_theme: pace-theme-minimal
+</code></pre><h4 id="底部隐藏由Hexo强力驱动、主题–NexT-Mist"><a href="#底部隐藏由Hexo强力驱动、主题–NexT-Mist" class="headerlink" title="底部隐藏由Hexo强力驱动、主题–NexT.Mist"></a>底部隐藏由Hexo强力驱动、主题–NexT.Mist</h4><ul>
+<li>打开<code>Blog/themes/next/layout/_partials/footer.swig</code>，注释掉相应代码。</li>
+</ul>
+<pre><code>//用下面的符号注释，注释代码用下面括号括起来
+&lt;!-- --&gt;
+
+&lt;!--
+&lt;span class=&quot;post-meta-divider&quot;&gt;|&lt;/span&gt;
+
+{% if theme.footer.powered %}
+  <div class="powered-by">{#
+  #}{{ __('footer.powered', '<a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a>') }}{#
+#}</div>
+{% endif %}
+
+{% if theme.footer.powered and theme.footer.theme.enable %}
+  <span class="post-meta-divider">|</span>
+{% endif %}
+
+{% if theme.footer.theme.enable %}
+  <div class="theme-info">{#
+  #}{{ __('footer.theme') }} &mdash; {#
+  #}<a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">{#
+    #}NexT.{{ theme.scheme }}{#
+  #}</a>{% if theme.footer.theme.version %} v{{ theme.version }}{% endif %}&lt;/div&gt;
+{% endif %}
+
+{% if theme.footer.custom_text %}
+  <div class="footer-custom">{#
+  #}{{ theme.footer.custom_text }}{#
+#}</div>
+{% endif %}
+--&gt;
+</div></code></pre><h4 id="去掉底部重复字数统计"><a href="#去掉底部重复字数统计" class="headerlink" title="去掉底部重复字数统计"></a>去掉底部重复字数统计</h4><ul>
+<li>注释掉如下代码：</li>
+</ul>
+<pre><code>&lt;!--
+  {% if theme.post_wordcount.totalcount %}
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    {% if theme.post_wordcount.item_text %}
+      <span class="post-meta-item-text">{{ __('post.totalcount') }}&#58;</span>
+    {% endif %}
+    &lt;span title=&quot;{{ __('post.totalcount') }}&quot;&gt;{{ totalcount(site, '0,0.0a') }}&lt;/span&gt;
+  {% endif %}
+--&gt;
+</code></pre><h4 id="博文置顶"><a href="#博文置顶" class="headerlink" title="博文置顶"></a>博文置顶</h4><ul>
+<li>修改<strong>hexo-generator-index</strong>插件，把<code>node_modules/hexo-generator-index/lib/generator.js</code>中代码替换为：</li>
+</ul>
+<pre><code>&#39;use strict&#39;;
+var pagination = require(&#39;hexo-pagination&#39;);
+module.exports = function(locals){
+  var config = this.config;
+  var posts = locals.posts;
+    posts.data = posts.data.sort(function(a, b) {
+        if(a.top &amp;&amp; b.top) { // 两篇文章top都有定义
+            if(a.top == b.top) return b.date - a.date; // 若top值一样则按照文章日期降序排
+            else return b.top - a.top; // 否则按照top值降序排
+        }
+        else if(a.top &amp;&amp; !b.top) { // 以下是只有一篇文章top有定义，那么将有top的排在前面（这里用异或操作居然不行233）
+            return -1;
+        }
+        else if(!a.top &amp;&amp; b.top) {
+            return 1;
+        }
+        else return b.date - a.date; // 都没定义按照文章日期降序排
+    });
+  var paginationDir = config.pagination_dir || &#39;page&#39;;
+  return pagination(&#39;&#39;, posts, {
+    perPage: config.index_generator.per_page,
+    layout: [&#39;index&#39;, &#39;archive&#39;],
+    format: paginationDir + &#39;/%d/&#39;,
+    data: {
+      __index: true
+    }
+  });
+};
+</code></pre><ul>
+<li>文章添加Top值，值越大，越靠前：</li>
+</ul>
+<pre><code>---
+title: Hexo-NexT主题配置
+date: 2018-01-20 20:41:08
+categories: Hexo
+tags:
+- Hexo
+- NexT
+top: 100
+---
+</code></pre><h4 id="修改字体大小"><a href="#修改字体大小" class="headerlink" title="修改字体大小"></a>修改字体大小</h4><ul>
+<li>编辑<code>Blog/themes/next/source/css/_variables/base.styl</code>，<code>command+F</code>搜索<code>$font-size-base</code>，修改为你想要的大小：</li>
+</ul>
+<pre><code>// Font size
+$font-size-base           = 16px
+</code></pre><h4 id="添加DaoVoice在线联系"><a href="#添加DaoVoice在线联系" class="headerlink" title="添加DaoVoice在线联系"></a>添加DaoVoice在线联系</h4><ul>
+<li>首先到<a href="https://www.daocloud.io/" target="_blank" rel="noopener">DaoVoice</a>注册账号，登录成过后，进入到后台管理，点击<strong>应用设置——&gt;安装到网站</strong>查看安装代码和AppID。</li>
+<li>将安装代码添加到<code>Blog/themes/next/layout/_partials/head.swig</code>中：</li>
+</ul>
+<pre><code>{% if theme.daovoice %}
+  <script>
+  (function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/0f81ff2f.js","daovoice")
+  daovoice('init', {
+      app_id: "{{theme.daovoice_app_id}}"
+    });
+  daovoice('update');
+  </script>
+{% endif %}
+</code></pre><p>  <img src="https://upload-images.jianshu.io/upload_images/3072214-4d76c0b99050cc8f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p>
+<ul>
+<li>编辑主题配置文件，添加如下代码：</li>
+</ul>
+<pre><code># Online contact 
+daovoice: true
+daovoice_app_id: daovoice_app_id
+</code></pre><ul>
+<li><p>效果图如下所示： </p>
+<p><img src="https://upload-images.jianshu.io/upload_images/3072214-47892289003cae0e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/226/format/webp" alt="img"></p>
+</li>
+</ul>
+<h4 id="添加底部桃心"><a href="#添加底部桃心" class="headerlink" title="添加底部桃心"></a>添加底部桃心</h4><ul>
+<li>打开<code>Blog/themes/next/layout/_partials/footer.swig</code>搜索<code>with-love</code>，在<a href="http://fontawesome.io/icons/" target="_blank" rel="noopener">fontawesom</a>找到你喜欢的图标，在如下位置替换即可：</li>
+</ul>
+<h4 id="添加侧栏推荐阅读"><a href="#添加侧栏推荐阅读" class="headerlink" title="添加侧栏推荐阅读"></a>添加侧栏推荐阅读</h4><ul>
+<li>编辑主题配置文件，如下配置即可：</li>
+</ul>
+<pre><code># Blog rolls
+links_icon: link
+links_title: 推荐阅读
+#links_layout: block
+links_layout: inline
+links:
+  Swift 4: https://developer.apple.com/swift/
+  Objective-C: https://developer.apple.com/documentation/objectivec
+</code></pre><h4 id="在文章底部增加版权信息"><a href="#在文章底部增加版权信息" class="headerlink" title="在文章底部增加版权信息"></a>在文章底部增加版权信息</h4><ul>
+<li>在目录<code>Blog/themes/next/layout/_macro/</code>，添加文件 <code>my-copyright.swig</code>，内容如下：</li>
+</ul>
+<pre><code>{% if page.copyright %}
+<div class="my_post_copyright">
+  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+  
+  <!-- JS库 sweetalert 可修改路径 -->
+  <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <p><span>本文标题:</span><a href="{{ url_for(page.path) }}">{{ page.title }}</a></p>
+  <p><span>文章作者:</span><a href="/" title="访问 {{ theme.author }} 的个人博客">{{ theme.author }}</a></p>
+  <p><span>发布时间:</span>{{ page.date.format("YYYY年MM月DD日 - HH:MM") }}</p>
+  <p><span>最后更新:</span>{{ page.updated.format("YYYY年MM月DD日 - HH:MM") }}</p>
+  <p><span>原始链接:</span><a href="{{ url_for(page.path) }}" title="{{ page.title }}">{{ page.permalink }}</a>
+    <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="{{ page.permalink }}" aria-label="复制成功！"></i></span>
+  </p>
+  <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>  
+</div>
+<script> 
+    var clipboard = new Clipboard('.fa-clipboard');
+    $(".fa-clipboard").click(function(){
+      clipboard.on('success', function(){
+        swal({   
+          title: "",   
+          text: '复制成功',
+          icon: "success", 
+          showConfirmButton: true
+          });
+    });
+    });  
+</script>
+{% endif %}
+</code></pre><ul>
+<li>在目录<code>Blog/themes/next/source/css/_common/components/post/</code>下添加文件<code>my-post-copyright.styl</code>，添加以下代码：</li>
+</ul>
+<pre><code>.my_post_copyright {
+  width: 85%;
+  max-width: 45em;
+  margin: 2.8em auto 0;
+  padding: 0.5em 1.0em;
+  border: 1px solid #d3d3d3;
+  font-size: 0.93rem;
+  line-height: 1.6em;
+  word-break: break-all;
+  background: rgba(255,255,255,0.4);
+}
+.my_post_copyright p{margin:0;}
+.my_post_copyright span {
+  display: inline-block;
+  width: 5.2em;
+  color: #b5b5b5;
+  font-weight: bold;
+}
+.my_post_copyright .raw {
+  margin-left: 1em;
+  width: 5em;
+}
+.my_post_copyright a {
+  color: #808080;
+  border-bottom:0;
+}
+.my_post_copyright a:hover {
+  color: #a3d2a3;
+  text-decoration: underline;
+}
+.my_post_copyright:hover .fa-clipboard {
+  color: #000;
+}
+.my_post_copyright .post-url:hover {
+  font-weight: normal;
+}
+.my_post_copyright .copy-path {
+  margin-left: 1em;
+  width: 1em;
+  +mobile(){display:none;}
+}
+.my_post_copyright .copy-path:hover {
+  color: #808080;
+  cursor: pointer;
+}
+</code></pre><ul>
+<li>在<code>Blog/themes/next/source/css/_common/components/post/</code>添加文件<code>my-post-copyright.styl</code>，文件内容如下：</li>
+</ul>
+<pre><code>.my_post_copyright {
+  width: 85%;
+  max-width: 45em;
+  margin: 2.8em auto 0;
+  padding: 0.5em 1.0em;
+  border: 1px solid #d3d3d3;
+  font-size: 0.93rem;
+  line-height: 1.6em;
+  word-break: break-all;
+  background: rgba(255,255,255,0.4);
+}
+.my_post_copyright p{margin:0;}
+.my_post_copyright span {
+  display: inline-block;
+  width: 5.2em;
+  color: #b5b5b5;
+  font-weight: bold;
+}
+.my_post_copyright .raw {
+  margin-left: 1em;
+  width: 5em;
+}
+.my_post_copyright a {
+  color: #808080;
+  border-bottom:0;
+}
+.my_post_copyright a:hover {
+  color: #a3d2a3;
+  text-decoration: underline;
+}
+.my_post_copyright:hover .fa-clipboard {
+  color: #000;
+}
+.my_post_copyright .post-url:hover {
+  font-weight: normal;
+}
+.my_post_copyright .copy-path {
+  margin-left: 1em;
+  width: 1em;
+  +mobile(){display:none;}
+}
+.my_post_copyright .copy-path:hover {
+  color: #808080;
+  cursor: pointer;
+}
+</code></pre><ul>
+<li>修改<code>Blog/themes/next/layout/_macro/post.swig</code>，在如图位置添加以下代码：</li>
+</ul>
+<pre><code>&lt;div&gt;
+      {% if not is_index %}
+        {% include 'my-copyright.swig' %}
+      {% endif %}
+&lt;/div&gt;
+</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/3072214-52a341c7f39b9ba6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p>
+<ul>
+<li>在<code>Blog/themes/next/source/css/_common/components/post/post.styl</code>文件最后加入下面的代码：</li>
+</ul>
+<pre><code>@import &quot;my-post-copyright&quot;
+</code></pre><ul>
+<li>在Markdown文章中加入<code>copyright : ture</code>：</li>
+</ul>
+<pre><code>---
+title: Hexo-NexT主题配置
+date: 2018-01-20 20:41:08
+categories: Hexo
+tags:
+- Hexo
+- NexT
+top: 100
+copyright: ture
+---
+</code></pre><ul>
+<li>配置根目录下的<code>_config.yml</code>文件，配置为：</li>
+</ul>
+<pre><code># URL
+## If your site is put in a subdirectory, set url as &#39;http://yoursite.com/child&#39; and root as &#39;/child/&#39;
+url: https://wenmobo.github.io/  //你的网站地址
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+</code></pre><ul>
+<li>效果图如下所示：</li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/3072214-f14827039037cb3d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p>
+<h4 id="Hexo博客添加站内搜索"><a href="#Hexo博客添加站内搜索" class="headerlink" title="Hexo博客添加站内搜索"></a>Hexo博客添加站内搜索</h4><ul>
+<li>NexT主题支持集成 Swiftype、 微搜索、Local Search 和 Algolia。下面介绍Local Search的安装吧。</li>
+<li>安装 hexo-generator-search</li>
+</ul>
+<pre><code>npm install hexo-generator-search --save
+</code></pre><ul>
+<li>安装 hexo-generator-searchdb</li>
+</ul>
+<pre><code> npm install hexo-generator-searchdb --save 
+</code></pre><ul>
+<li>编辑站点配置文件，添加以下内容 </li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/3072214-aff43f0e07e85647.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/972/format/webp" alt="img"></p>
+<pre><code>search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+</code></pre><ul>
+<li>编辑主题配置文件，设置<code>Local search</code>enable为<code>ture</code> </li>
+</ul>
+<pre><code># Local search
+# Dependencies: https://github.com/flashlab/hexo-generator-search
+local_search:
+  enable: ture
+  # if auto, trigger search by changing input
+  # if manual, trigger search by pressing enter key or search button
+  trigger: auto
+  # show top n results per article, show all results by setting to -1
+  top_n_per_article: 1
+</code></pre><ul>
+<li>效果如下图所示：</li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/3072214-7d4440ed648d76c7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/972/format/webp" alt="img"> </p>
+
+            </div>
+            <hr>
+
+            
+            <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.88rem;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-large waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fa fa-close"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+            
+
+            <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    <div class="social-share" data-disabled="qzone" data-wechat-qrcode-helper="<p>微信里点“发现”->“扫一扫”二维码便可查看分享。</p>"></div>
+    
+</div>
+
+<script src="/libs/share/js/social-share.min.js"></script>
+
+            
+
+
+        </div>
+    </div>
+
+    
+        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/css/my-gitalk.css">
+
+<div class="card gitalk-card" data-aos="fade-up">
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: 'e3803d431822a6a7dcfa',
+        clientSecret: 'f9722b767392d79aded8dba7666fb0b1a774ee18',
+        repo: 'wjingc.github.io',
+        owner: 'wjingc',
+        admin: "wjingc",
+        id: '2019-03-29T18-03-00',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6 overflow-policy" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2019/04/01/blogspace/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="Github Pages + Hexo搭建个人技术博客">
+                        
+                        <span class="card-title">Github Pages + Hexo搭建个人技术博客</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            用Github Pages + Hexo搭建个人技术博客序Hexo安装过后，默认的主题是landscape，如果不喜欢，我们也可以进行更换。本文主要讲解NexT主题的使用。先看下我博客网站的效果吧：wjingc.github.io,我使用的
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-04-01
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/博客搭建/" class="post-category" target="_blank">
+                                    博客搭建
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Hexo/" target="_blank">
+                        <span class="chip bg-color">Hexo</span>
+                    </a>
+                    
+                    <a href="/tags/Github/" target="_blank">
+                        <span class="chip bg-color">Github</span>
+                    </a>
+                    
+                    <a href="/tags/Blog/" target="_blank">
+                        <span class="chip bg-color">Blog</span>
+                    </a>
+                    
+                    <a href="/tags/NexT/" target="_blank">
+                        <span class="chip bg-color">NexT</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6 overflow-policy" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2019/03/28/CSS3/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="前端基础知识——CSS3">
+                        
+                        <span class="card-title">前端基础知识——CSS3</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            CSS3篇：1.CSS清除浮动的几种方法（至少两种）   使用带clear属性的空元素;        使用CSS的overflow属性；
+
+   使用CSS的:after伪元素；         使用邻接元素处理；
+
+2.页面导入样式时，
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-03-28
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/前端知识/" class="post-category" target="_blank">
+                                    前端知识
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Front/" target="_blank">
+                        <span class="chip bg-color">Front</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: Coding Tao<br />'
+            + '作者: EvilDevil<br />'
+            + '链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fa fa-list"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h2, h3, h4, h5'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4, h5').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).slideUp(500);
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).slideDown(500);
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+    
+
+</main>
+
+
+<footer class="page-footer bg-color">
+    <div class="container row center-align">
+        <div class="col s12 m8 l8 copy-right">
+            本站由&copy;<a href="https://wjingc.github.io/" target="_blank">WJingC</a>基于
+            <a href="https://hexo.io/" target="_blank">Hexo</a>搭建.
+
+            
+                &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
+                <span class="white-color">12.3k</span>
+            
+
+            
+			
+                <br>
+                
+                <span id="busuanzi_container_site_pv">
+                    <i class="fa fa-heart-o"></i>
+                    本站总访问量 <span id="busuanzi_value_site_pv" class="white-color"></span>
+                </span>
+                
+                
+                <span id="busuanzi_container_site_uv">
+                    <i class="fa fa-users"></i>
+                    次,&nbsp;访客数 <span id="busuanzi_value_site_uv" class="white-color"></span> 人.
+                </span>
+                
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/wjingc" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fa fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:1293480639@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fa fa-envelope-open"></i>
+    </a>
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1293480639" class="tooltipped" data-tooltip="QQ联系我: 1293480639" data-position="top" data-delay="50">
+        <i class="fa fa-qq"></i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fa fa-rss"></i>
+    </a>
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+<!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+});
+</script>
+<!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fa fa-angle-up"></i>
+    </a>
+</div>
+
+
+<script src="/libs/materialize/materialize.min.js"></script>
+<script src="/libs/masonry/masonry.pkgd.min.js"></script>
+<script src="/libs/aos/aos.js"></script>
+<script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+<script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+<script src="/js/matery.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+
+    <script src="/libs/others/clicklove.js"></script>
+
+
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+
+
+</body>
+</html>
