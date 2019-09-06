@@ -5,6 +5,19 @@
     
     <entry>
       <title>macbook</title>
+      <link href="/2019/09/06/macbook-2/"/>
+      <url>/2019/09/06/macbook-2/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>macbook</title>
       <link href="/2019/09/05/macbook-1/"/>
       <url>/2019/09/05/macbook-1/</url>
       
@@ -104,8 +117,6 @@
       
         <tags>
             
-            <tag> MacOS </tag>
-            
             <tag> gitee </tag>
             
             <tag> hexo </tag>
@@ -113,6 +124,8 @@
             <tag> ssh key </tag>
             
             <tag> Github </tag>
+            
+            <tag> MacOS </tag>
             
         </tags>
       
@@ -212,9 +225,9 @@
       
         <tags>
             
-            <tag> Hackintosh </tag>
-            
             <tag> MacOS </tag>
+            
+            <tag> Hackintosh </tag>
             
             <tag> Tools </tag>
             
@@ -256,9 +269,9 @@
       
         <tags>
             
-            <tag> MacOS </tag>
-            
             <tag> Github </tag>
+            
+            <tag> MacOS </tag>
             
             <tag> MacOS Mojave 10.14.4 </tag>
             
@@ -293,9 +306,9 @@
       
         <tags>
             
-            <tag> Hackintosh </tag>
-            
             <tag> MacOS </tag>
+            
+            <tag> Hackintosh </tag>
             
             <tag> Tools </tag>
             
