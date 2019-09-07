@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[text]]></title>
-    <url>%2F2019%2F09%2F07%2Ftext%2F</url>
-    <content type="text"></content>
-  </entry>
-  <entry>
     <title><![CDATA[macbook]]></title>
     <url>%2F2019%2F09%2F05%2Fmacbook%2F</url>
     <content type="text"></content>
@@ -15,9 +10,9 @@
     <url>%2F2019%2F08%2F12%2Fnewblog%2F</url>
     <content type="text"><![CDATA[New Blog from Hexo-theme-matery]]></content>
       <tags>
+        <tag>hexo</tag>
         <tag>Github</tag>
         <tag>Blog</tag>
-        <tag>hexo</tag>
         <tag>NexT</tag>
         <tag>Hexo-theme-matery</tag>
       </tags>
@@ -45,10 +40,10 @@
       </categories>
       <tags>
         <tag>MacOS</tag>
-        <tag>Github</tag>
-        <tag>hexo</tag>
         <tag>gitee</tag>
+        <tag>hexo</tag>
         <tag>ssh key</tag>
+        <tag>Github</tag>
       </tags>
   </entry>
   <entry>
@@ -92,8 +87,8 @@
     <url>%2F2019%2F04%2F15%2Fevil%2F</url>
     <content type="text"><![CDATA[Terminal 主题，让你的 macOS 终端更好看]]></content>
       <tags>
-        <tag>MacOS</tag>
         <tag>Hackintosh</tag>
+        <tag>MacOS</tag>
         <tag>Tools</tag>
         <tag>Terminal</tag>
       </tags>
@@ -111,10 +106,10 @@
         <category>博客搭建</category>
       </categories>
       <tags>
-        <tag>MacOS Mojave 10.14.4</tag>
         <tag>MacOS</tag>
-        <tag>Hexo</tag>
         <tag>Github</tag>
+        <tag>MacOS Mojave 10.14.4</tag>
+        <tag>Hexo</tag>
         <tag>Deepin</tag>
         <tag>Linux</tag>
       </tags>
@@ -128,8 +123,8 @@
         <category>MacOS Mojave 10.14.4安装教程</category>
       </categories>
       <tags>
-        <tag>MacOS</tag>
         <tag>Hackintosh</tag>
+        <tag>MacOS</tag>
         <tag>Tools</tag>
         <tag>小米Pro</tag>
         <tag>macOS Mojave 10.14.4</tag>
@@ -143,8 +138,8 @@
         <category>博客搭建</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
         <tag>Github</tag>
+        <tag>Hexo</tag>
         <tag>Blog</tag>
         <tag>NexT</tag>
       </tags>
@@ -157,8 +152,8 @@
         <category>博客搭建</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
         <tag>Github</tag>
+        <tag>Hexo</tag>
         <tag>NexT</tag>
       </tags>
   </entry>
