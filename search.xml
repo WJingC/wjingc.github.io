@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[text]]></title>
+    <url>%2F2019%2F09%2F13%2Ftext%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[Front]]></title>
     <url>%2F2019%2F09%2F08%2FFront%2F</url>
     <content type="text"></content>
@@ -15,8 +20,8 @@
     <url>%2F2019%2F08%2F12%2Fnewblog%2F</url>
     <content type="text"><![CDATA[New Blog from Hexo-theme-matery]]></content>
       <tags>
-        <tag>hexo</tag>
         <tag>Github</tag>
+        <tag>hexo</tag>
         <tag>Blog</tag>
         <tag>NexT</tag>
         <tag>Hexo-theme-matery</tag>
@@ -45,10 +50,10 @@
       </categories>
       <tags>
         <tag>MacOS</tag>
+        <tag>Github</tag>
         <tag>gitee</tag>
         <tag>hexo</tag>
         <tag>ssh key</tag>
-        <tag>Github</tag>
       </tags>
   </entry>
   <entry>
@@ -112,9 +117,9 @@
       </categories>
       <tags>
         <tag>MacOS</tag>
-        <tag>Github</tag>
         <tag>MacOS Mojave 10.14.4</tag>
         <tag>Hexo</tag>
+        <tag>Github</tag>
         <tag>Deepin</tag>
         <tag>Linux</tag>
       </tags>
@@ -143,8 +148,8 @@
         <category>博客搭建</category>
       </categories>
       <tags>
-        <tag>Github</tag>
         <tag>Hexo</tag>
+        <tag>Github</tag>
         <tag>Blog</tag>
         <tag>NexT</tag>
       </tags>
@@ -157,8 +162,8 @@
         <category>博客搭建</category>
       </categories>
       <tags>
-        <tag>Github</tag>
         <tag>Hexo</tag>
+        <tag>Github</tag>
         <tag>NexT</tag>
       </tags>
   </entry>
