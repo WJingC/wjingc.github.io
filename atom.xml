@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wjingc.github.io/"/>
-  <updated>2019-09-13T12:31:41.532Z</updated>
+  <updated>2019-09-15T15:13:25.338Z</updated>
   <id>http://wjingc.github.io/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>text</title>
+    <link href="http://wjingc.github.io/2019/09/15/text-1/"/>
+    <id>http://wjingc.github.io/2019/09/15/text-1/</id>
+    <published>2019-09-15T15:13:25.000Z</published>
+    <updated>2019-09-15T15:13:25.338Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>text</title>
@@ -533,34 +547,6 @@ db.json     package.json    source
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;article、footer、header、nav、section
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;表单控件:
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;calendar、date、time、email、url、search
-&lt;/code&gt;&lt;/pre&gt;
-    
-    </summary>
-    
-      <category term="前端知识" scheme="http://wjingc.github.io/categories/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86/"/>
-    
-    
-      <category term="Front" scheme="http://wjingc.github.io/tags/Front/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>前端基础知识——Web</title>
-    <link href="http://wjingc.github.io/2019/03/27/Web/"/>
-    <id>http://wjingc.github.io/2019/03/27/Web/</id>
-    <published>2019-03-27T13:15:49.000Z</published>
-    <updated>2019-04-03T02:34:54.000Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="Web篇："><a href="#Web篇：" class="headerlink" title="Web篇："></a><strong>Web篇</strong>：</h3><h5 id="1-常见的浏览器内核有哪些？"><a href="#1-常见的浏览器内核有哪些？" class="headerlink" title="1.常见的浏览器内核有哪些？"></a>1.常见的浏览器内核有哪些？</h5><pre><code>    IE：Trident内核             FireFox：gecko内核                    Opera ：原是用Presto，现改用Blink    Safari ：webkit内核       Chrome：Blink（WebKit的分支）    </code></pre><a id="more"></a><h5 id="2-前端页面有哪三层构成，分别是什么-作用是什么"><a href="#2-前端页面有哪三层构成，分别是什么-作用是什么" class="headerlink" title="2.前端页面有哪三层构成，分别是什么?作用是什么?"></a>2.前端页面有哪三层构成，分别是什么?作用是什么?</h5><p>​    结构层 Html    ， 表示层 CSS  ，   行为层 js　</p><h5 id="3-请描述一下-cookies，sessionStorage-和-localStorage-的区别？"><a href="#3-请描述一下-cookies，sessionStorage-和-localStorage-的区别？" class="headerlink" title="3.请描述一下 cookies，sessionStorage 和 localStorage 的区别？"></a>3.请描述一下 cookies，sessionStorage 和 localStorage 的区别？</h5><pre><code>    sessionStorage 和 localStorage 是HTML5 Web Storage API 提供的，可以方便的在web请求之间保存数据。有了本地数据，就可以避免数据在浏览器和服务器间不必要地来回传递。    sessionStorage、localStorage、cookie都是在浏览器端存储的数据，其中sessionStorage的概念很特别，引入了一个”浏览器窗口”的概念。sessionStorage是在同源的同窗口（或tab）中，始终存在的数据。也就是说只要这个浏览器窗口没有关闭，即使刷新页面或进入同源另一页面，数据仍然存在。关闭窗口后，sessionStorage即被销毁。同时”独立”打开的不同窗口，即使是同一页面，sessionStorage对象也是不同的     cookies会发送到服务器端。其余两个不会。</code></pre><h5 id="4-ajax的缺点"><a href="#4-ajax的缺点" class="headerlink" title="4.ajax的缺点"></a>4.ajax的缺点</h5><ul><li><p>ajax不支持浏览器back按钮。</p></li><li><p>安全问题 AJAX暴露了与服务器交互的细节。</p></li><li><p>对搜索引擎的支持比较弱。</p></li><li><p>破坏了程序的异常机制。不容易调试。</p></li></ul><h5 id="5-怎样添加、移除、移动、复制、创建和查找节点。"><a href="#5-怎样添加、移除、移动、复制、创建和查找节点。" class="headerlink" title="5.怎样添加、移除、移动、复制、创建和查找节点。"></a>5.怎样添加、移除、移动、复制、创建和查找节点。</h5><p>1）创建新节点</p><pre><code>  createDocumentFragment()    //创建一个DOM片段  createElement()   //创建一个具体的元素  createTextNode()   //创建一个文本节点</code></pre><p>2）添加、移除、替换、插入</p><pre><code>  appendChild()  removeChild()  replaceChild()  insertBefore() //并没有insertAfter()</code></pre><p>3）查找</p><pre><code>  getElementsByTagName()    //通过标签名称  getElementsByName()    //通过元素的Name属性的值(IE容错能力较强，会得到一个数组，其中包括id等于name值的)  getElementById()    //通过元素Id，唯一性</code></pre>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;Web篇：&quot;&gt;&lt;a href=&quot;#Web篇：&quot; class=&quot;headerlink&quot; title=&quot;Web篇：&quot;&gt;&lt;/a&gt;&lt;strong&gt;Web篇&lt;/strong&gt;：&lt;/h3&gt;&lt;h5 id=&quot;1-常见的浏览器内核有哪些？&quot;&gt;&lt;a href=&quot;#1-常见的浏览器内核有哪些？&quot; class=&quot;headerlink&quot; title=&quot;1.常见的浏览器内核有哪些？&quot;&gt;&lt;/a&gt;1.常见的浏览器内核有哪些？&lt;/h5&gt;&lt;pre&gt;&lt;code&gt;    IE：Trident内核             FireFox：gecko内核                
-
-    Opera ：原是用Presto，现改用Blink
-
-    Safari ：webkit内核       Chrome：Blink（WebKit的分支）    
-
 &lt;/code&gt;&lt;/pre&gt;
     
     </summary>
