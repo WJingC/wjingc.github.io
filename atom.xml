@@ -77,9 +77,9 @@
     </summary>
     
     
-      <category term="Github" scheme="http://wjingc.github.io/tags/Github/"/>
-    
       <category term="hexo" scheme="http://wjingc.github.io/tags/hexo/"/>
+    
+      <category term="Github" scheme="http://wjingc.github.io/tags/Github/"/>
     
       <category term="Blog" scheme="http://wjingc.github.io/tags/Blog/"/>
     
@@ -143,13 +143,13 @@
     
       <category term="MacOS" scheme="http://wjingc.github.io/tags/MacOS/"/>
     
-      <category term="Github" scheme="http://wjingc.github.io/tags/Github/"/>
-    
       <category term="gitee" scheme="http://wjingc.github.io/tags/gitee/"/>
     
       <category term="hexo" scheme="http://wjingc.github.io/tags/hexo/"/>
     
       <category term="ssh key" scheme="http://wjingc.github.io/tags/ssh-key/"/>
+    
+      <category term="Github" scheme="http://wjingc.github.io/tags/Github/"/>
     
   </entry>
   
@@ -328,11 +328,11 @@
     
       <category term="MacOS" scheme="http://wjingc.github.io/tags/MacOS/"/>
     
+      <category term="Github" scheme="http://wjingc.github.io/tags/Github/"/>
+    
       <category term="MacOS Mojave 10.14.4" scheme="http://wjingc.github.io/tags/MacOS-Mojave-10-14-4/"/>
     
       <category term="Hexo" scheme="http://wjingc.github.io/tags/Hexo/"/>
-    
-      <category term="Github" scheme="http://wjingc.github.io/tags/Github/"/>
     
       <category term="Deepin" scheme="http://wjingc.github.io/tags/Deepin/"/>
     
@@ -398,9 +398,9 @@
       <category term="博客搭建" scheme="http://wjingc.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-      <category term="Hexo" scheme="http://wjingc.github.io/tags/Hexo/"/>
-    
       <category term="Github" scheme="http://wjingc.github.io/tags/Github/"/>
+    
+      <category term="Hexo" scheme="http://wjingc.github.io/tags/Hexo/"/>
     
       <category term="Blog" scheme="http://wjingc.github.io/tags/Blog/"/>
     
@@ -438,9 +438,9 @@ db.json     package.json    source
       <category term="博客搭建" scheme="http://wjingc.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-      <category term="Hexo" scheme="http://wjingc.github.io/tags/Hexo/"/>
-    
       <category term="Github" scheme="http://wjingc.github.io/tags/Github/"/>
+    
+      <category term="Hexo" scheme="http://wjingc.github.io/tags/Hexo/"/>
     
       <category term="NexT" scheme="http://wjingc.github.io/tags/NexT/"/>
     
