@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wjingc.github.io/"/>
-  <updated>2019-09-22T15:17:08.946Z</updated>
+  <updated>2019-09-08T15:25:23.041Z</updated>
   <id>http://wjingc.github.io/</id>
   
   <author>
@@ -15,20 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>text</title>
-    <link href="http://wjingc.github.io/2019/09/22/text/"/>
-    <id>http://wjingc.github.io/2019/09/22/text/</id>
-    <published>2019-09-22T15:17:08.000Z</published>
-    <updated>2019-09-22T15:17:08.946Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>Front</title>
