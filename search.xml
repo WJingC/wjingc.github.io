@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[vue]]></title>
+    <url>%2F2019%2F10%2F05%2Fvue%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[vuex]]></title>
     <url>%2F2019%2F10%2F03%2Fvuex%2F</url>
     <content type="text"></content>
