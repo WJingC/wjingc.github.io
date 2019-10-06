@@ -1,524 +1,225 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>vue</title>
-      <link href="/2019/10/06/vue-1/"/>
-      <url>/2019/10/06/vue-1/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>vue</title>
-      <link href="/2019/10/05/vue/"/>
-      <url>/2019/10/05/vue/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Front</title>
-      <link href="/2019/09/08/Front/"/>
-      <url>/2019/09/08/Front/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>macbook</title>
-      <link href="/2019/09/05/macbook/"/>
-      <url>/2019/09/05/macbook/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>newblog</title>
-      <link href="/2019/08/12/newblog/"/>
-      <url>/2019/08/12/newblog/</url>
-      
-        <content type="html"><![CDATA[<h1 id="New-Blog-from-Hexo-theme-matery"><a href="#New-Blog-from-Hexo-theme-matery" class="headerlink" title="New Blog from Hexo-theme-matery"></a>New Blog from Hexo-theme-matery</h1>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Github </tag>
-            
-            <tag> hexo </tag>
-            
-            <tag> Blog </tag>
-            
-            <tag> NexT </tag>
-            
-            <tag> Hexo-theme-matery </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>MindMap</title>
-      <link href="/2019/07/24/MindMap/"/>
-      <url>/2019/07/24/MindMap/</url>
-      
-        <content type="html"><![CDATA[<h2 id="利用思维导图高效率的学习与整理知识"><a href="#利用思维导图高效率的学习与整理知识" class="headerlink" title="利用思维导图高效率的学习与整理知识"></a>利用思维导图高效率的学习与整理知识</h2>]]></content>
-      
-      
+<search>
+  <entry>
+    <title><![CDATA[vue]]></title>
+    <url>%2F2019%2F10%2F06%2Fvue-1%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Front]]></title>
+    <url>%2F2019%2F09%2F08%2FFront%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[macbook]]></title>
+    <url>%2F2019%2F09%2F05%2Fmacbook%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[newblog]]></title>
+    <url>%2F2019%2F08%2F12%2Fnewblog%2F</url>
+    <content type="text"><![CDATA[New Blog from Hexo-theme-matery]]></content>
+      <tags>
+        <tag>Github</tag>
+        <tag>hexo</tag>
+        <tag>Blog</tag>
+        <tag>NexT</tag>
+        <tag>Hexo-theme-matery</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[MindMap]]></title>
+    <url>%2F2019%2F07%2F24%2FMindMap%2F</url>
+    <content type="text"><![CDATA[利用思维导图高效率的学习与整理知识]]></content>
       <categories>
-          
-          <category> 思维导图 </category>
-          
+        <category>思维导图</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Mind </tag>
-            
-            <tag> XMind </tag>
-            
-            <tag> MindMap </tag>
-            
-            <tag> Learning </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>gitee</title>
-      <link href="/2019/05/19/gitee/"/>
-      <url>/2019/05/19/gitee/</url>
-      
-        <content type="html"><![CDATA[<h2 id="部署GitHub项目同步到Gitee"><a href="#部署GitHub项目同步到Gitee" class="headerlink" title="部署GitHub项目同步到Gitee"></a>部署GitHub项目同步到Gitee</h2><p> 同一台电脑上部署个人博客到GitHub Pages</p><p> 部署个人小项目到Gitee Pages</p>]]></content>
-      
-      
+      <tags>
+        <tag>Mind</tag>
+        <tag>XMind</tag>
+        <tag>MindMap</tag>
+        <tag>Learning</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[gitee]]></title>
+    <url>%2F2019%2F05%2F19%2Fgitee%2F</url>
+    <content type="text"><![CDATA[部署GitHub项目同步到Gitee 同一台电脑上部署个人博客到GitHub Pages 部署个人小项目到Gitee Pages]]></content>
       <categories>
-          
-          <category> 博客搭建 </category>
-          
+        <category>博客搭建</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> MacOS </tag>
-            
-            <tag> Github </tag>
-            
-            <tag> gitee </tag>
-            
-            <tag> hexo </tag>
-            
-            <tag> ssh key </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>VS Code Extensions You Should Know</title>
-      <link href="/2019/05/12/vscode-extensions/"/>
-      <url>/2019/05/12/vscode-extensions/</url>
-      
-        <content type="html"><![CDATA[<h2 id="VS-Code-Extensions-You-Should-Know"><a href="#VS-Code-Extensions-You-Should-Know" class="headerlink" title="VS Code Extensions You Should Know"></a>VS Code Extensions You Should Know</h2><h3 id="VS-Code"><a href="#VS-Code" class="headerlink" title="VS Code"></a>VS Code</h3><p>VS code特点：</p><ul><li><p>开源，免费；</p></li><li><p>自定义配置</p></li><li><p>集成git</p></li><li><p>智能提示强大</p></li><li><p>支持各种文件格式（html/jade/css/less/sass/xml）</p></li><li><p>调试功能强大</p></li><li><p>各种方便的快捷键</p></li><li><p>强大的插件扩展</p><p><em>Visual Studio Code（VScode ）官网　：</em><a href="https://link.zhihu.com/?target=https%3A//code.visualstudio.com/" target="_blank" rel="noopener">https://code.visualstudio.com/</a><br><em>Visual Studio Code（VScode ）github地址 ：</em><a href="https://link.zhihu.com/?target=https%3A//github.com/Microsoft/vscode" target="_blank" rel="noopener">https://github.com/Microsoft/vscode</a></p></li></ul><a id="more"></a><h3 id="如何安装插件"><a href="#如何安装插件" class="headerlink" title="如何安装插件"></a>如何安装插件</h3><p>​    按F1或Ctrl+Shift+p，输入extensions，点击第一个就可以</p><h3 id="插件合集"><a href="#插件合集" class="headerlink" title="插件合集"></a><strong>插件合集</strong></h3><p>​    插件官网：*<a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/" target="_blank" rel="noopener">https://marketplace.visualstudio.com/</a></p><h3 id="配置类插件"><a href="#配置类插件" class="headerlink" title="配置类插件"></a>配置类插件</h3><h4 id="Settings-Sync"><a href="#Settings-Sync" class="headerlink" title="Settings Sync"></a><a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3DShan.code-settings-sync" target="_blank" rel="noopener">Settings Sync</a></h4><p>​    最好用的插件，没有之一，一台电脑配置好之后，其它的几台电脑都不用配置。新机器登录一下就搞定了。再也不用折腾环境了，<br>​    使用GitHub Gist同步多台计算机上的设置，代码段，主题，文件图标，启动，键绑定，工作区和扩展。</p><h4 id="Debugger-for-Chrome"><a href="#Debugger-for-Chrome" class="headerlink" title="Debugger for Chrome"></a><a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3Dmsjsdiag.debugger-for-chrome" target="_blank" rel="noopener">Debugger for Chrome</a></h4><p>​    从VS Code调试在Google Chrome中运行的JavaScript代码。<br>​    用于在Google Chrome浏览器或支持<a href="https://link.zhihu.com/?target=https%3A//chromedevtools.github.io/debugger-protocol-viewer/" target="_blank" rel="noopener">Chrome DevTools协议的</a>其他目标中调试JavaScript代码的VS Code扩展。</p><h4 id="beautify"><a href="#beautify" class="headerlink" title="beautify"></a><a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3DHookyQR.beautify" target="_blank" rel="noopener">beautify</a></h4><p>​    格式化代码工具<br>​    美化<code>javascript</code>，<code>JSON</code>，<code>CSS</code>，<code>Sass</code>，和<code>HTML</code>在Visual Studio代码。</p><h4 id="Auto-Rename-Tag"><a href="#Auto-Rename-Tag" class="headerlink" title="Auto Rename Tag"></a><a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3Dformulahendry.auto-close-tag" target="_blank" rel="noopener">Auto Rename Tag</a></h4><p>​    修改 html 标签，自动帮你完成头部和尾部闭合标签的同步修改</p><h4 id="中文（简体）语言包"><a href="#中文（简体）语言包" class="headerlink" title="中文（简体）语言包"></a><a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3DMS-CEINTL.vscode-language-pack-zh-hans" target="_blank" rel="noopener">中文（简体）语言包</a></h4><p>​    将界面转换为中文，对英语不好的人，非常友好。</p><h4 id="Code-Spell-Checker"><a href="#Code-Spell-Checker" class="headerlink" title="Code Spell Checker"></a><a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3Dstreetsidesoftware.code-spell-checker" target="_blank" rel="noopener">Code Spell Checker</a></h4><p>​    代码拼写检查器<br>​    一个与camelCase代码配合良好的基本拼写检查程序。<br>​    此拼写检查程序的目标是帮助捕获常见的拼写错误，同时保持误报数量较低。</p><h4 id="vscode-icons"><a href="#vscode-icons" class="headerlink" title="vscode-icons"></a><a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3Drobertohuertasm.vscode-icons" target="_blank" rel="noopener">vscode-icons</a></h4><p>​    显示Visual Studio代码的图标，目前该插件已被vscode内部支持：”文件” -&gt; “首选项” -&gt; “文件图标主题”</p><h4 id="guides"><a href="#guides" class="headerlink" title="guides"></a><a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3Dspywhere.guides" target="_blank" rel="noopener">guides</a></h4><p>​    显示代码对齐辅助线，很好用</p><h4 id="Rainbow-Brackets"><a href="#Rainbow-Brackets" class="headerlink" title="Rainbow Brackets"></a><a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3D2gua.rainbow-brackets" target="_blank" rel="noopener">Rainbow Brackets</a></h4><p>​    为圆括号，方括号和大括号提供彩虹色。这对于Lisp或Clojure程序员，当然还有JavaScript和其他程序员特别有用。</p><h4 id="Bracket-Pair-Colorizer"><a href="#Bracket-Pair-Colorizer" class="headerlink" title="Bracket Pair Colorizer"></a><a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3DCoenraadS.bracket-pair-colorizer" target="_blank" rel="noopener">Bracket Pair Colorizer</a></h4><p>​    用于着色匹配括号</p><h4 id="filesize"><a href="#filesize" class="headerlink" title="filesize"></a><a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3Dmkxml.vscode-filesize" target="_blank" rel="noopener">filesize</a></h4><p>​    在状态栏中显示当前文件大小，点击后还可以看到详细创建、修改时间</p><h4 id="WakaTime"><a href="#WakaTime" class="headerlink" title="WakaTime"></a><a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3DWakaTime.vscode-wakatime" target="_blank" rel="noopener">WakaTime</a></h4><p>​    从您的编程活动自动生成的度量标准，见解和时间跟踪。</p><h4 id="Language-Support-for-Java-TM-by-Red-Hatredhat-java"><a href="#Language-Support-for-Java-TM-by-Red-Hatredhat-java" class="headerlink" title="Language Support for Java(TM) by Red Hatredhat.java"></a><a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3Dredhat.java%23overview" target="_blank" rel="noopener">Language Support for Java(TM) by Red Hatredhat.java</a></h4><p>​    这个插件，这个下载次数，安装就对了。</p><h4 id="Todo-Tree"><a href="#Todo-Tree" class="headerlink" title="Todo Tree"></a><a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3DGruntfuggly.todo-tree" target="_blank" rel="noopener">Todo Tree</a></h4><p>​    此扩展可以快速搜索（使用<a href="https://link.zhihu.com/?target=https%3A//github.com/BurntSushi/ripgrep" target="_blank" rel="noopener">ripgrep</a>）您的工作区以获取TODO和FIXME等注释标记，并在资源管理器窗格的树视图中显示它们。单击树中的TODO将打开文件并将光标放在包含TODO的行上。<br>找到的TODO也可以在打开的文件中突出显示。</p><h3 id="VS-code-主题配色"><a href="#VS-code-主题配色" class="headerlink" title="VS code 主题配色"></a>VS code 主题配色</h3><h4 id="Night-Owl"><a href="#Night-Owl" class="headerlink" title="Night Owl"></a><a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3Dsdras.night-owl" target="_blank" rel="noopener">Night Owl</a></h4><p>​    一个非常适合夜猫子的 VS Code 主题。像是为喜欢深夜编码的人精心设计的。</p><h4 id="Atom-One-Dark-Theme"><a href="#Atom-One-Dark-Theme" class="headerlink" title="Atom One Dark Theme"></a><a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3Dakamud.vscode-theme-onedark" target="_blank" rel="noopener">Atom One Dark Theme</a></h4><p>​    一个基于Atom的黑暗主题</p><h4 id="Dracula-Official"><a href="#Dracula-Official" class="headerlink" title="Dracula Official"></a><a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3Ddracula-theme.theme-dracula" target="_blank" rel="noopener">Dracula Official</a></h4><p>​    官方吸血鬼主题，博主用的就是这款，很漂亮</p><h4 id="One-Dark-Pro"><a href="#One-Dark-Pro" class="headerlink" title="One Dark Pro"></a><a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3Dzhuangtongfa.Material-theme" target="_blank" rel="noopener">One Dark Pro</a></h4><p>​    Atom标志性的One Dark主题，也是VS Code下载次数最多的主题之一！</p><h4 id="Bimbo"><a href="#Bimbo" class="headerlink" title="Bimbo"></a><a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3Dpawelgrzybek.bimbo-theme" target="_blank" rel="noopener">Bimbo</a></h4><p>​    简约而现代的神奇海洋主题</p><h3 id="代码提示类"><a href="#代码提示类" class="headerlink" title="代码提示类"></a>代码提示类</h3><p><a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3Dabusaidm.html-snippets" target="_blank" rel="noopener">HTML Snippets</a><br>    完整的HTML代码提示，包括HTML5</p><h4 id="HTML-CSS-Support"><a href="#HTML-CSS-Support" class="headerlink" title="HTML CSS Support"></a><a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3Decmel.vscode-html-css" target="_blank" rel="noopener">HTML CSS Support</a></h4><p>​    在 html 标签上写class 智能提示css样式</p><h4 id="jQuery-Code-Snippets"><a href="#jQuery-Code-Snippets" class="headerlink" title="jQuery Code Snippets"></a><a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3Ddonjayamanne.jquerysnippets" target="_blank" rel="noopener">jQuery Code Snippets</a></h4><p>​    jQuery代码提示<br>​    超过130个用于JavaScript代码的jQuery代码片段。<br>​    只需键入字母’jq’即可获得所有可用jQuery代码片段的列表。</p><p><a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3Dmkaufman.HTMLHint" target="_blank" rel="noopener">HTMLHint</a><br>html代码检测，支持html5</p><h3 id="语言相关"><a href="#语言相关" class="headerlink" title="语言相关"></a>语言相关</h3><h4 id="C＃"><a href="#C＃" class="headerlink" title="C＃"></a><a href="https://link.zhihu.com/?target=https%3A//link.jianshu.com/%3Ft%3Dhttps%3A//marketplace.visualstudio.com/items%3FitemName%3Dms-vscode.csharp" target="_blank" rel="noopener">C＃</a></h4><ul><li>适用于<a href="https://link.zhihu.com/?target=https%3A//dotnet.github.io/" target="_blank" rel="noopener">.NET Core的</a>轻量级开发工具。</li><li>伟大的C＃编辑支持，包括语法突出显示，智能感知，转到定义，查找所有引用等。</li><li>调试支持.NET Core（CoreCLR）。注意：不支持单声道调试。桌面CLR调试<a href="https://link.zhihu.com/?target=https%3A//github.com/OmniSharp/omnisharp-vscode/wiki/Desktop-.NET-Framework" target="_blank" rel="noopener">支持有限</a>。</li><li>支持Windows，macOS和Linux上的project.json和csproj项目。</li></ul><h4 id="CodeMetrics"><a href="#CodeMetrics" class="headerlink" title="CodeMetrics"></a><a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3Dkisstkondoros.vscode-codemetrics" target="_blank" rel="noopener">CodeMetrics</a></h4><p>​    计算TypeScript / JavaScript文件的复杂性。</p><h4 id="VUE插件"><a href="#VUE插件" class="headerlink" title="VUE插件"></a>VUE插件</h4><p>​    vetur 语法高亮、智能感知、Emmet等<br>​    VueHelper snippet代码片段</p><p><a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3Dvscjava.vscode-java-pack" target="_blank" rel="noopener"> Java Extension Pack</a><br>    它是一组流行的扩展，可以帮助在Visual Studio Code中编写，测试和调试Java应用程序。查看<a href="https://link.zhihu.com/?target=https%3A//code.visualstudio.com/docs/languages/java" target="_blank" rel="noopener">VS Code中的Java</a>以开始使用。</p>]]></content>
-      
-      
+      <tags>
+        <tag>MacOS</tag>
+        <tag>Github</tag>
+        <tag>gitee</tag>
+        <tag>hexo</tag>
+        <tag>ssh key</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[VS Code Extensions You Should Know]]></title>
+    <url>%2F2019%2F05%2F12%2Fvscode-extensions%2F</url>
+    <content type="text"><![CDATA[VS Code Extensions You Should KnowVS CodeVS code特点： 开源，免费； 自定义配置 集成git 智能提示强大 支持各种文件格式（html/jade/css/less/sass/xml） 调试功能强大 各种方便的快捷键 强大的插件扩展 Visual Studio Code（VScode ）官网 ：https://code.visualstudio.com/Visual Studio Code（VScode ）github地址 ：https://github.com/Microsoft/vscode 如何安装插件​ 按F1或Ctrl+Shift+p，输入extensions，点击第一个就可以 插件合集​ 插件官网：*https://marketplace.visualstudio.com/ 配置类插件Settings Sync​ 最好用的插件，没有之一，一台电脑配置好之后，其它的几台电脑都不用配置。新机器登录一下就搞定了。再也不用折腾环境了，​ 使用GitHub Gist同步多台计算机上的设置，代码段，主题，文件图标，启动，键绑定，工作区和扩展。 Debugger for Chrome​ 从VS Code调试在Google Chrome中运行的JavaScript代码。​ 用于在Google Chrome浏览器或支持Chrome DevTools协议的其他目标中调试JavaScript代码的VS Code扩展。 beautify​ 格式化代码工具​ 美化javascript，JSON，CSS，Sass，和HTML在Visual Studio代码。 Auto Rename Tag​ 修改 html 标签，自动帮你完成头部和尾部闭合标签的同步修改 中文（简体）语言包​ 将界面转换为中文，对英语不好的人，非常友好。 Code Spell Checker​ 代码拼写检查器​ 一个与camelCase代码配合良好的基本拼写检查程序。​ 此拼写检查程序的目标是帮助捕获常见的拼写错误，同时保持误报数量较低。 vscode-icons​ 显示Visual Studio代码的图标，目前该插件已被vscode内部支持：”文件” -&gt; “首选项” -&gt; “文件图标主题” guides​ 显示代码对齐辅助线，很好用 Rainbow Brackets​ 为圆括号，方括号和大括号提供彩虹色。这对于Lisp或Clojure程序员，当然还有JavaScript和其他程序员特别有用。 Bracket Pair Colorizer​ 用于着色匹配括号 filesize​ 在状态栏中显示当前文件大小，点击后还可以看到详细创建、修改时间 WakaTime​ 从您的编程活动自动生成的度量标准，见解和时间跟踪。 Language Support for Java(TM) by Red Hatredhat.java​ 这个插件，这个下载次数，安装就对了。 Todo Tree​ 此扩展可以快速搜索（使用ripgrep）您的工作区以获取TODO和FIXME等注释标记，并在资源管理器窗格的树视图中显示它们。单击树中的TODO将打开文件并将光标放在包含TODO的行上。找到的TODO也可以在打开的文件中突出显示。 VS code 主题配色Night Owl​ 一个非常适合夜猫子的 VS Code 主题。像是为喜欢深夜编码的人精心设计的。 Atom One Dark Theme​ 一个基于Atom的黑暗主题 Dracula Official​ 官方吸血鬼主题，博主用的就是这款，很漂亮 One Dark Pro​ Atom标志性的One Dark主题，也是VS Code下载次数最多的主题之一！ Bimbo​ 简约而现代的神奇海洋主题 代码提示类HTML Snippets 完整的HTML代码提示，包括HTML5 HTML CSS Support​ 在 html 标签上写class 智能提示css样式 jQuery Code Snippets​ jQuery代码提示​ 超过130个用于JavaScript代码的jQuery代码片段。​ 只需键入字母’jq’即可获得所有可用jQuery代码片段的列表。 HTMLHinthtml代码检测，支持html5 语言相关C＃ 适用于.NET Core的轻量级开发工具。 伟大的C＃编辑支持，包括语法突出显示，智能感知，转到定义，查找所有引用等。 调试支持.NET Core（CoreCLR）。注意：不支持单声道调试。桌面CLR调试支持有限。 支持Windows，macOS和Linux上的project.json和csproj项目。 CodeMetrics​ 计算TypeScript / JavaScript文件的复杂性。 VUE插件​ vetur 语法高亮、智能感知、Emmet等​ VueHelper snippet代码片段 Java Extension Pack 它是一组流行的扩展，可以帮助在Visual Studio Code中编写，测试和调试Java应用程序。查看VS Code中的Java以开始使用。]]></content>
       <categories>
-          
-          <category> 开发工具 </category>
-          
+        <category>开发工具</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Front </tag>
-            
-            <tag> Developer Tools </tag>
-            
-            <tag> VS Code </tag>
-            
-            <tag> Extensions </tag>
-            
-            <tag> Vue </tag>
-            
-            <tag> Git </tag>
-            
-            <tag> Chrome </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Mac 打造前端开发环境</title>
-      <link href="/2019/05/08/macweb/"/>
-      <url>/2019/05/08/macweb/</url>
-      
-        <content type="html"><![CDATA[<h2 id="macOS-Mojave-打造高效率前端开发环境"><a href="#macOS-Mojave-打造高效率前端开发环境" class="headerlink" title="macOS Mojave 打造高效率前端开发环境"></a><strong>macOS Mojave 打造高效率前端开发环境</strong></h2><p>### </p><h3 id="安装Homebrew"><a href="#安装Homebrew" class="headerlink" title="安装Homebrew"></a><strong>安装Homebrew</strong></h3><p>​    包管理工具。类似于node下的npm。可以用来安装管理大部分的无界面的工具，如node，git，Python等。<br>​    摘自官网的安装命令：</p><pre><code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></pre><a id="more"></a><h3 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h3><pre><code>brew install git</code></pre><h3 id="安装npm"><a href="#安装npm" class="headerlink" title="安装npm"></a>安装npm</h3><pre><code>npm install npm -g</code></pre><h3 id="安装webpack"><a href="#安装webpack" class="headerlink" title="安装webpack"></a>安装webpack</h3><pre><code>npm install webpack -g</code></pre><h3 id="用-iTerm2-代替Mac-Terminal"><a href="#用-iTerm2-代替Mac-Terminal" class="headerlink" title="用 iTerm2 代替Mac Terminal "></a><strong>用 iTerm2 代替Mac Terminal </strong></h3><p>​    Mac原生terminal 也很强大也可以设置很美观，但是iTerm2 明显更优秀。</p><h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><p>​    首先我们下载的 iTem2 这个软件，比Mac自带的终端更加强大。直接官网 <a href="http://iterm2.com/" target="_blank" rel="noopener">http://iterm2.com/</a> 下载并安装即可。</p><h4 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h4><p>​    将iTem2设置为默认终端：（菜单栏）iTerm2 -&gt; Make iTerm2 Default Term</p><p>​                        <img src="/Users/evildevil/Pictures/Screen Shot/屏幕快照 2019-05-09 下午4.16.20.png" alt="屏幕快照 2019-05-09 下午4.16.20"></p><p>​    然后打开偏好设置preference，选中Keys，勾选Hotkey下的Show/hide iTerm2 with a system-wide hotkey，我将热键设置为 Option + Space，这样你就可以通过Option + Space . 全局热键来打开或关闭iTerm2窗口，非常方便。</p><h4 id="主题配色"><a href="#主题配色" class="headerlink" title="主题配色"></a>主题配色</h4><p>​    首先我来介绍一下如何下载并应用我们看好的主题配置文件。</p><p>​    我们可以点击 <a href="https://github.com/mbadolato/iTerm2-Color-Schemes/archive/master.zip" target="_blank" rel="noopener">这个链接</a> 直接下载主题项目的所有文件，得到压缩包，解压即可。使用 <code>git</code> 版本控制系统的同学也可以通过下面这个命令将 GitHub 仓库整个克隆至本地：</p><pre><code>git clone https://github.com/mbadolato/iTerm2-Color-Schemes.git</code></pre><p>​    我个人推荐One Dark 主题。One 系列主题同样也有一暗一亮两个配色方案。<strong>其中的 One Dark 是 Atom 编辑器的默认主题配色</strong>，简洁、养眼。不得不承认这一主题确实很符合我的胃口，我现在所有可以配色的地方（比如各种终端和 VS Code 等编辑器）几乎就直接使用 One Dark 配色。</p><p><img src="https://cdn.sspai.com/2019/02/22/7cadc29a9e9ef2df38cff8d74c8b2f2e.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p><p>​    这是我的iTerm2界面，自认为很简洁美观。</p><p><img src="/Users/evildevil/Pictures/Screen Shot/屏幕快照 2019-05-09 下午4.23.47.png" alt="屏幕快照 2019-05-09 下午4.23.47"></p><p>推荐链接：<a href="https://sspai.com/post/53008" target="_blank" rel="noopener">10 个 Terminal 主题，让你的 macOS 终端更好看</a></p><h4 id="安装oh-my-zsh"><a href="#安装oh-my-zsh" class="headerlink" title="安装oh-my-zsh"></a>安装oh-my-zsh</h4><p>​    github连接：<a href="https://github.com/robbyrussell/oh-my-zsh" target="_blank" rel="noopener">https://github.com/robbyrussell/oh-my-zsh</a></p><p>​    使用 crul 安装：</p><pre><code>sh -c &quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;</code></pre><p>​    或使用wget：</p><pre><code>`sh -c ``&quot;$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)&quot;`</code></pre><h3 id="编辑器"><a href="#编辑器" class="headerlink" title="编辑器"></a><strong>编辑器</strong></h3><h4 id="Vusual-Studio-Code"><a href="#Vusual-Studio-Code" class="headerlink" title="Vusual Studio Code"></a>Vusual Studio Code</h4><p>​    <strong>Visual Studio Code</strong> is a <strong>lightweight but powerful source code editor</strong> which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for <code>JavaScript, TypeScript and Node.js</code> and has <code>a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity)</code>.<br> 支持的拓展常见的包含如下：</p><p><img src="https://upload-images.jianshu.io/upload_images/3980862-5825acffe2b3a3f4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/793/format/webp" alt="img"></p><h5 id="优点："><a href="#优点：" class="headerlink" title="优点："></a>优点：</h5><p>​    重新定义了 Code 编辑。</p><p>​    在任何操作系统上编辑和调试应用程序 </p><p>​    内置 Git 支持 ，1000 种以上的扩展</p><p>​    免费和开源</p><h5 id="官网：Vusual-Studio-Code"><a href="#官网：Vusual-Studio-Code" class="headerlink" title="官网：Vusual Studio Code"></a>官网：<a href="https://code.visualstudio.com/" target="_blank" rel="noopener">Vusual Studio Code</a></h5><h5 id="下载安装；Downloads"><a href="#下载安装；Downloads" class="headerlink" title="下载安装；Downloads"></a>下载安装；<a href="https://code.visualstudio.com/Download" target="_blank" rel="noopener">Downloads</a></h5><h5 id="官方文档：VS-Code-Docs"><a href="#官方文档：VS-Code-Docs" class="headerlink" title="官方文档：VS Code Docs"></a>官方文档：<a href="https://code.visualstudio.com/docs" target="_blank" rel="noopener">VS Code Docs</a></h5><h5 id="扩展官网：Extensions-Marketplace"><a href="#扩展官网：Extensions-Marketplace" class="headerlink" title="扩展官网：Extensions Marketplace"></a>扩展官网：<a href="https://marketplace.visualstudio.com/VSCode" target="_blank" rel="noopener">Extensions Marketplace</a></h5><h5 id="推荐扩展"><a href="#推荐扩展" class="headerlink" title="推荐扩展"></a>推荐扩展</h5><p>​    我将单独写一篇博文具体介绍一些实用的开发插件。</p><h4 id="WebStorm"><a href="#WebStorm" class="headerlink" title="WebStorm"></a>WebStorm</h4><p>​    WebStorm 是<a href="https://baike.baidu.com/item/jetbrains" target="_blank" rel="noopener">jetbrains</a>公司旗下一款JavaScript 开发工具。目前已经被广大中国JS开发者誉为“Web前端开发神器”、“最强大的HTML5编辑器”、“最智能的JavaScript IDE”等。与<a href="https://baike.baidu.com/item/IntelliJ IDEA" target="_blank" rel="noopener">IntelliJ IDEA</a>同源，继承了IntelliJ IDEA强大的JS部分的功能。</p><h4 id="Submlie-Text3"><a href="#Submlie-Text3" class="headerlink" title="Submlie Text3"></a>Submlie Text3</h4><h5 id="下载安装：官网"><a href="#下载安装：官网" class="headerlink" title="下载安装：官网"></a>下载安装：<a href="http://www.sublimetext.com/3" target="_blank" rel="noopener">官网</a></h5><h5 id="插件推荐："><a href="#插件推荐：" class="headerlink" title="插件推荐："></a>插件推荐：</h5>]]></content>
-      
-      
+      <tags>
+        <tag>Front</tag>
+        <tag>Developer Tools</tag>
+        <tag>VS Code</tag>
+        <tag>Extensions</tag>
+        <tag>Vue</tag>
+        <tag>Git</tag>
+        <tag>Chrome</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Mac 打造前端开发环境]]></title>
+    <url>%2F2019%2F05%2F08%2Fmacweb%2F</url>
+    <content type="text"><![CDATA[macOS Mojave 打造高效率前端开发环境### 安装Homebrew​ 包管理工具。类似于node下的npm。可以用来安装管理大部分的无界面的工具，如node，git，Python等。​ 摘自官网的安装命令： /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot; 安装Gitbrew install git 安装npmnpm install npm -g 安装webpacknpm install webpack -g 用 iTerm2 代替Mac Terminal ​ Mac原生terminal 也很强大也可以设置很美观，但是iTerm2 明显更优秀。 安装​ 首先我们下载的 iTem2 这个软件，比Mac自带的终端更加强大。直接官网 http://iterm2.com/ 下载并安装即可。 配置​ 将iTem2设置为默认终端：（菜单栏）iTerm2 -&gt; Make iTerm2 Default Term ​ ​ 然后打开偏好设置preference，选中Keys，勾选Hotkey下的Show/hide iTerm2 with a system-wide hotkey，我将热键设置为 Option + Space，这样你就可以通过Option + Space . 全局热键来打开或关闭iTerm2窗口，非常方便。 主题配色​ 首先我来介绍一下如何下载并应用我们看好的主题配置文件。 ​ 我们可以点击 这个链接 直接下载主题项目的所有文件，得到压缩包，解压即可。使用 git 版本控制系统的同学也可以通过下面这个命令将 GitHub 仓库整个克隆至本地： git clone https://github.com/mbadolato/iTerm2-Color-Schemes.git ​ 我个人推荐One Dark 主题。One 系列主题同样也有一暗一亮两个配色方案。其中的 One Dark 是 Atom 编辑器的默认主题配色，简洁、养眼。不得不承认这一主题确实很符合我的胃口，我现在所有可以配色的地方（比如各种终端和 VS Code 等编辑器）几乎就直接使用 One Dark 配色。 ​ 这是我的iTerm2界面，自认为很简洁美观。 推荐链接：10 个 Terminal 主题，让你的 macOS 终端更好看 安装oh-my-zsh​ github连接：https://github.com/robbyrussell/oh-my-zsh ​ 使用 crul 安装： sh -c &quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot; ​ 或使用wget： `sh -c ``&quot;$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)&quot;` 编辑器Vusual Studio Code​ Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity). 支持的拓展常见的包含如下： 优点：​ 重新定义了 Code 编辑。 ​ 在任何操作系统上编辑和调试应用程序 ​ 内置 Git 支持 ，1000 种以上的扩展 ​ 免费和开源 官网：Vusual Studio Code下载安装；Downloads官方文档：VS Code Docs扩展官网：Extensions Marketplace推荐扩展​ 我将单独写一篇博文具体介绍一些实用的开发插件。 WebStorm​ WebStorm 是jetbrains公司旗下一款JavaScript 开发工具。目前已经被广大中国JS开发者誉为“Web前端开发神器”、“最强大的HTML5编辑器”、“最智能的JavaScript IDE”等。与IntelliJ IDEA同源，继承了IntelliJ IDEA强大的JS部分的功能。 Submlie Text3下载安装：官网插件推荐：]]></content>
       <categories>
-          
-          <category> 开发环境 </category>
-          
+        <category>开发环境</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Front </tag>
-            
-            <tag> macOS </tag>
-            
-            <tag> Software </tag>
-            
-            <tag> Developer Tools </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>deeplearning</title>
-      <link href="/2019/04/19/deeplearning/"/>
-      <url>/2019/04/19/deeplearning/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>evil</title>
-      <link href="/2019/04/15/evil/"/>
-      <url>/2019/04/15/evil/</url>
-      
-        <content type="html"><![CDATA[<h2 id="Terminal-主题，让你的-macOS-终端更好看"><a href="#Terminal-主题，让你的-macOS-终端更好看" class="headerlink" title="Terminal 主题，让你的 macOS 终端更好看"></a>Terminal 主题，让你的 macOS 终端更好看</h2>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Hackintosh </tag>
-            
-            <tag> MacOS </tag>
-            
-            <tag> Tools </tag>
-            
-            <tag> Terminal </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>MacOS</title>
-      <link href="/2019/04/14/MacOS/"/>
-      <url>/2019/04/14/MacOS/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>从Linux Deepin 系统迁移Blog到 MacOS Mojave</title>
-      <link href="/2019/04/13/hack/"/>
-      <url>/2019/04/13/hack/</url>
-      
-        <content type="html"><![CDATA[<h2 id="Hexo-Blog-Github-Pages-从-Deepin-15-9-3-迁移至-MacOS-Mojave-10-14-4"><a href="#Hexo-Blog-Github-Pages-从-Deepin-15-9-3-迁移至-MacOS-Mojave-10-14-4" class="headerlink" title="Hexo Blog + Github Pages 从 Deepin 15.9.3 迁移至 MacOS Mojave 10.14.4"></a>Hexo Blog + Github Pages 从 Deepin 15.9.3 迁移至 MacOS Mojave 10.14.4</h2><h3 id="安装git和node-js"><a href="#安装git和node-js" class="headerlink" title="安装git和node.js"></a>安装git和node.js</h3><ul><li><p>首先在自己电脑上转好node和git</p><blockquote><p><code>brew install git</code></p><p><code>brew install node</code></p></blockquote></li></ul><h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><ul><li><p>用node.js来安装</p><blockquote><p><code>npm install hexo g</code></p></blockquote></li></ul><a id="more"></a><h3 id="初始化hexo"><a href="#初始化hexo" class="headerlink" title="初始化hexo"></a>初始化hexo</h3><ul><li>新建一个hexo目录，然后在 <code>hexo init</code></li><li>在用<code>hexo s</code>测试是否成功，打开<code>localhost:4000</code>查看本地</li></ul><h3 id="生成SSH-key"><a href="#生成SSH-key" class="headerlink" title="生成SSH key"></a>生成SSH key</h3><ul><li>先查看本地的SSH key: <code>cd ~/.ssh</code></li><li>然后生成一个SSH key <code>ssh-keygen -t rsa -C &quot;xxxxxx@xxx.com&quot;</code>,后面那个是注册邮箱</li></ul><h3 id="添加SSH-key到自己github"><a href="#添加SSH-key到自己github" class="headerlink" title="添加SSH key到自己github"></a>添加SSH key到自己github</h3><ul><li>进入.ssh文件夹： <code>cd ~/.ssh</code>，然后打开里面的 id_rsa.pub文件，里面的内容就是 SSH key，复制全部内容；</li><li>网页打开 github 的设置：Settings -&gt; SSH and GPG keys，点击绿色的按钮 New SSH key，然后在输入框中输入刚才复制的内容；</li><li>保存后，github 会向你的邮箱发送一个验证链接（记得要去登录邮箱验证，不然之后的 hexo d 部署会一直不成功的！）；</li><li>测试一下是否成功：ssh <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>，<br> 看到以下即成功：</li></ul><pre><code>PTY allocation request failed on channel 0Hi gjincai! You&#39;ve successfully authenticated, but GitHub does not provide shell access.Connection to github.com closed.</code></pre><h3 id="文件配置转移"><a href="#文件配置转移" class="headerlink" title="文件配置转移"></a>文件配置转移</h3><ul><li>windows 下的博客根目录 hexo，复制该目录下的：<code>_config.yml</code>, <code>scaffolds</code>, <code>source</code>, <code>themes</code>；</li><li>mac 下的博客根目录 hexo，把刚才复制的内容，直接覆盖替换相同的文件文件夹。</li></ul>]]></content>
-      
-      
+      <tags>
+        <tag>Front</tag>
+        <tag>macOS</tag>
+        <tag>Software</tag>
+        <tag>Developer Tools</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[deeplearning]]></title>
+    <url>%2F2019%2F04%2F19%2Fdeeplearning%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[evil]]></title>
+    <url>%2F2019%2F04%2F15%2Fevil%2F</url>
+    <content type="text"><![CDATA[Terminal 主题，让你的 macOS 终端更好看]]></content>
+      <tags>
+        <tag>MacOS</tag>
+        <tag>Hackintosh</tag>
+        <tag>Tools</tag>
+        <tag>Terminal</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[MacOS]]></title>
+    <url>%2F2019%2F04%2F14%2FMacOS%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[从Linux Deepin 系统迁移Blog到 MacOS Mojave]]></title>
+    <url>%2F2019%2F04%2F13%2Fhack%2F</url>
+    <content type="text"><![CDATA[Hexo Blog + Github Pages 从 Deepin 15.9.3 迁移至 MacOS Mojave 10.14.4安装git和node.js 首先在自己电脑上转好node和git brew install git brew install node 安装hexo 用node.js来安装 npm install hexo g 初始化hexo 新建一个hexo目录，然后在 hexo init 在用hexo s测试是否成功，打开localhost:4000查看本地 生成SSH key 先查看本地的SSH key: cd ~/.ssh 然后生成一个SSH key ssh-keygen -t rsa -C &quot;xxxxxx@xxx.com&quot;,后面那个是注册邮箱 添加SSH key到自己github 进入.ssh文件夹： cd ~/.ssh，然后打开里面的 id_rsa.pub文件，里面的内容就是 SSH key，复制全部内容； 网页打开 github 的设置：Settings -&gt; SSH and GPG keys，点击绿色的按钮 New SSH key，然后在输入框中输入刚才复制的内容； 保存后，github 会向你的邮箱发送一个验证链接（记得要去登录邮箱验证，不然之后的 hexo d 部署会一直不成功的！）； 测试一下是否成功：ssh git@github.com， 看到以下即成功： PTY allocation request failed on channel 0 Hi gjincai! You&#39;ve successfully authenticated, but GitHub does not provide shell access. Connection to github.com closed. 文件配置转移 windows 下的博客根目录 hexo，复制该目录下的：_config.yml, scaffolds, source, themes； mac 下的博客根目录 hexo，把刚才复制的内容，直接覆盖替换相同的文件文件夹。]]></content>
       <categories>
-          
-          <category> 博客搭建 </category>
-          
+        <category>博客搭建</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> MacOS </tag>
-            
-            <tag> MacOS Mojave 10.14.4 </tag>
-            
-            <tag> Hexo </tag>
-            
-            <tag> Github </tag>
-            
-            <tag> Deepin </tag>
-            
-            <tag> Linux </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>小米Pro笔记本 Hackintosh MacOS Mojave 10.14.4 安装教程</title>
-      <link href="/2019/04/10/Hackintosh/"/>
-      <url>/2019/04/10/Hackintosh/</url>
-      
-        <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a><strong>前言</strong></h3><p><strong>Mi Pro Hackintosh MacOS Mojave 10.14.4 </strong></p><p><img src="https://github.com/daliansky/XiaoMi-Pro/raw/master/wiki/XiaoMiPro_home.jpg" alt="Xiaomi NoteBook Pro"></p><p> 本文仅针对小米笔记本Pro，其他机型可作参考，需要找到对应的EFI替换。本文部分内容引用：<a href="https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html" target="_blank" rel="noopener">macOS安装教程兼小米Pro安装过程记录</a> 此教程大部分准备工作在win下进行已尽量通俗易懂了。</p><p>让你的小米笔记本Pro吃上黑苹果，体验MacBook Pro 95%的功能</p><a id="more"></a><h3 id="电脑配置"><a href="#电脑配置" class="headerlink" title="电脑配置"></a><strong>电脑配置</strong></h3><table><thead><tr><th>规格</th><th>详细信息</th></tr></thead><tbody><tr><td>电脑型号</td><td>小米笔记本电脑Pro 15.6’’(MX150/GTX)</td></tr><tr><td>处理器</td><td>英特尔 酷睿 i5-8250U/i7-8550U 处理器</td></tr><tr><td>内存</td><td>8GB/16GB 三星 DDR4 2400MHz</td></tr><tr><td>硬盘</td><td>三星 NVMe固态硬盘 PM961 256GB</td></tr><tr><td>集成显卡</td><td>英特尔 UHD 图形620</td></tr><tr><td>显示器</td><td>京东方 NV156FHM-N61 FHD 1920x1080 (15.6 英寸)</td></tr><tr><td>声卡</td><td>瑞昱 ALC298 (节点:30/99)</td></tr><tr><td>网卡</td><td>英特尔 无线 8265</td></tr><tr><td>读卡器</td><td>瑞昱 RTS5129</td></tr></tbody></table><h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a><strong>问题</strong></h3><h4 id="哪些不能正常工作"><a href="#哪些不能正常工作" class="headerlink" title="哪些不能正常工作"></a><strong>哪些不能正常工作</strong></h4><ul><li>独立显卡，因为macOS不支持Optimus技术<ul><li>使用了SSDT-DDGPU来禁用它以节省电量</li></ul></li></ul><p>指纹传感器</p><ul><li>使用了USBPorts来禁用它以节省电量</li></ul><p>英特尔蓝牙只有在从Windows热重启后有效</p><ul><li>阅读蓝牙解决方案</li></ul><p>英特尔无线网卡</p><ul><li>购买USB网卡或者支持的内置网卡</li></ul><p>瑞昱USB SD读卡器</p><ul><li>使用了USBPorts来禁用它以节省电量</li></ul><p>其他都工作正常</p><ul><li>在PM981上发生内核错误，无法安装<ul><li>目前<a href="http://bbs.pcbeta.com/viewthread-1774117-1-1.html" target="_blank" rel="noopener">PM981在macOS 10.13.3+上无解</a>。你可以安装macOS到另一块硬盘上。</li><li>PM981<code>硬盘序列号以</code>MZVLB<code>开头，</code>PM961<code>硬盘序列号以</code>MZVLW` 开头。</li></ul></li></ul><h4 id="哪些可以工作得更好"><a href="#哪些可以工作得更好" class="headerlink" title="哪些可以工作得更好"></a><strong>哪些可以工作得更好</strong></h4><ul><li>使用ALCPlugFix来修复耳机重新插拔后无声</li><li>使用DVMT_and_0xE2_fix来把帧缓存设为64mb并解锁CFG</li><li>使用one-key-hidpi来提升系统UI质量</li><li>使用one-key-cpufriend来提升CPU性能 </li></ul><h3 id="下载文件及工具"><a href="#下载文件及工具" class="headerlink" title="下载文件及工具"></a><strong>下载文件及工具</strong></h3><ul><li>一个容量8G及以上的U盘</li><li>MacOS镜像：<ul><li>最新镜像：<a href="https://blog.daliansky.net/macOS-Mojave-10.14.4-18E226-official-version-with-Clover-4903-original-image.html" target="_blank" rel="noopener">【黑果小兵】MacOS Mojave 10.14.4 18E226 正式版 with Clover 4903原版镜像</a></li></ul></li><li>Windows下工具：<ul><li><a href="https://www.balena.io/etcher/" target="_blank" rel="noopener">BalenaEtcher</a>:把MacOS镜像写进U盘</li><li><a href="http://www.winmd5.com/" target="_blank" rel="noopener">WinMD5</a>:验证镜像文件的MD5值。</li><li>DiskGenius：对硬盘分区修改</li><li><a href="https://bootice.en.softonic.com/" target="_blank" rel="noopener">Bootice</a>：添加UEFI引导选项</li><li><a href="http://www.wepe.com.cn/download.html" target="_blank" rel="noopener">微PE</a>：用于硬盘ESP分区扩容 </li></ul></li></ul><ul><li>Win工具下载地址：<ul><li>百度云：</li></ul></li></ul><ul><li><p><strong>小米Pro专用EFI持续长期更新</strong></p><ul><li><a href="https://github.com/daliansky/XiaoMi-Pro" target="_blank" rel="noopener">https://github.com/daliansky/XiaoMi-Pro</a></li></ul></li></ul><h3 id="开始"><a href="#开始" class="headerlink" title="开始"></a><strong>开始</strong></h3><h4 id="制作安装镜像"><a href="#制作安装镜像" class="headerlink" title="制作安装镜像"></a><strong>制作安装镜像</strong></h4><ul><li><h6 id="镜像制作："><a href="#镜像制作：" class="headerlink" title="镜像制作："></a>镜像制作：</h6><ul><li><p>使用WinMd5验证下载的MacOS的MD5值，</p></li><li><p>MD5 (macOS Mojave 10.14.4(18E226) Installer with Clover 4903.dmg) = ee923768b29194efc704bcf34d7f9fd8</p></li><li><p>下载<a href="https://etcher.io/" target="_blank" rel="noopener">etcher</a>，打开镜像，选择U盘，点击Flash即可。</p><p><a href="https://7.daliansky.net/etcher.png" target="_blank" rel="noopener"><img src="https://7.daliansky.net/etcher.png" alt="etcher"></a></p></li></ul></li></ul><h4 id="复制EFI"><a href="#复制EFI" class="headerlink" title="复制EFI"></a><strong>复制EFI</strong></h4><ul><li><p><strong>将镜像里的EFI复制到USB安装盘的EFI分区下</strong></p><ul><li>解压下载的EFI文件，选择EFI用快捷键ctrl+c 复制 <img src="http://attach.bbs.miui.com/forum/201801/27/204216mmfpk4r4l04mbk0v.png" alt="img"></li></ul></li><li><p>打开DiskGenius分区软件删除U盘的EFI目录</p></li></ul><p><img src="http://attach.bbs.miui.com/forum/201801/27/204507zdggagiusdgtii06.png" alt="img"></p><ul><li>在DiskGenius分区软件下用快捷键ctrl+v 把新的EFI复制进去</li></ul><p><img src="http://attach.bbs.miui.com/forum/201801/27/204740dccqyfqmmyyda2cc.png" alt="img"></p><ul><li><strong>复制EFI到硬盘的EFI分区</strong></li></ul><p><img src="http://attach.bbs.miui.com/forum/201801/28/190106s4di3zdc4wdxn0yy.png" alt="img"></p><ul><li>操作完成后目录结构应与下图一致，此处注意Microsoft为windows引导.如何想安装Win10和MacOS双系统，里面文件不要动，否则windows无法引导。</li></ul><p><img src="http://attach.bbs.miui.com/forum/201801/28/190200e8t8y1jbhy1udt26.png" alt="img"></p><h4 id="制作PE"><a href="#制作PE" class="headerlink" title="制作PE"></a><strong>制作PE</strong></h4><ul><li>在DiskGenius分区软件下操作，右键点击U盘空闲区域建立新分区</li></ul><p><img src="http://attach.bbs.miui.com/forum/201801/30/224138jf0a0ff3l0ut7cyl.png" alt="img"></p><ul><li><p>分区格式为FAT32，大小为500M，确定并保存设置</p><p><img src="http://attach.bbs.miui.com/forum/201801/30/224138s0jp1mttufjcjuts.png" alt="img"></p></li><li><p><strong><em>注意要安装PE不影响之前做好的macOS安装盘需要把U盘其他分区的盘符隐藏，仅保留刚才创建的500M分区盘符</em></strong> <img src="https://attach.bbs.miui.com/forum/201803/11/140020o5mkstd8vqk2n4h6.png.thumb.jpg" alt="img"></p></li></ul><p><img src="https://attach.bbs.miui.com/forum/201803/11/140020g6yq5ot6xqt67t67.png.thumb.jpg" alt="img"> </p><ul><li>打开微PE工具箱安装程序选择安装方式为安装到U盘</li></ul><p><img src="https://attach.bbs.miui.com/forum/201801/30/224139ayuoweg7zg0xwwhe.png.thumb.jpg" alt="img"></p><ul><li>如下图安装方式选择<strong>方式三UEFI全能单分区</strong>，<strong>取消勾选格式化</strong>，然后点击安装进U盘</li></ul><p><img src="https://attach.bbs.miui.com/forum/201801/30/224223u0t8ogv8a99q01rv.png.thumb.jpg" alt="img"></p><h4 id="添加UEFI引导选项"><a href="#添加UEFI引导选项" class="headerlink" title="添加UEFI引导选项"></a><strong>添加UEFI引导选项</strong></h4><ul><li><p>使用工具:BOOTICE</p></li><li><p>操作过程:</p><ul><li><p>打开BOOTICE软件,选择物理磁盘,选择欲操作的目标磁盘,点击分区管理,弹出分区管理的窗口,点击分配盘符,为ESP分区分配一个盘符,点击确定 </p><p><img src="https://attach.bbs.miui.com/forum/201801/27/205346z63bgb3l6395t9l9.jpg.thumb.jpg" alt="img"></p></li><li><p>选择UEFI,点击修改启动序列,点击添加按钮,菜单标题填写:CLOVER,选择启动文件,在打开的窗口里选择ESP分区下的目录\EFI\CLOVER\CLOVERX64.EFI,选中CLOVER上移到最上面，点击保存当前启动项设置</p></li></ul><p><img src="https://attach.bbs.miui.com/forum/201801/27/205347wxgog7z54t01g74x.jpg.thumb.jpg" alt="img"></p><p>  ​    </p></li></ul><h4 id="小米BIOS设置"><a href="#小米BIOS设置" class="headerlink" title="小米BIOS设置"></a><strong>小米BIOS设置</strong></h4><p>​    <strong><em>小米笔记本的BIOS默认开启了安全认证,UEFI引导需要关闭安全启动Secure Boot Mode方式,否则无法加载UEFI引导设备,比如刚制作好的macOS安装USB盘</em></strong></p><ul><li><p>操作方法:</p><ul><li><p>开机按F2进入BIOS设置,光标移动到Security,点击<strong>Set Supervisor Password</strong>设置一个<strong>BIOS密码</strong>,输入两次相同的密码,点击YES保存。<code>***这个BIOS密码非常重要，一定要设置成常用的密码并且备份，我现在就是忘了BIOS密码进不去BIOS，走售后只能换主板，价格3000+。 欲哭无泪中。。千万记得备份密码***。</code></p><p><img src="https://attach.bbs.miui.com/forum/201801/27/211600vkepe765lkee5t3r.png.thumb.jpg" alt="img"></p></li><li><p>关闭安全启动，点击Secure Boot Mode,设置为Disabled关闭安全启动</p><p><img src="https://attach.bbs.miui.com/forum/201801/27/211601iqzpjqp9wp2zvtj5.png.thumb.jpg" alt="img"></p></li><li><p>按F10保存设置并退出BIOS</p></li></ul></li></ul><h4 id="PE下扩容ESP-EFI-分区"><a href="#PE下扩容ESP-EFI-分区" class="headerlink" title="PE下扩容ESP(EFI)分区"></a><strong>PE下扩容ESP(EFI)分区</strong></h4><p>  MacOS系统要求EFI为<strong>200M</strong>以上，否则安装时无法抹盘 </p><ul><li><p><strong>操作方法</strong>1：插上U盘开机按F12键进入Boot Manager引导管理,选择 EFI USB Device1,回车 进入PE <img src="https://attach.bbs.miui.com/forum/201801/30/230915mwprblesk5mpf9pz.png.thumb.jpg" alt="img"></p></li><li><p>使用分区助手（无损）删除MSR分区</p><p><img src="https://attach.bbs.miui.com/forum/201801/30/230916qb0zxava2zcfuxyl.png.thumb.jpg" alt="img"></p></li><li><p>选中ESP(EFI)分区 右键选择调整移动分区</p><p><img src="https://attach.bbs.miui.com/forum/201801/30/230918kjojjp2gm3junjqp.png.thumb.jpg" alt="img"></p></li><li><p>如图拉到最右边，扩容efi分区，确定并提交更改。</p><p><img src="https://attach.bbs.miui.com/forum/201801/30/230919dqshbiynduf0awi0.png.thumb.jpg" alt="img"></p></li></ul><h4 id="安装macOS"><a href="#安装macOS" class="headerlink" title="安装macOS"></a><strong>安装macOS</strong></h4><ul><li>开机按F12键进入Boot Manager引导管理,选择 EFI USB Device,回车进入macOS安装程序</li></ul><p><img src="https://7.daliansky.net/XiaoMi-Bios5.png" alt="XiaoMi-Bios5">    </p><p><img src="https://7.daliansky.net/XiaoMiCloverboot.png" alt="XiaoMiCloverboot"></p><ul><li>移动光标到<code>Boot OS X Install from XiaoMiPro 10131</code>回车</li></ul><h5 id="安装第一阶段"><a href="#安装第一阶段" class="headerlink" title="安装第一阶段"></a>安装第一阶段</h5><h6 id="开始引导macOS系统"><a href="#开始引导macOS系统" class="headerlink" title="开始引导macOS系统"></a>开始引导macOS系统</h6><p><img src="https://7.daliansky.net/ParallelsPicture.png" alt="ParallelsPicture"></p><p>​    这个过程需要1-2分钟,耐心等待进入安装程序,出现语言选择界面.</p><h6 id="语言选择"><a href="#语言选择" class="headerlink" title="语言选择"></a>语言选择</h6><ul><li>选择简体中文</li></ul><p><img src="https://7.daliansky.net/ParallelsPicture1.png" alt="ParallelsPicture1"></p><ul><li>出现<code>macOS实用工具</code>界面,选择磁盘工具</li></ul><h6 id="磁盘工具"><a href="#磁盘工具" class="headerlink" title="磁盘工具"></a>磁盘工具</h6><p><img src="https://7.daliansky.net/ParallelsPicture0.png" alt="ParallelsPicture0"> </p><ul><li>选择<code>显示所有设备</code>:</li></ul><p><img src="https://7.daliansky.net/ParallelsPicture2.png" alt="ParallelsPicture2"> </p><ul><li>选择<code>SSD Media</code>,点击<code>抹掉</code>按钮,选择默认的<code>Mac OS扩展(日志型)</code>,将名称修改为<code>Macintosh HD</code>,点击<code>抹掉</code>按钮.(PS:会抹掉磁盘上所有内容，之前记得备份)</li></ul><p><img src="https://7.daliansky.net/ParallelsPicture6.png" alt="ParallelsPicture6"></p><ul><li>抹盘成功后,它会自动生成一个200MB的EFI分区,这样做的好处是不会出现安装过程中的由于EFI分区尺寸小于200MB而引起的无法安装的错误.当然前提是你的磁盘中没有重要的数据,或者您的数据已经提前备份过了.</li></ul><p><img src="https://7.daliansky.net/ParallelsPicture7.png" alt="ParallelsPicture7"> </p><ul><li>到这里,磁盘工具的动作就已经结束了.按左上角x ,退出磁盘工具进入安装界面,进行系统的安装了.</li></ul><h6 id="安装macOS-1"><a href="#安装macOS-1" class="headerlink" title="安装macOS"></a>安装macOS</h6><p><img src="https://7.daliansky.net/ParallelsPicture8.png" alt="ParallelsPicture8"> </p><ul><li>进入安装界面</li></ul><p><img src="https://7.daliansky.net/ParallelsPicture11.png" alt="ParallelsPicture11"> </p><ul><li>选择继续，同意</li></ul><p><img src="https://7.daliansky.net/ParallelsPicture12.png" alt="ParallelsPicture12"> </p><p> <img src="https://7.daliansky.net/ParallelsPicture13.png" alt="ParallelsPicture13"> </p><ul><li>选择刚刚抹掉的分区，安装</li></ul><p><img src="https://attach.bbs.miui.com/forum/201801/27/213036j6czeg36qi67d6wc.png.thumb.jpg" alt="img"></p><p> <img src="https://attach.bbs.miui.com/forum/201801/27/213037kns73php6dllyjjp.png.thumb.jpg" alt="img"></p><ul><li>会自动重启数次。</li></ul><p><img src="https://7.daliansky.net/ParallelsPicture16.png" alt="ParallelsPicture16"> </p><h5 id="安装第二阶段"><a href="#安装第二阶段" class="headerlink" title="安装第二阶段"></a><strong>安装第二阶段</strong></h5><ul><li>第二阶段的安装会有两种界面,一种是不进安装界面直接安装,另一种是先进入安装界面直接安装,需要注意的是,无论是哪一种界面下,安装的过程中全程是禁用鼠标和键盘的,需要你做的只是耐心等待它安装完成</li></ul><ul><li>安装速度取决于你的磁盘速度,第二阶段的安装已经与USB安装盘没什么关系了.macOS 10.13的安装完全区别于10.12,它不能免二次安装,甚至还需要重启多次,这些都是正常现象,请不要大惊小怪的.</li><li>系统安装完成后,重启进入系统设置向导</li></ul><h5 id="设置向导"><a href="#设置向导" class="headerlink" title="设置向导"></a><strong>设置向导</strong></h5><h6 id="国家选择"><a href="#国家选择" class="headerlink" title="国家选择"></a>国家选择</h6><ul><li>首先让你选择国家,这里我选择中国</li></ul><p><img src="https://7.daliansky.net/Installer3.png" alt="Installer3"> </p><p> <img src="https://7.daliansky.net/Installer4.png" alt="Installer4"> </p><ul><li>点击<code>继续</code>,设置键盘。</li></ul><h6 id="设置键盘"><a href="#设置键盘" class="headerlink" title="设置键盘"></a>设置键盘</h6><p><img src="https://7.daliansky.net/Installer5.png" alt="Installer5"> </p><ul><li>这里询问你<code>是否传输信息到这台Mac</code></li></ul><h6 id="数据恢复"><a href="#数据恢复" class="headerlink" title="数据恢复"></a>数据恢复</h6><ul><li>可以从Mac或者Time Machine备份恢复</li></ul><p><img src="https://7.daliansky.net/Installer6.png" alt="Installer6"> </p><ul><li>我选择<code>现在不传输任何信息</code>,点击<code>继续</code></li></ul><h6 id="Apple-ID登录"><a href="#Apple-ID登录" class="headerlink" title="Apple ID登录"></a>Apple ID登录</h6><p><img src="https://7.daliansky.net/Installer7.png" alt="Installer7"> </p><ul><li>选择是否<code>使用您的Apple ID登录</code>,如何想现在就登录到<code>Apple ID</code>,请输入<code>Apple ID</code>和密码登录,否则选择<code>不登录</code>,进入系统后也可以设置登录到<code>iCloud</code>,点击<code>继续</code></li></ul><p><img src="https://7.daliansky.net/Installer8.png" alt="Installer8"> </p><ul><li>阅读条款与条件,选择<code>同意</code>继续</li></ul><p><img src="https://7.daliansky.net/Installer9.png" alt="Installer9"> </p><ul><li>出现<code>创建电脑用户</code>的窗口,输入用户名和密码,点击<code>继续</code></li></ul><h6 id="创建电脑用户"><a href="#创建电脑用户" class="headerlink" title="创建电脑用户"></a>创建电脑用户</h6><p><img src="https://7.daliansky.net/Installer10.png" alt="Installer10"> </p><ul><li>用户创建成功后,弹出<code>iCloud</code>的<code>正在设置用户</code>的窗口</li></ul><p><img src="https://7.daliansky.net/Installer12.png" alt="Installer12"> </p><ul><li><p>紧接着弹出设置<code>iClound钥匙串</code>的设置窗口,选择<code>稍候设置</code>,点击<code>继续</code></p></li><li><p>出现<code>正在设置您的Mac</code>,请稍候完成设置向导</p></li></ul><h6 id="设置向导完成"><a href="#设置向导完成" class="headerlink" title="设置向导完成"></a>设置向导完成</h6><p><img src="https://7.daliansky.net/Installer18.png" alt="Installer18"> </p><ul><li>出现桌面后,整个的安装向导就完成了. </li></ul><p><img src="https://7.daliansky.net/Installer19.png" alt="Installer19"></p><h5 id="安装后的系统设置"><a href="#安装后的系统设置" class="headerlink" title="安装后的系统设置"></a>安装后的系统设置</h5><ul><li>系统安装后,你可以先喝杯咖啡兴奋会儿,马上还有更艰巨的任务在等着你呢</li></ul><h6 id="MacOS-教你将U盘上的EFI复制到磁盘的EFI分区-脱离USB运行"><a href="#MacOS-教你将U盘上的EFI复制到磁盘的EFI分区-脱离USB运行" class="headerlink" title="MacOS:教你将U盘上的EFI复制到磁盘的EFI分区,脱离USB运行"></a>MacOS:教你将U盘上的EFI复制到磁盘的EFI分区,脱离USB运行</h6><ul><li><code>diskutil</code>命令的基本用法：<ul><li>查看磁盘分区表</li></ul></li></ul><pre><code>diskutil list</code></pre><p>​    /dev/disk0(internal, physical):</p><table><thead><tr><th>#:</th><th>TYPE</th><th>NAME</th><th>SIZE</th><th>IDENTIFIER</th></tr></thead><tbody><tr><td>0:</td><td>GUID_partition_scheme</td><td></td><td>256 GB</td><td>disk0</td></tr><tr><td>1:</td><td>EFI</td><td>EFI</td><td>200 MB</td><td>disk0s1</td></tr><tr><td>2:</td><td>Apple_HFS</td><td>MAC</td><td>128 GB</td><td>disk0s2</td></tr><tr><td>3:</td><td>Microsoft Basic Data</td><td>WIN10</td><td>127.7 GB</td><td>disk0s3</td></tr></tbody></table><p>​    /dev/disk1(internal, physical):</p><table><thead><tr><th>#:</th><th>TYPE</th><th>NAME</th><th>SIZE</th><th>IDENTIFIER</th></tr></thead><tbody><tr><td>0:</td><td>GUID_partition_scheme</td><td></td><td>16 GB</td><td>disk1</td></tr><tr><td>1:</td><td>EFI</td><td>EFI</td><td>200 MB</td><td>disk1s1</td></tr><tr><td>2:</td><td>Apple_HFS</td><td>Install macOS Sierra</td><td>15.8 GB</td><td>disk1s2</td></tr></tbody></table><ul><li>挂载磁盘EFI分区</li></ul><pre><code>sudo diskutil mount disk0s1</code></pre><ul><li>挂载U盘EFI分区</li></ul><pre><code>sudo diskutil mount disk1s1</code></pre><ul><li>打开Finder，注意后面有个<code>.</code></li></ul><pre><code>open .</code></pre><ul><li>左侧会显示挂载了两个EFI分区，将U盘EFI目录全部复制到磁盘的EFI分区即可。</li></ul><h6 id="完善驱动"><a href="#完善驱动" class="headerlink" title="完善驱动"></a>完善驱动</h6><p>USB网卡推荐：  <code>COMFAST CF-WU810N</code></p><p>驱动下载：<a href="http://www.miui.com/forum.php?mod=attachment&amp;aid=Mjk4OTEwNTB8OTVhNmMxYWN8MTU1NTQyMjAxOXwyMjQ5MzY2NTA4fDExMzYzNjcy" target="_blank" rel="noopener">COMFAST CF-WU810N 网卡驱动.zip</a> </p><h6 id="重建缓存"><a href="#重建缓存" class="headerlink" title="重建缓存"></a>重建缓存</h6><ul><li><a href="http://www.miui.com/forum.php?mod=attachment&amp;aid=Mjk4OTEwNTJ8MDYzM2E5ODZ8MTU1NTQyMjAxOXwyMjQ5MzY2NTA4fDExMzYzNjcy" target="_blank" rel="noopener">重建缓存 Kext Utility.zip</a> </li><li>使用Kext Utility 重建缓存然后重启就可以正常使用了。</li></ul><h3 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h3><ul><li><a href="https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html" target="_blank" rel="noopener">macOS安装教程兼小米Pro安装过程记录</a></li></ul><ul><li><a href="http://www.miui.com/thread-11363672-1-1.html" target="_blank" rel="noopener">【老司机引路】小米笔记本pro Win10+黑苹果macOS 10.13.6双系统</a>     </li></ul><ul><li><p><a href="https://github.com/daliansky/XiaoMi-Pro/wiki/%E4%B8%BB%E9%A1%B5" target="_blank" rel="noopener">Hackintosh Your Xiaomi NoteBook Pro</a></p></li><li><p><a href="https://github.com/daliansky/XiaoMi-Pro/blob/master/README.md" target="_blank" rel="noopener">XiaoMi NoteBook Pro for macOS Mojave &amp; High Sierra</a></p></li></ul>]]></content>
-      
-      
+      <tags>
+        <tag>MacOS Mojave 10.14.4</tag>
+        <tag>MacOS</tag>
+        <tag>Hexo</tag>
+        <tag>Github</tag>
+        <tag>Deepin</tag>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[小米Pro笔记本 Hackintosh MacOS Mojave 10.14.4 安装教程]]></title>
+    <url>%2F2019%2F04%2F10%2FHackintosh%2F</url>
+    <content type="text"><![CDATA[前言Mi Pro Hackintosh MacOS Mojave 10.14.4 本文仅针对小米笔记本Pro，其他机型可作参考，需要找到对应的EFI替换。本文部分内容引用：macOS安装教程兼小米Pro安装过程记录 此教程大部分准备工作在win下进行已尽量通俗易懂了。 让你的小米笔记本Pro吃上黑苹果，体验MacBook Pro 95%的功能 电脑配置 规格 详细信息 电脑型号 小米笔记本电脑Pro 15.6’’(MX150/GTX) 处理器 英特尔 酷睿 i5-8250U/i7-8550U 处理器 内存 8GB/16GB 三星 DDR4 2400MHz 硬盘 三星 NVMe固态硬盘 PM961 256GB 集成显卡 英特尔 UHD 图形620 显示器 京东方 NV156FHM-N61 FHD 1920x1080 (15.6 英寸) 声卡 瑞昱 ALC298 (节点:30/99) 网卡 英特尔 无线 8265 读卡器 瑞昱 RTS5129 问题哪些不能正常工作 独立显卡，因为macOS不支持Optimus技术 使用了SSDT-DDGPU来禁用它以节省电量 指纹传感器 使用了USBPorts来禁用它以节省电量 英特尔蓝牙只有在从Windows热重启后有效 阅读蓝牙解决方案 英特尔无线网卡 购买USB网卡或者支持的内置网卡 瑞昱USB SD读卡器 使用了USBPorts来禁用它以节省电量 其他都工作正常 在PM981上发生内核错误，无法安装 目前PM981在macOS 10.13.3+上无解。你可以安装macOS到另一块硬盘上。 PM981硬盘序列号以MZVLB开头，PM961硬盘序列号以MZVLW` 开头。 哪些可以工作得更好 使用ALCPlugFix来修复耳机重新插拔后无声 使用DVMT_and_0xE2_fix来把帧缓存设为64mb并解锁CFG 使用one-key-hidpi来提升系统UI质量 使用one-key-cpufriend来提升CPU性能 下载文件及工具 一个容量8G及以上的U盘 MacOS镜像： 最新镜像：【黑果小兵】MacOS Mojave 10.14.4 18E226 正式版 with Clover 4903原版镜像 Windows下工具： BalenaEtcher:把MacOS镜像写进U盘 WinMD5:验证镜像文件的MD5值。 DiskGenius：对硬盘分区修改 Bootice：添加UEFI引导选项 微PE：用于硬盘ESP分区扩容 Win工具下载地址： 百度云： 小米Pro专用EFI持续长期更新 https://github.com/daliansky/XiaoMi-Pro 开始制作安装镜像 镜像制作： 使用WinMd5验证下载的MacOS的MD5值， MD5 (macOS Mojave 10.14.4(18E226) Installer with Clover 4903.dmg) = ee923768b29194efc704bcf34d7f9fd8 下载etcher，打开镜像，选择U盘，点击Flash即可。 复制EFI 将镜像里的EFI复制到USB安装盘的EFI分区下 解压下载的EFI文件，选择EFI用快捷键ctrl+c 复制 打开DiskGenius分区软件删除U盘的EFI目录 在DiskGenius分区软件下用快捷键ctrl+v 把新的EFI复制进去 复制EFI到硬盘的EFI分区 操作完成后目录结构应与下图一致，此处注意Microsoft为windows引导.如何想安装Win10和MacOS双系统，里面文件不要动，否则windows无法引导。 制作PE 在DiskGenius分区软件下操作，右键点击U盘空闲区域建立新分区 分区格式为FAT32，大小为500M，确定并保存设置 注意要安装PE不影响之前做好的macOS安装盘需要把U盘其他分区的盘符隐藏，仅保留刚才创建的500M分区盘符 打开微PE工具箱安装程序选择安装方式为安装到U盘 如下图安装方式选择方式三UEFI全能单分区，取消勾选格式化，然后点击安装进U盘 添加UEFI引导选项 使用工具:BOOTICE 操作过程: 打开BOOTICE软件,选择物理磁盘,选择欲操作的目标磁盘,点击分区管理,弹出分区管理的窗口,点击分配盘符,为ESP分区分配一个盘符,点击确定 选择UEFI,点击修改启动序列,点击添加按钮,菜单标题填写:CLOVER,选择启动文件,在打开的窗口里选择ESP分区下的目录\EFI\CLOVER\CLOVERX64.EFI,选中CLOVER上移到最上面，点击保存当前启动项设置 ​ 小米BIOS设置​ 小米笔记本的BIOS默认开启了安全认证,UEFI引导需要关闭安全启动Secure Boot Mode方式,否则无法加载UEFI引导设备,比如刚制作好的macOS安装USB盘 操作方法: 开机按F2进入BIOS设置,光标移动到Security,点击Set Supervisor Password设置一个BIOS密码,输入两次相同的密码,点击YES保存。***这个BIOS密码非常重要，一定要设置成常用的密码并且备份，我现在就是忘了BIOS密码进不去BIOS，走售后只能换主板，价格3000+。 欲哭无泪中。。千万记得备份密码***。 关闭安全启动，点击Secure Boot Mode,设置为Disabled关闭安全启动 按F10保存设置并退出BIOS PE下扩容ESP(EFI)分区 MacOS系统要求EFI为200M以上，否则安装时无法抹盘 操作方法1：插上U盘开机按F12键进入Boot Manager引导管理,选择 EFI USB Device1,回车 进入PE 使用分区助手（无损）删除MSR分区 选中ESP(EFI)分区 右键选择调整移动分区 如图拉到最右边，扩容efi分区，确定并提交更改。 安装macOS 开机按F12键进入Boot Manager引导管理,选择 EFI USB Device,回车进入macOS安装程序 移动光标到Boot OS X Install from XiaoMiPro 10131回车 安装第一阶段开始引导macOS系统 ​ 这个过程需要1-2分钟,耐心等待进入安装程序,出现语言选择界面. 语言选择 选择简体中文 出现macOS实用工具界面,选择磁盘工具 磁盘工具 选择显示所有设备: 选择SSD Media,点击抹掉按钮,选择默认的Mac OS扩展(日志型),将名称修改为Macintosh HD,点击抹掉按钮.(PS:会抹掉磁盘上所有内容，之前记得备份) 抹盘成功后,它会自动生成一个200MB的EFI分区,这样做的好处是不会出现安装过程中的由于EFI分区尺寸小于200MB而引起的无法安装的错误.当然前提是你的磁盘中没有重要的数据,或者您的数据已经提前备份过了. 到这里,磁盘工具的动作就已经结束了.按左上角x ,退出磁盘工具进入安装界面,进行系统的安装了. 安装macOS 进入安装界面 选择继续，同意 选择刚刚抹掉的分区，安装 会自动重启数次。 安装第二阶段 第二阶段的安装会有两种界面,一种是不进安装界面直接安装,另一种是先进入安装界面直接安装,需要注意的是,无论是哪一种界面下,安装的过程中全程是禁用鼠标和键盘的,需要你做的只是耐心等待它安装完成 安装速度取决于你的磁盘速度,第二阶段的安装已经与USB安装盘没什么关系了.macOS 10.13的安装完全区别于10.12,它不能免二次安装,甚至还需要重启多次,这些都是正常现象,请不要大惊小怪的. 系统安装完成后,重启进入系统设置向导 设置向导国家选择 首先让你选择国家,这里我选择中国 点击继续,设置键盘。 设置键盘 这里询问你是否传输信息到这台Mac 数据恢复 可以从Mac或者Time Machine备份恢复 我选择现在不传输任何信息,点击继续 Apple ID登录 选择是否使用您的Apple ID登录,如何想现在就登录到Apple ID,请输入Apple ID和密码登录,否则选择不登录,进入系统后也可以设置登录到iCloud,点击继续 阅读条款与条件,选择同意继续 出现创建电脑用户的窗口,输入用户名和密码,点击继续 创建电脑用户 用户创建成功后,弹出iCloud的正在设置用户的窗口 紧接着弹出设置iClound钥匙串的设置窗口,选择稍候设置,点击继续 出现正在设置您的Mac,请稍候完成设置向导 设置向导完成 出现桌面后,整个的安装向导就完成了. 安装后的系统设置 系统安装后,你可以先喝杯咖啡兴奋会儿,马上还有更艰巨的任务在等着你呢 MacOS:教你将U盘上的EFI复制到磁盘的EFI分区,脱离USB运行 diskutil命令的基本用法： 查看磁盘分区表 diskutil list ​ /dev/disk0(internal, physical): #: TYPE NAME SIZE IDENTIFIER 0: GUID_partition_scheme 256 GB disk0 1: EFI EFI 200 MB disk0s1 2: Apple_HFS MAC 128 GB disk0s2 3: Microsoft Basic Data WIN10 127.7 GB disk0s3 ​ /dev/disk1(internal, physical): #: TYPE NAME SIZE IDENTIFIER 0: GUID_partition_scheme 16 GB disk1 1: EFI EFI 200 MB disk1s1 2: Apple_HFS Install macOS Sierra 15.8 GB disk1s2 挂载磁盘EFI分区 sudo diskutil mount disk0s1 挂载U盘EFI分区 sudo diskutil mount disk1s1 打开Finder，注意后面有个. open . 左侧会显示挂载了两个EFI分区，将U盘EFI目录全部复制到磁盘的EFI分区即可。 完善驱动USB网卡推荐： COMFAST CF-WU810N 驱动下载：COMFAST CF-WU810N 网卡驱动.zip 重建缓存 重建缓存 Kext Utility.zip 使用Kext Utility 重建缓存然后重启就可以正常使用了。 参考链接 macOS安装教程兼小米Pro安装过程记录 【老司机引路】小米笔记本pro Win10+黑苹果macOS 10.13.6双系统 Hackintosh Your Xiaomi NoteBook Pro XiaoMi NoteBook Pro for macOS Mojave &amp; High Sierra]]></content>
       <categories>
-          
-          <category> 黑苹果 </category>
-          
-          <category> MacOS Mojave 10.14.4安装教程 </category>
-          
+        <category>黑苹果</category>
+        <category>MacOS Mojave 10.14.4安装教程</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Hackintosh </tag>
-            
-            <tag> MacOS </tag>
-            
-            <tag> Tools </tag>
-            
-            <tag> 小米Pro </tag>
-            
-            <tag> macOS Mojave 10.14.4 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Github Pages + Hexo搭建个人技术博客</title>
-      <link href="/2019/04/01/blogspace/"/>
-      <url>/2019/04/01/blogspace/</url>
-      
-        <content type="html"><![CDATA[<h2 id="用Github-Pages-Hexo搭建个人技术博客"><a href="#用Github-Pages-Hexo搭建个人技术博客" class="headerlink" title="用Github Pages + Hexo搭建个人技术博客"></a><strong>用Github Pages + Hexo搭建个人技术博客</strong></h2><h3 id="序"><a href="#序" class="headerlink" title="序"></a>序</h3><p>Hexo安装过后，默认的主题是<a href="https://github.com/hexojs/hexo-theme-landscape" target="_blank" rel="noopener">landscape</a>，如果不喜欢，我们也可以进行更换。本文主要讲解NexT主题的使用。先看下我博客网站的效果吧：<a href="https://wjingc.github.io">wjingc.github.io</a>,我使用的主题是 Mist.</p><h3 id="主要网站"><a href="#主要网站" class="headerlink" title="主要网站"></a>主要网站</h3><ul><li><a href="https://github.com" target="_blank" rel="noopener">Github</a></li><li><a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">Hexo</a></li><li><a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">Next</a></li></ul><a id="more"></a><h3 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h3><h4 id="Github配置"><a href="#Github配置" class="headerlink" title="Github配置"></a>Github配置</h4><h5 id="注册Github账号"><a href="#注册Github账号" class="headerlink" title="注册Github账号"></a>注册Github账号</h5><p>打开<a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a>站点，注册一个账号</p><h5 id="创建Github仓库"><a href="#创建Github仓库" class="headerlink" title="创建Github仓库"></a>创建Github仓库</h5><p>接下来到这个页面去创建一个新仓库<br><a href="https://github.com/new" target="_blank" rel="noopener">https://github.com/new</a></p><p>这个新仓库就将是存放你即将拥有的博客的地方</p><p>注意，你的仓库名不能随便取，这样会导致github混乱，取名的格式应该为“<strong>用户名.github.io</strong>”</p><p>后面的操作照配图做就可以了</p><h5 id="生成Github-Pages"><a href="#生成Github-Pages" class="headerlink" title="生成Github Pages"></a>生成Github Pages</h5><p>建完仓库后，在当前页面右边选择Settings，进入设置页面，在这里生成你的github pages</p><h4 id="系统环境配置"><a href="#系统环境配置" class="headerlink" title="系统环境配置"></a>系统环境配置</h4><h5 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h5><p>参考地址：<a href="http://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="noopener">Node.js安装配置</a></p><h5 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h5><pre class=" language-shell"><code class="language-shell">$ apt-get install git</code></pre><h5 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h5><pre class=" language-shell"><code class="language-shell">$ cd d:/hexo$ npm install hexo-cli -g$ hexo init blog$ cd blog$ npm install$ hexo g # 或者hexo generate$ hexo s # 或者hexo server，可以在http://localhost:4000/ 查看</code></pre><p>这里有必要提下Hexo常用的几个命令：</p><ol><li>hexo generate (hexo g) 生成静态文件，会在当前目录下生成一个新的叫做public的文件夹</li><li>hexo server (hexo s) 启动本地web服务，用于博客的预览</li><li>hexo deploy (hexo d) 部署播客到远端（比如github, heroku等平台）</li></ol><p>另外还有其他几个常用命令：</p><p>另外还有其他几个常用命令：</p><pre class=" language-shell"><code class="language-shell">$ hexo new "postName" #新建文章$ hexo new page "pageName" #新建页面</code></pre><p>常用简写</p><pre class=" language-shell"><code class="language-shell">$ hexo n == hexo new$ hexo g == hexo generate$ hexo s == hexo server$ hexo d == hexo deploy</code></pre><p>常用组合</p><pre class=" language-shell"><code class="language-shell">$ hexo d -g #生成部署$ hexo s -g #生成预览</code></pre><p>现在我们打开<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> 已经可以看到一篇内置的blog了。</p><h4 id="Hexo主题设置"><a href="#Hexo主题设置" class="headerlink" title="Hexo主题设置"></a>Hexo主题设置</h4><p>我选的是<strong>NexT</strong>主题，主题喜好根据自己选择。</p><p>Hexo 安装主题的方式非常简单，只需要将主题文件拷贝至站点目录的 <code>themes</code> 目录下， 然后修改下配置文件即可。具体到 NexT 来说，安装步骤如下。</p><h5 id="下载主题"><a href="#下载主题" class="headerlink" title="下载主题"></a>下载主题</h5><p>如果你熟悉 <a href="http://git-scm.com/" target="_blank" rel="noopener">Git</a>，建议你使用克隆最新版本的方式，之后的更新可以通过 <code>git pull</code> 来快速更新， 而不用再次下载压缩包替换。</p><p>在终端窗口下，定位到 Hexo 站点目录下。使用 <code>Git</code> checkout 代码：</p><pre class=" language-shell"><code class="language-shell">$ cd blog$ git clone https://github.com/iissnan/hexo-theme-next themes/next</code></pre><h5 id="启用主题"><a href="#启用主题" class="headerlink" title="启用主题"></a>启用主题</h5><p>与所有 Hexo 主题启用的模式一样。当克隆/下载完成后，打开 <strong>站点配置文件</strong>， 找到 <code>theme</code> 字段，并将其值更改为 <code>next</code>。</p><p>启用 NexT 主题</p><pre class=" language-shell"><code class="language-shell">theme: next</code></pre><p>到此，NexT 主题安装完成。下一步我们将验证主题是否正确启用。在切换主题之后、验证之前， 我们最好使用 <code>hexo clean</code> 来清除 Hexo 的缓存。</p><h5 id="验证主题"><a href="#验证主题" class="headerlink" title="验证主题"></a>验证主题</h5><p>首先启动 Hexo 本地站点，并开启调试模式（即加上 <code>--debug</code>），整个命令是 <code>hexo s --debug</code>。 在服务启动的过程，注意观察命令行输出是否有任何异常信息，如果你碰到问题，这些信息将帮助他人更好的定位错误。 当命令行输出中提示出：</p><pre class=" language-shell"><code class="language-shell">INFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.</code></pre><p>此时即可使用浏览器访问 <code>http://localhost:4000</code>，检查站点是否正确运行。</p><p>当你看到站点的外观与下图所示类似时即说明你已成功安装 NexT 主题。这是 NexT 默认的 Scheme —— Muse</p><h4 id="NexT主题配置美化"><a href="#NexT主题配置美化" class="headerlink" title="NexT主题配置美化"></a>NexT主题配置美化</h4><h5 id="选择-Scheme"><a href="#选择-Scheme" class="headerlink" title="选择 Scheme"></a>选择 Scheme</h5><p>Scheme 是 NexT 提供的一种特性，借助于 Scheme，NexT 为你提供多种不同的外观。同时，几乎所有的配置都可以 在 Scheme 之间共用。目前 NexT 支持三种 Scheme，他们是：</p><ul><li>Muse - 默认 Scheme，这是 NexT 最初的版本，黑白主调，大量留白</li><li>Mist - Muse 的紧凑版本，整洁有序的单栏外观</li><li>Pisces - 双栏 Scheme，小家碧玉似的清新</li></ul><p>Scheme 的切换通过更改 主题配置文件，搜索 scheme 关键字。 你会看到有三行 scheme 的配置，将你需用启用的 scheme 前面注释 <code>#</code> 去除即可。</p><p>选择 Mist Scheme</p><pre class=" language-js"><code class="language-js">#scheme<span class="token punctuation">:</span> Musescheme<span class="token punctuation">:</span> Mist#scheme<span class="token punctuation">:</span> Pisces</code></pre><h5 id="设置语言"><a href="#设置语言" class="headerlink" title="设置语言"></a>设置语言</h5><p>编辑 <strong>站点配置文件</strong>， 将 <code>language</code> 设置成你所需要的语言。建议明确设置你所需要的语言，例如选用简体中文，配置如下：</p><pre><code>language: zh-Hans</code></pre><p>目前 NexT 支持的语言如以下表格所示：</p><table><thead><tr><th>语言</th><th>代码</th><th>设定示例</th></tr></thead><tbody><tr><td>English</td><td><code>en</code></td><td><code>language: en</code></td></tr><tr><td>简体中文</td><td><code>zh-Hans</code></td><td><code>language: zh-Hans</code></td></tr><tr><td>Français</td><td><code>fr-FR</code></td><td><code>language: fr-FR</code></td></tr><tr><td>Português</td><td><code>pt</code></td><td><code>language: pt</code> or <code>language: pt-BR</code></td></tr><tr><td>繁體中文</td><td><code>zh-hk</code> 或者 <code>zh-tw</code></td><td><code>language: zh-hk</code></td></tr><tr><td>Русский язык</td><td><code>ru</code></td><td><code>language: ru</code></td></tr><tr><td>Deutsch</td><td><code>de</code></td><td><code>language: de</code></td></tr><tr><td>日本語</td><td><code>ja</code></td><td><code>language: ja</code></td></tr><tr><td>Indonesian</td><td><code>id</code></td><td><code>language: id</code></td></tr><tr><td>Korean</td><td><code>ko</code></td><td><code>language: ko</code></td></tr></tbody></table><h5 id="设置菜单"><a href="#设置菜单" class="headerlink" title="设置菜单"></a>设置菜单</h5><p>菜单配置包括三个部分，第一是菜单项（名称和链接），第二是菜单项的显示文本，第三是菜单项对应的图标。 NexT 使用的是 <a href="http://fontawesome.io/" target="_blank" rel="noopener">Font Awesome</a> 提供的图标， Font Awesome 提供了 600+ 的图标，可以满足绝大的多数的场景，同时无须担心在 Retina 屏幕下 图标模糊的问题。</p><p>编辑 <strong><code>主题配置文件</code></strong>，修改以下内容：</p><ol><li><p>设定菜单内容，对应的字段是 <code>menu</code>。 菜单内容的设置格式是：<code>item name: link</code>。其中 <code>item name</code>是一个名称，这个名称并不直接显示在页面上，她将用于匹配图标以及翻译。</p><p>菜单示例配置</p><pre class=" language-js"><code class="language-js">menu<span class="token punctuation">:</span>  home<span class="token punctuation">:</span> <span class="token operator">/</span>  archives<span class="token punctuation">:</span> <span class="token operator">/</span>archives  #about<span class="token punctuation">:</span> <span class="token operator">/</span>about  #categories<span class="token punctuation">:</span> <span class="token operator">/</span>categories  tags<span class="token punctuation">:</span> <span class="token operator">/</span>tags  #commonweal<span class="token punctuation">:</span> <span class="token operator">/</span><span class="token number">404</span><span class="token punctuation">.</span>html</code></pre><p>若你的站点运行在子目录中，请将链接前缀的 <code>/</code> 去掉</p><p>NexT 默认的菜单项有（标注  的项表示需要手动创建这个页面）：</p><p>| 键值       | 设定值                    | 显示文本（简体中文） |<br>| ———- | ————————- | ——————– |<br>| home       | <code>home: /</code>                 | 主页                 |<br>| archives   | <code>archives: /archives</code>     | 归档页               |<br>| categories | <code>categories: /categories</code> | 分类页               |<br>| tags       | <code>tags: /tags</code>             | 标签页               |<br>| about      | <code>about: /about</code>           | 关于页面             |<br>| commonweal | <code>commonweal: /404.html</code>   | 公益 404             |</p></li><li><p>设置菜单项的显示文本。在第一步中设置的菜单的名称并不直接用于界面上的展示。Hexo 在生成的时候将使用 这个名称查找对应的语言翻译，并提取显示文本。这些翻译文本放置在 NexT 主题目录下的 <code>languages/{language}.yml</code>（<code>{language}</code> 为你所使用的语言）。</p><p>以简体中文为例，若你需要添加一个菜单项，比如 <code>something</code>。那么就需要修改简体中文对应的翻译文件<code>languages/zh-Hans.yml</code>，在 <code>menu</code> 字段下添加一项：</p><pre class=" language-js"><code class="language-js">menu<span class="token punctuation">:</span>  home<span class="token punctuation">:</span> 首页  archives<span class="token punctuation">:</span> 归档  categories<span class="token punctuation">:</span> 分类  tags<span class="token punctuation">:</span> 标签  about<span class="token punctuation">:</span> 关于  search<span class="token punctuation">:</span> 搜索  commonweal<span class="token punctuation">:</span> 公益<span class="token number">404</span>  something<span class="token punctuation">:</span> 有料</code></pre></li><li><p>设定菜单项的图标，对应的字段是 <code>menu_icons</code>。 此设定格式是 <code>item name: icon name</code>，其中 <code>item name</code> 与上一步所配置的菜单名字对应，<code>icon name</code> 是 Font Awesome 图标的 名字。而 <code>enable</code> 可用于控制是否显示图标，你可以设置成 <code>false</code> 来去掉图标。</p><p>菜单图标配置示例</p><pre class=" language-js"><code class="language-js">menu_icons<span class="token punctuation">:</span>  enable<span class="token punctuation">:</span> <span class="token boolean">true</span>  # Icon Mapping<span class="token punctuation">.</span>  home<span class="token punctuation">:</span> home  about<span class="token punctuation">:</span> user  categories<span class="token punctuation">:</span> th  tags<span class="token punctuation">:</span> tags  archives<span class="token punctuation">:</span> archive  commonweal<span class="token punctuation">:</span> heartbeat</code></pre><p>在菜单图标开启的情况下，如果菜单项与菜单未匹配（没有设置或者无效的 Font Awesome 图标名字） 的情况下，NexT 将会使用  作为图标。</p><p>请注意键值（如 <code>home</code>）的大小写要严格匹配</p></li></ol><h5 id="设置侧栏"><a href="#设置侧栏" class="headerlink" title="设置侧栏"></a><strong>设置侧栏</strong></h5><p>默认情况下，侧栏仅在文章页面（拥有目录列表）时才显示，并放置于右侧位置。 可以通过修改 主题配置文件 中的 <code>sidebar</code> 字段来控制侧栏的行为。侧栏的设置包括两个部分，其一是侧栏的位置， 其二是侧栏显示的时机。</p><ol><li><p>设置侧栏的位置，修改 <code>sidebar.position</code> 的值，支持的选项有：</p><ul><li>left - 靠左放置</li><li>right - 靠右放置</li></ul><p>目前仅 Pisces Scheme 支持 <code>position</code> 配置。影响版本5.0.0及更低版本。</p><pre class=" language-xml"><code class="language-xml">sidebar:  position: left</code></pre></li><li><p>设置侧栏显示的时机，修改 <code>sidebar.display</code> 的值，支持的选项有：</p><ul><li><code>post</code> - 默认行为，在文章页面（拥有目录列表）时显示</li><li><code>always</code> - 在所有页面中都显示</li><li><code>hide</code> - 在所有页面中都隐藏（可以手动展开）</li><li><code>remove</code> - 完全移除</li></ul><pre class=" language-js"><code class="language-js">sidebar<span class="token punctuation">:</span>  display<span class="token punctuation">:</span> post</code></pre><p>已知侧栏在 <code>use motion: false</code> 的情况下不会展示。 影响版本5.0.0及更低版本。</p></li></ol><h5 id="设置头像"><a href="#设置头像" class="headerlink" title="设置头像"></a>设置头像</h5><p>编辑 主题配置文件， 修改字段 <code>avatar</code>， 值设置成头像的链接地址。其中，头像的链接地址可以是：</p><table><thead><tr><th>地址</th><th>值</th></tr></thead><tbody><tr><td>完整的互联网 URI</td><td><code>http://example.com/avatar.png</code></td></tr><tr><td>站点内的地址</td><td>将头像放置主题目录下的 <code>source/uploads/</code> （新建 uploads 目录若不存在）  配置为：<code>avatar: /uploads/avatar.png</code>或者 放置在 <code>source/images/</code> 目录下  配置为：<code>avatar: /images/avatar.png</code></td></tr></tbody></table><p>头像设置示例</p><pre class=" language-js"><code class="language-js">avatar<span class="token punctuation">:</span> http<span class="token punctuation">:</span><span class="token operator">/</span><span class="token operator">/</span>example<span class="token punctuation">.</span>com<span class="token operator">/</span>avatar<span class="token punctuation">.</span>png</code></pre><h5 id="设置作者昵称"><a href="#设置作者昵称" class="headerlink" title="设置作者昵称"></a>设置作者昵称</h5><p>编辑 站点配置文件， 设置 <code>author</code> 为你的昵称。</p><h5 id="站点描述"><a href="#站点描述" class="headerlink" title="站点描述"></a>站点描述</h5><p>编辑 站点配置文件， 设置 <code>description</code> 字段为你的站点描述。站点描述可以是你喜欢的一句签名:) </p><p>下一步：<a href="https://wjingc.github.io/2019/03/29/NexT/"><strong>配置Hexo-NexT，使你的博客酷炫</strong></a></p><h5 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a><strong>参考链接</strong></h5><ul><li><a href="https://segmentfault.com/a/1190000004947261" target="_blank" rel="noopener">手把手教你使用Hexo + Github Pages搭建个人独立博客</a></li><li><a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">开始使用NexT</a></li><li><a href="https://www.jianshu.com/p/9f0e90cc32c2" target="_blank" rel="noopener">Hexo-NexT配置超炫网页效果</a></li></ul>]]></content>
-      
-      
+      <tags>
+        <tag>MacOS</tag>
+        <tag>Hackintosh</tag>
+        <tag>Tools</tag>
+        <tag>小米Pro</tag>
+        <tag>macOS Mojave 10.14.4</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Github Pages + Hexo搭建个人技术博客]]></title>
+    <url>%2F2019%2F04%2F01%2Fblogspace%2F</url>
+    <content type="text"><![CDATA[用Github Pages + Hexo搭建个人技术博客序Hexo安装过后，默认的主题是landscape，如果不喜欢，我们也可以进行更换。本文主要讲解NexT主题的使用。先看下我博客网站的效果吧：wjingc.github.io,我使用的主题是 Mist. 主要网站 Github Hexo Next 目录Github配置注册Github账号打开https://github.com/站点，注册一个账号 创建Github仓库接下来到这个页面去创建一个新仓库https://github.com/new 这个新仓库就将是存放你即将拥有的博客的地方 注意，你的仓库名不能随便取，这样会导致github混乱，取名的格式应该为“用户名.github.io” 后面的操作照配图做就可以了 生成Github Pages建完仓库后，在当前页面右边选择Settings，进入设置页面，在这里生成你的github pages 系统环境配置安装Node.js参考地址：Node.js安装配置 安装Git$ apt-get install git 安装Hexo$ cd d:/hexo $ npm install hexo-cli -g $ hexo init blog $ cd blog $ npm install $ hexo g # 或者hexo generate $ hexo s # 或者hexo server，可以在http://localhost:4000/ 查看 这里有必要提下Hexo常用的几个命令： hexo generate (hexo g) 生成静态文件，会在当前目录下生成一个新的叫做public的文件夹 hexo server (hexo s) 启动本地web服务，用于博客的预览 hexo deploy (hexo d) 部署播客到远端（比如github, heroku等平台） 另外还有其他几个常用命令： 另外还有其他几个常用命令： $ hexo new "postName" #新建文章 $ hexo new page "pageName" #新建页面 常用简写 $ hexo n == hexo new $ hexo g == hexo generate $ hexo s == hexo server $ hexo d == hexo deploy 常用组合 $ hexo d -g #生成部署 $ hexo s -g #生成预览 现在我们打开http://localhost:4000/ 已经可以看到一篇内置的blog了。 Hexo主题设置我选的是NexT主题，主题喜好根据自己选择。 Hexo 安装主题的方式非常简单，只需要将主题文件拷贝至站点目录的 themes 目录下， 然后修改下配置文件即可。具体到 NexT 来说，安装步骤如下。 下载主题如果你熟悉 Git，建议你使用克隆最新版本的方式，之后的更新可以通过 git pull 来快速更新， 而不用再次下载压缩包替换。 在终端窗口下，定位到 Hexo 站点目录下。使用 Git checkout 代码： $ cd blog $ git clone https://github.com/iissnan/hexo-theme-next themes/next 启用主题与所有 Hexo 主题启用的模式一样。当克隆/下载完成后，打开 站点配置文件， 找到 theme 字段，并将其值更改为 next。 启用 NexT 主题 theme: next 到此，NexT 主题安装完成。下一步我们将验证主题是否正确启用。在切换主题之后、验证之前， 我们最好使用 hexo clean 来清除 Hexo 的缓存。 验证主题首先启动 Hexo 本地站点，并开启调试模式（即加上 --debug），整个命令是 hexo s --debug。 在服务启动的过程，注意观察命令行输出是否有任何异常信息，如果你碰到问题，这些信息将帮助他人更好的定位错误。 当命令行输出中提示出： INFO Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop. 此时即可使用浏览器访问 http://localhost:4000，检查站点是否正确运行。 当你看到站点的外观与下图所示类似时即说明你已成功安装 NexT 主题。这是 NexT 默认的 Scheme —— Muse NexT主题配置美化选择 SchemeScheme 是 NexT 提供的一种特性，借助于 Scheme，NexT 为你提供多种不同的外观。同时，几乎所有的配置都可以 在 Scheme 之间共用。目前 NexT 支持三种 Scheme，他们是： Muse - 默认 Scheme，这是 NexT 最初的版本，黑白主调，大量留白 Mist - Muse 的紧凑版本，整洁有序的单栏外观 Pisces - 双栏 Scheme，小家碧玉似的清新 Scheme 的切换通过更改 主题配置文件，搜索 scheme 关键字。 你会看到有三行 scheme 的配置，将你需用启用的 scheme 前面注释 # 去除即可。 选择 Mist Scheme #scheme: Muse scheme: Mist #scheme: Pisces 设置语言编辑 站点配置文件， 将 language 设置成你所需要的语言。建议明确设置你所需要的语言，例如选用简体中文，配置如下： language: zh-Hans 目前 NexT 支持的语言如以下表格所示： 语言 代码 设定示例 English en language: en 简体中文 zh-Hans language: zh-Hans Français fr-FR language: fr-FR Português pt language: pt or language: pt-BR 繁體中文 zh-hk 或者 zh-tw language: zh-hk Русский язык ru language: ru Deutsch de language: de 日本語 ja language: ja Indonesian id language: id Korean ko language: ko 设置菜单菜单配置包括三个部分，第一是菜单项（名称和链接），第二是菜单项的显示文本，第三是菜单项对应的图标。 NexT 使用的是 Font Awesome 提供的图标， Font Awesome 提供了 600+ 的图标，可以满足绝大的多数的场景，同时无须担心在 Retina 屏幕下 图标模糊的问题。 编辑 主题配置文件，修改以下内容： 设定菜单内容，对应的字段是 menu。 菜单内容的设置格式是：item name: link。其中 item name是一个名称，这个名称并不直接显示在页面上，她将用于匹配图标以及翻译。 菜单示例配置 menu: home: / archives: /archives #about: /about #categories: /categories tags: /tags #commonweal: /404.html 若你的站点运行在子目录中，请将链接前缀的 / 去掉 NexT 默认的菜单项有（标注 的项表示需要手动创建这个页面）： | 键值 | 设定值 | 显示文本（简体中文） || ———- | ————————- | ——————– || home | home: / | 主页 || archives | archives: /archives | 归档页 || categories | categories: /categories | 分类页 || tags | tags: /tags | 标签页 || about | about: /about | 关于页面 || commonweal | commonweal: /404.html | 公益 404 | 设置菜单项的显示文本。在第一步中设置的菜单的名称并不直接用于界面上的展示。Hexo 在生成的时候将使用 这个名称查找对应的语言翻译，并提取显示文本。这些翻译文本放置在 NexT 主题目录下的 languages/{language}.yml（{language} 为你所使用的语言）。 以简体中文为例，若你需要添加一个菜单项，比如 something。那么就需要修改简体中文对应的翻译文件languages/zh-Hans.yml，在 menu 字段下添加一项： menu: home: 首页 archives: 归档 categories: 分类 tags: 标签 about: 关于 search: 搜索 commonweal: 公益404 something: 有料 设定菜单项的图标，对应的字段是 menu_icons。 此设定格式是 item name: icon name，其中 item name 与上一步所配置的菜单名字对应，icon name 是 Font Awesome 图标的 名字。而 enable 可用于控制是否显示图标，你可以设置成 false 来去掉图标。 菜单图标配置示例 menu_icons: enable: true # Icon Mapping. home: home about: user categories: th tags: tags archives: archive commonweal: heartbeat 在菜单图标开启的情况下，如果菜单项与菜单未匹配（没有设置或者无效的 Font Awesome 图标名字） 的情况下，NexT 将会使用 作为图标。 请注意键值（如 home）的大小写要严格匹配 设置侧栏默认情况下，侧栏仅在文章页面（拥有目录列表）时才显示，并放置于右侧位置。 可以通过修改 主题配置文件 中的 sidebar 字段来控制侧栏的行为。侧栏的设置包括两个部分，其一是侧栏的位置， 其二是侧栏显示的时机。 设置侧栏的位置，修改 sidebar.position 的值，支持的选项有： left - 靠左放置 right - 靠右放置 目前仅 Pisces Scheme 支持 position 配置。影响版本5.0.0及更低版本。 sidebar: position: left 设置侧栏显示的时机，修改 sidebar.display 的值，支持的选项有： post - 默认行为，在文章页面（拥有目录列表）时显示 always - 在所有页面中都显示 hide - 在所有页面中都隐藏（可以手动展开） remove - 完全移除 sidebar: display: post 已知侧栏在 use motion: false 的情况下不会展示。 影响版本5.0.0及更低版本。 设置头像编辑 主题配置文件， 修改字段 avatar， 值设置成头像的链接地址。其中，头像的链接地址可以是： 地址 值 完整的互联网 URI http://example.com/avatar.png 站点内的地址 将头像放置主题目录下的 source/uploads/ （新建 uploads 目录若不存在） 配置为：avatar: /uploads/avatar.png或者 放置在 source/images/ 目录下 配置为：avatar: /images/avatar.png 头像设置示例 avatar: http://example.com/avatar.png 设置作者昵称编辑 站点配置文件， 设置 author 为你的昵称。 站点描述编辑 站点配置文件， 设置 description 字段为你的站点描述。站点描述可以是你喜欢的一句签名:) 下一步：配置Hexo-NexT，使你的博客酷炫 参考链接 手把手教你使用Hexo + Github Pages搭建个人独立博客 开始使用NexT Hexo-NexT配置超炫网页效果]]></content>
       <categories>
-          
-          <category> 博客搭建 </category>
-          
+        <category>博客搭建</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Hexo </tag>
-            
-            <tag> Github </tag>
-            
-            <tag> Blog </tag>
-            
-            <tag> NexT </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>配置Hexo-NexT，使你的博客酷炫</title>
-      <link href="/2019/03/29/NexT/"/>
-      <url>/2019/03/29/NexT/</url>
-      
-        <content type="html"><![CDATA[<h3 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h3><h4 id="NexT安装"><a href="#NexT安装" class="headerlink" title="NexT安装"></a>NexT安装</h4><ul><li>切换到<strong>Blog</strong>文件夹下（就是<code>hexo init</code>的文件夹），查看文件</li></ul><pre><code>cd [Blog]ls_config.yml node_modules    scaffolds   themesdb.json     package.json    source</code></pre><ul><li>通过git安装，前提是你的电脑安装了git.</li></ul><pre><code>git clone https://github.com/iissnan/hexo-theme-next themes/next</code></pre><a id="more"></a><ul><li>查看标签列表</li></ul><pre><code>git tag -l输出：...v5.1.3v5.1.4</code></pre><ul><li>切换到<strong>v5.1.4</strong> </li></ul><pre><code>git checkout tags/v5.1.4输出：HEAD is now at 4f75fe5... 2018 NY update.</code></pre><ul><li>通过<strong>curl</strong>安装NexT</li></ul><pre><code>mkdir themes/nextcurl -s https://api.github.com/repos/iissnan/hexo-theme-next/releases/latest | grep tarball_url | cut -d &#39;&quot;&#39; -f 4 | wget -i - -O- | tar -zx -C themes/next --strip-components=1</code></pre><ul><li>更新主题NexT</li></ul><pre><code>cd themes/nextgit pull</code></pre><ul><li>切换成NexT主题，在hexo根文件夹下，编辑<strong>_config.yml</strong>文件</li></ul><pre><code>theme: next//切换后，用命令清除下缓存hexo clean//执行hexo s本地产看NexT主题效果hexo s</code></pre><h4 id="切换主题"><a href="#切换主题" class="headerlink" title="切换主题"></a>切换主题</h4><ul><li>在列表中选择一款自己喜欢的主题风格。</li></ul><pre><code># Schemes#scheme: Muse  //默认主题scheme: Mist#scheme: Pisces#scheme: Gemini</code></pre><h4 id="设置Menu"><a href="#设置Menu" class="headerlink" title="设置Menu"></a>设置Menu</h4><ul><li><p>默认只有两个首页和归档，如下图所示：  </p><p><img src="https://upload-images.jianshu.io/upload_images/3072214-cbbe8efe8b4b7bbc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/438/format/webp" alt="img"></p></li><li><p>如果还要添加，编辑<code>themes/next/_config.yml</code>：</p></li></ul><pre><code>menu:  home: / || home  //首页  about: /about/ || user  //关于  tags: /tags/ || tags  //标签  categories: /categories/ || th   //分类  archives: /archives/ || archive //归档  schedule: /schedule/ || calendar   //日程表  sitemap: /sitemap.xml || sitemap   //站点地图</code></pre><ul><li><p>将需要的Menu前面<code>#</code>号去掉。如下图所示: </p><p><img src="https://upload-images.jianshu.io/upload_images/3072214-47bacb2e4f2852f4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p></li></ul><h4 id="初始化对应的Menu文件夹"><a href="#初始化对应的Menu文件夹" class="headerlink" title="初始化对应的Menu文件夹"></a>初始化对应的Menu文件夹</h4><p>没有创建Menu对应的文件夹，<code>Blog/source</code>文件目录如下：</p><p><img src="https://upload-images.jianshu.io/upload_images/3072214-a71568665089efaf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p><ul><li><p>在博客网站点击标签菜单可能会提示：</p><p><img src="https://upload-images.jianshu.io/upload_images/3072214-a1cce579d49cb369.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/484/format/webp" alt="img"></p></li><li><p>比如要创建标签文件夹，终端中输入（前提在<strong>Hexo</strong>文件路径下）：</p></li></ul><pre><code>  hexo new page &quot;tags&quot;输出：INFO  Created: ~/Desktop/MyBlog/Blog/source/tags/index.md</code></pre><ul><li><p>成功过后目录如下：</p></li><li><p>编辑<code>Blog/source/tags</code>中<strong>index.md</strong>文件，添加<code>type: &quot;tags&quot;</code>，其他Menu也同理创建。</p></li></ul><pre><code>title: tagsdate: 2018-01-20 18:57:48type: &quot;tags&quot;</code></pre><h4 id="设置动态背景"><a href="#设置动态背景" class="headerlink" title="设置动态背景"></a>设置动态背景</h4><ul><li><p><strong>主题配置文件</strong>内置4种特效，选择你喜欢的，设置成<strong>ture</strong>就OK啦。</p><pre><code># Canvas-nestcanvas_nest: false# three_wavesthree_waves: true# canvas_linescanvas_lines: false# canvas_spherecanvas_sphere: false</code></pre></li></ul><h4 id="在右上角或者左上角实现fork-me-on-github"><a href="#在右上角或者左上角实现fork-me-on-github" class="headerlink" title="在右上角或者左上角实现fork me on github"></a>在右上角或者左上角实现fork me on github</h4><ul><li>效果图如下所示：</li></ul><p><img src="https://upload-images.jianshu.io/upload_images/3072214-7a59adb6558e5756.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p><ul><li>在<a href="https://github.com/blog/273-github-ribbons" target="_blank" rel="noopener">GitHub Ribbons</a>或<a href="http://tholman.com/github-corners/" target="_blank" rel="noopener">GitHub Corners</a>选择一款你喜欢的挂饰，拷贝方框内的代码：</li></ul><p><img src="https://upload-images.jianshu.io/upload_images/3072214-8b79d3a1ec518d12.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p><ul><li>将刚刚复制的挂饰代码，添加到<code>Blog/themes/next/layout/_layout.swig</code>文件中，添加位置如下图所示(放在<code>&lt;div class=&quot;headband&quot;&gt;&lt;/div&gt;</code>下方)：</li></ul><p><img src="https://upload-images.jianshu.io/upload_images/3072214-15e34a9841adc5b4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p><h4 id="添加添加RSS"><a href="#添加添加RSS" class="headerlink" title="添加添加RSS"></a>添加添加RSS</h4><ul><li>切换到<strong>Blog</strong>文件夹（hexo init的文件夹）下</li></ul><pre><code>cd [Blog]</code></pre><ul><li>安装Hexo插件</li></ul><pre><code> npm install --save hexo-generator-feed</code></pre><ul><li>安装成功之后，编辑<code>Blog/_config.yml</code>文件，在文件末尾添加</li></ul><pre><code># Extensions## Plugins: http://hexo.io/plugins/plugins: hexo-generate-feed</code></pre><ul><li>配置主题<code>_config.yml</code>文件，<code>command+f</code>搜索<code>rss</code>，在后面加上<code>/atom.xml</code> </li></ul><pre><code># Set rss to false to disable feed link.# Leave rss as empty to use site&#39;s feed link.# Set rss to specific value if you have burned your feed already.rss: /atom.xml //注意：有一个空格</code></pre><ul><li>之后，终端输入<code>hexo s</code>查看效果</li></ul><pre><code>hexo s</code></pre><p>  <img src="https://upload-images.jianshu.io/upload_images/3072214-313c1804b92eb9a0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/344/format/webp" alt="img"></p><h4 id="修改文章内链接文本样式"><a href="#修改文章内链接文本样式" class="headerlink" title="修改文章内链接文本样式"></a>修改文章内链接文本样式</h4><ul><li>修改<code>Blog/themes/next/source/css/_common/components/post/post.styl</code>，在末尾添加CSS样式：</li></ul><pre><code>// 文章内链接文本样式.post-body p a{  color: #0593d3; //原始链接颜色  border-bottom: none;  border-bottom: 1px solid #0593d3; //底部分割线颜色  &amp;:hover {    color: #fc6423; //鼠标经过颜色    border-bottom: none;    border-bottom: 1px solid #fc6423; //底部分割线颜色  }}</code></pre><ul><li>设置后，效果如下</li></ul><p><img src="https://upload-images.jianshu.io/upload_images/3072214-36e89e89696a255a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"> </p><h4 id="修改底部标签样式"><a href="#修改底部标签样式" class="headerlink" title="修改底部标签样式"></a>修改底部标签样式</h4><ul><li>修改<code>Blog\themes\next\layout\_macro\post.swig</code>中文件，<code>command+f</code>搜索<code>rel=&quot;tag&quot;&gt;#</code>，将<code>#</code>替换成<code>&lt;i class=&quot;fa fa-tag&quot;&gt;&lt;/i&gt;</code>。输入以下命令，查看效果：</li></ul><pre><code>hexo cleanhexo s</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/3072214-36dcbfd6cd83d271.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/386/format/webp" alt="img"></p><h4 id="在文章末尾添加“文章结束”标记"><a href="#在文章末尾添加“文章结束”标记" class="headerlink" title="在文章末尾添加“文章结束”标记"></a>在文章末尾添加“文章结束”标记</h4><ul><li>在路径<code>Blog\themes\next\layout\_macro</code>文件夹中新建<code>passage-end-tag.swig</code>文件。</li></ul><pre><code>//切换到路径_macrocd [_macro路径]//创建passage-end-tag.swig文件touch passage-end-tag.swig</code></pre><ul><li>在passage-end-tag.swig添加以下内容，直接用文本编辑器打开，粘贴以下内容后保存</li></ul><pre><code>&lt;div&gt;    {% if not is_index %}        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>    {% endif %}&lt;/div&gt;</code></pre><ul><li>打开<code>Blog\themes\next\layout\_macro\post.swig</code>，在<code>post-body</code>之后，<code>post-footer</code>之前（<strong>post-footer之前两个DIV</strong>），添加以下代码：</li></ul><pre><code>&lt;div&gt;  {% if not is_index %}    {% include 'passage-end-tag.swig' %}  {% endif %}&lt;/div&gt;</code></pre><ul><li>添加位置，如下图所示：  </li></ul><p><img src="https://upload-images.jianshu.io/upload_images/3072214-976a8cf36c994dc7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p><ul><li>修改主题配置文件<strong>_config.yml</strong>，在末尾添加：</li></ul><pre><code># 文章末尾添加“本文结束”标记passage_end_tag:  enabled: true</code></pre><ul><li>配置完成之后，效果如下： </li></ul><p><img src="https://upload-images.jianshu.io/upload_images/3072214-b1b5a73b99793610.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/788/format/webp" alt="img"></p><h4 id="设置头像并设置动画效果"><a href="#设置头像并设置动画效果" class="headerlink" title="设置头像并设置动画效果"></a>设置头像并设置动画效果</h4><ul><li>在<code>Blog/_config.yml</code>中添加头像链接地址：</li></ul><pre><code>//添加头像地址avatar: [ http://....]</code></pre><ul><li>设置头像圆角并旋转，打开<code>Blog/themes/next/source/css/_common/components/sidebar/sidebar-author.styl</code>，添加以下代码：</li></ul><pre><code>.site-author-image {  display: block;  margin: 0 auto;  padding: $site-author-image-padding;  max-width: $site-author-image-width;  height: $site-author-image-height;  border: $site-author-image-border-width solid $site-author-image-border-color;  /* 头像圆形 */  border-radius: 80px;  -webkit-border-radius: 80px;  -moz-border-radius: 80px;  box-shadow: inset 0 -1px 0 #333sf;  /* 设置循环动画 [animation: (play)动画名称 (2s)动画播放时长单位秒或微秒 (ase-out)动画播放的速度曲线为以低速结束     (1s)等待1秒然后开始动画 (1)动画播放次数(infinite为循环播放) ]*/  /* 鼠标经过头像旋转360度 */  -webkit-transition: -webkit-transform 1.0s ease-out;  -moz-transition: -moz-transform 1.0s ease-out;  transition: transform 1.0s ease-out;}img:hover {  /* 鼠标经过停止头像旋转   -webkit-animation-play-state:paused;  animation-play-state:paused;*/  /* 鼠标经过头像旋转360度 */  -webkit-transform: rotateZ(360deg);  -moz-transform: rotateZ(360deg);  transform: rotateZ(360deg);}/* Z 轴旋转动画 */@-webkit-keyframes play {  0% {    -webkit-transform: rotateZ(0deg);  }  100% {    -webkit-transform: rotateZ(-360deg);  }}@-moz-keyframes play {  0% {    -moz-transform: rotateZ(0deg);  }  100% {    -moz-transform: rotateZ(-360deg);  }}@keyframes play {  0% {    transform: rotateZ(0deg);  }  100% {    transform: rotateZ(-360deg);  }}</code></pre><ul><li>效果如下：</li></ul><h4 id="修改代码块自定义样式"><a href="#修改代码块自定义样式" class="headerlink" title="修改代码块自定义样式"></a>修改代码块<code></code>自定义样式</h4><ul><li>打开<code>Blog\themes\next\source\css\_custom\custom.styl</code>，添加以下代码：</li></ul><pre><code>// Custom styles.code {    color: #ff7600;    background: #fbf7f8;    margin: 2px;}// 大代码块的自定义样式.highlight, pre {    margin: 5px 0;    padding: 5px;    border-radius: 3px;}.highlight, code, pre {    border: 1px solid #d6d6d6;}</code></pre><h4 id="侧边栏社交小图标设置"><a href="#侧边栏社交小图标设置" class="headerlink" title="侧边栏社交小图标设置"></a>侧边栏社交小图标设置</h4><ul><li>打开主题配置文件<code>_config.yml</code>，<code>command+f</code>搜索<code>Social</code>，将你有的社交账号前面的<code>#</code>号去掉。格式为：</li></ul><pre><code>[社交平台名]: [社交地址] || [图标名称]</code></pre><pre><code>#social:  GitHub: https://github.com/yourname || github  简书: https://www.jianshu.com/u/63445e24e8bf || heartbeat  掘金: https://juejin.im/user/5a371ae551882512d0607108 || spinner  #E-Mail: mailto:yourname@gmail.com || envelope  #Google: https://plus.google.com/yourname || google  #Twitter: https://twitter.com/yourname || twitter  #FB Page: https://www.facebook.com/yourname || facebook  #VK Group: https://vk.com/yourname || vk  #StackOverflow: https://stackoverflow.com/yourname || stack-overflow  #YouTube: https://youtube.com/yourname || youtube  #Instagram: https://instagram.com/yourname || instagram  #Skype: skype:yourname?call|chat || skype</code></pre><ul><li>效果图如下：</li></ul><p><img src="https://upload-images.jianshu.io/upload_images/3072214-8291624f1f133bb4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/624/format/webp" alt="img"></p><ul><li>图标可以去<a href="http://fontawesome.io/icons/" target="_blank" rel="noopener">Font Awesome Icon</a>网站去找，找到后复制名字到相应的位置即可。</li></ul><h4 id="主页文章添加阴影效果"><a href="#主页文章添加阴影效果" class="headerlink" title="主页文章添加阴影效果"></a>主页文章添加阴影效果</h4><ul><li>打开<code>Blog\themes\next\source\css\_custom\custom.styl</code>，添加以下代码：</li></ul><pre><code>// 主页文章添加阴影效果 .post {   margin-top: 60px;   margin-bottom: 60px;   padding: 25px;   -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);   -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);  }</code></pre><ul><li>效果如下：</li></ul><p><img src="https://upload-images.jianshu.io/upload_images/3072214-8d203b9886de2f5f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p><h4 id="网站底部加上访问量"><a href="#网站底部加上访问量" class="headerlink" title="网站底部加上访问量"></a>网站底部加上访问量</h4><ul><li>打开<code>Blog/themes/next/layout/_partials/footer.swig</code>文件，在<code>copyright</code>加上如下代码：</li></ul><pre><code>&lt;script async src=&quot;https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt;</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/3072214-edfa365aee1b5839.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p><ul><li>在适当的位置添加显示统计代码</li></ul><pre><code>&lt;div class=&quot;powered-by&quot;&gt;&lt;i class=&quot;fa fa-user-md&quot;&gt;&lt;/i&gt;&lt;span id=&quot;busuanzi_container_site_uv&quot;&gt;  本站访客数:&lt;span id=&quot;busuanzi_value_site_uv&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/3072214-63afac6bc7922943.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"> </p><ul><li>设置统计方式</li></ul><pre><code>//pv的方式，单个用户连续点击n篇文章，记录n次访问量&lt;span id=&quot;busuanzi_container_site_pv&quot;&gt;    本站总访问量&lt;span id=&quot;busuanzi_value_site_pv&quot;&gt;&lt;/span&gt;次&lt;/span&gt;//uv的方式，单个用户连续点击n篇文章，只记录1次访客数&lt;span id=&quot;busuanzi_container_site_uv&quot;&gt;  本站总访问量&lt;span id=&quot;busuanzi_value_site_uv&quot;&gt;&lt;/span&gt;次&lt;/span&gt;</code></pre><ul><li><p>效果图如下： </p><p><img src="https://upload-images.jianshu.io/upload_images/3072214-5372d142a230191c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p></li></ul><h4 id="网站底部字数统计"><a href="#网站底部字数统计" class="headerlink" title="网站底部字数统计"></a>网站底部字数统计</h4><ul><li>安装hexo插件，切换到根目录：</li></ul><pre><code>npm install hexo-wordcount --save</code></pre><ul><li>在<code>Blog/themes/next/layout/_partials/footer.swig</code>末尾添加代码：</li></ul><pre><code>&lt;div class=&quot;theme-info&quot;&gt;  &lt;div class=&quot;powered-by&quot;&gt;&lt;/div&gt;  &lt;span class=&quot;post-count&quot;&gt;博客全站共{{ totalcount(site) }}字&lt;/span&gt;&lt;/div&gt;</code></pre><ul><li><p>效果图如下图所示： </p><p><img src="https://upload-images.jianshu.io/upload_images/3072214-6c9e57b47b80946a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p></li></ul><h4 id="设置网站的图标Favicon"><a href="#设置网站的图标Favicon" class="headerlink" title="设置网站的图标Favicon"></a>设置网站的图标Favicon</h4><ul><li>在图标网站找一张你喜欢的图标（大：32x32 小：16x16），图标网站：<a href="http://www.easyicon.net/" target="_blank" rel="noopener">easyicon</a>或者<a href="http://www.iconfont.cn/" target="_blank" rel="noopener">阿里巴巴矢量图标库</a>。将下载下来的小图和中图放在<code>Blog/themes/next/source/images</code>，将默认的两张图片替换掉。命名和默认的一样也可以自己定义： </li></ul><p><img src="https://upload-images.jianshu.io/upload_images/3072214-cf67d50c1502275d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/786/format/webp" alt="img"></p><ul><li>修改主题配置文件，如果你自定义了图片名字，需要做修改：</li></ul><pre><code># For example, you put your favicons into `hexo-site/source/images` directory.# Then need to rename &amp; redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.favicon:  small: /images/favicon-16x16-next.png  //16X16小图  medium: /images/favicon-32x32-next.png  //32X32大图  apple_touch_icon: /images/apple-touch-icon-next.png  //apple-touch-icon   safari_pinned_tab: /images/logo.svg   #android_manifest: /images/manifest.json  #ms_browserconfig: /images/browserconfig.xml</code></pre><h4 id="实现文章统计功能"><a href="#实现文章统计功能" class="headerlink" title="实现文章统计功能"></a>实现文章统计功能</h4><ul><li>安装Hexo插件，参考<strong>网站底部字数统计</strong>。</li><li>编辑主题配置文件，配置如下：</li></ul><pre><code># Post wordcount display settings# Dependencies: https://github.com/willin/hexo-wordcountpost_wordcount:  item_text: true  wordcount: true  min2read: true  totalcount: true  separated_meta: true</code></pre><ul><li>效果图： </li></ul><p><img src="https://upload-images.jianshu.io/upload_images/3072214-6e0b5bbaf686557c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/454/format/webp" alt="img"></p><h4 id="添加网页顶部进度加载条"><a href="#添加网页顶部进度加载条" class="headerlink" title="添加网页顶部进度加载条"></a>添加网页顶部进度加载条</h4><ul><li>编辑主题配置文件，<code>command+F</code>搜索<code>pace</code>，将其值改为<code>ture</code>就可以了，选择一款你喜欢的样式。</li></ul><pre><code># Progress bar in the top during page loading.pace: ture# Themes list:#pace-theme-big-counter#pace-theme-bounce#pace-theme-barber-shop#pace-theme-center-atom#pace-theme-center-circle#pace-theme-center-radar#pace-theme-center-simple#pace-theme-corner-indicator#pace-theme-fill-left#pace-theme-flash#pace-theme-loading-bar#pace-theme-mac-osx#pace-theme-minimal# For example# pace_theme: pace-theme-center-simplepace_theme: pace-theme-minimal</code></pre><h4 id="底部隐藏由Hexo强力驱动、主题–NexT-Mist"><a href="#底部隐藏由Hexo强力驱动、主题–NexT-Mist" class="headerlink" title="底部隐藏由Hexo强力驱动、主题–NexT.Mist"></a>底部隐藏由Hexo强力驱动、主题–NexT.Mist</h4><ul><li>打开<code>Blog/themes/next/layout/_partials/footer.swig</code>，注释掉相应代码。</li></ul><pre><code>//用下面的符号注释，注释代码用下面括号括起来&lt;!-- --&gt;&lt;!--&lt;span class=&quot;post-meta-divider&quot;&gt;|&lt;/span&gt;{% if theme.footer.powered %}  <div class="powered-by">{#  #}{{ __('footer.powered', '<a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a>') }}{##}</div>{% endif %}{% if theme.footer.powered and theme.footer.theme.enable %}  <span class="post-meta-divider">|</span>{% endif %}{% if theme.footer.theme.enable %}  <div class="theme-info">{#  #}{{ __('footer.theme') }} &mdash; {#  #}<a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">{#    #}NexT.{{ theme.scheme }}{#  #}</a>{% if theme.footer.theme.version %} v{{ theme.version }}{% endif %}&lt;/div&gt;{% endif %}{% if theme.footer.custom_text %}  <div class="footer-custom">{#  #}{{ theme.footer.custom_text }}{##}</div>{% endif %}--&gt;</div></code></pre><h4 id="去掉底部重复字数统计"><a href="#去掉底部重复字数统计" class="headerlink" title="去掉底部重复字数统计"></a>去掉底部重复字数统计</h4><ul><li>注释掉如下代码：</li></ul><pre><code>&lt;!--  {% if theme.post_wordcount.totalcount %}    <span class="post-meta-divider">|</span>    <span class="post-meta-item-icon">      <i class="fa fa-area-chart"></i>    </span>    {% if theme.post_wordcount.item_text %}      <span class="post-meta-item-text">{{ __('post.totalcount') }}&#58;</span>    {% endif %}    &lt;span title=&quot;{{ __('post.totalcount') }}&quot;&gt;{{ totalcount(site, '0,0.0a') }}&lt;/span&gt;  {% endif %}--&gt;</code></pre><h4 id="博文置顶"><a href="#博文置顶" class="headerlink" title="博文置顶"></a>博文置顶</h4><ul><li>修改<strong>hexo-generator-index</strong>插件，把<code>node_modules/hexo-generator-index/lib/generator.js</code>中代码替换为：</li></ul><pre><code>&#39;use strict&#39;;var pagination = require(&#39;hexo-pagination&#39;);module.exports = function(locals){  var config = this.config;  var posts = locals.posts;    posts.data = posts.data.sort(function(a, b) {        if(a.top &amp;&amp; b.top) { // 两篇文章top都有定义            if(a.top == b.top) return b.date - a.date; // 若top值一样则按照文章日期降序排            else return b.top - a.top; // 否则按照top值降序排        }        else if(a.top &amp;&amp; !b.top) { // 以下是只有一篇文章top有定义，那么将有top的排在前面（这里用异或操作居然不行233）            return -1;        }        else if(!a.top &amp;&amp; b.top) {            return 1;        }        else return b.date - a.date; // 都没定义按照文章日期降序排    });  var paginationDir = config.pagination_dir || &#39;page&#39;;  return pagination(&#39;&#39;, posts, {    perPage: config.index_generator.per_page,    layout: [&#39;index&#39;, &#39;archive&#39;],    format: paginationDir + &#39;/%d/&#39;,    data: {      __index: true    }  });};</code></pre><ul><li>文章添加Top值，值越大，越靠前：</li></ul><pre><code>---title: Hexo-NexT主题配置date: 2018-01-20 20:41:08categories: Hexotags:- Hexo- NexTtop: 100---</code></pre><h4 id="修改字体大小"><a href="#修改字体大小" class="headerlink" title="修改字体大小"></a>修改字体大小</h4><ul><li>编辑<code>Blog/themes/next/source/css/_variables/base.styl</code>，<code>command+F</code>搜索<code>$font-size-base</code>，修改为你想要的大小：</li></ul><pre><code>// Font size$font-size-base           = 16px</code></pre><h4 id="添加DaoVoice在线联系"><a href="#添加DaoVoice在线联系" class="headerlink" title="添加DaoVoice在线联系"></a>添加DaoVoice在线联系</h4><ul><li>首先到<a href="https://www.daocloud.io/" target="_blank" rel="noopener">DaoVoice</a>注册账号，登录成过后，进入到后台管理，点击<strong>应用设置——&gt;安装到网站</strong>查看安装代码和AppID。</li><li>将安装代码添加到<code>Blog/themes/next/layout/_partials/head.swig</code>中：</li></ul><pre><code>{% if theme.daovoice %}  <script>  (function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/0f81ff2f.js","daovoice")  daovoice('init', {      app_id: "{{theme.daovoice_app_id}}"    });  daovoice('update');  </script>{% endif %}</code></pre><p>  <img src="https://upload-images.jianshu.io/upload_images/3072214-4d76c0b99050cc8f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p><ul><li>编辑主题配置文件，添加如下代码：</li></ul><pre><code># Online contact daovoice: truedaovoice_app_id: daovoice_app_id</code></pre><ul><li><p>效果图如下所示： </p><p><img src="https://upload-images.jianshu.io/upload_images/3072214-47892289003cae0e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/226/format/webp" alt="img"></p></li></ul><h4 id="添加底部桃心"><a href="#添加底部桃心" class="headerlink" title="添加底部桃心"></a>添加底部桃心</h4><ul><li>打开<code>Blog/themes/next/layout/_partials/footer.swig</code>搜索<code>with-love</code>，在<a href="http://fontawesome.io/icons/" target="_blank" rel="noopener">fontawesom</a>找到你喜欢的图标，在如下位置替换即可：</li></ul><h4 id="添加侧栏推荐阅读"><a href="#添加侧栏推荐阅读" class="headerlink" title="添加侧栏推荐阅读"></a>添加侧栏推荐阅读</h4><ul><li>编辑主题配置文件，如下配置即可：</li></ul><pre><code># Blog rollslinks_icon: linklinks_title: 推荐阅读#links_layout: blocklinks_layout: inlinelinks:  Swift 4: https://developer.apple.com/swift/  Objective-C: https://developer.apple.com/documentation/objectivec</code></pre><h4 id="在文章底部增加版权信息"><a href="#在文章底部增加版权信息" class="headerlink" title="在文章底部增加版权信息"></a>在文章底部增加版权信息</h4><ul><li>在目录<code>Blog/themes/next/layout/_macro/</code>，添加文件 <code>my-copyright.swig</code>，内容如下：</li></ul><pre><code>{% if page.copyright %}<div class="my_post_copyright">  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>    <!-- JS库 sweetalert 可修改路径 -->  <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>  <p><span>本文标题:</span><a href="{{ url_for(page.path) }}">{{ page.title }}</a></p>  <p><span>文章作者:</span><a href="/" title="访问 {{ theme.author }} 的个人博客">{{ theme.author }}</a></p>  <p><span>发布时间:</span>{{ page.date.format("YYYY年MM月DD日 - HH:MM") }}</p>  <p><span>最后更新:</span>{{ page.updated.format("YYYY年MM月DD日 - HH:MM") }}</p>  <p><span>原始链接:</span><a href="{{ url_for(page.path) }}" title="{{ page.title }}">{{ page.permalink }}</a>    <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="{{ page.permalink }}" aria-label="复制成功！"></i></span>  </p>  <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>  </div><script>     var clipboard = new Clipboard('.fa-clipboard');    $(".fa-clipboard").click(function(){      clipboard.on('success', function(){        swal({             title: "",             text: '复制成功',          icon: "success",           showConfirmButton: true          });    });    });  </script>{% endif %}</code></pre><ul><li>在目录<code>Blog/themes/next/source/css/_common/components/post/</code>下添加文件<code>my-post-copyright.styl</code>，添加以下代码：</li></ul><pre><code>.my_post_copyright {  width: 85%;  max-width: 45em;  margin: 2.8em auto 0;  padding: 0.5em 1.0em;  border: 1px solid #d3d3d3;  font-size: 0.93rem;  line-height: 1.6em;  word-break: break-all;  background: rgba(255,255,255,0.4);}.my_post_copyright p{margin:0;}.my_post_copyright span {  display: inline-block;  width: 5.2em;  color: #b5b5b5;  font-weight: bold;}.my_post_copyright .raw {  margin-left: 1em;  width: 5em;}.my_post_copyright a {  color: #808080;  border-bottom:0;}.my_post_copyright a:hover {  color: #a3d2a3;  text-decoration: underline;}.my_post_copyright:hover .fa-clipboard {  color: #000;}.my_post_copyright .post-url:hover {  font-weight: normal;}.my_post_copyright .copy-path {  margin-left: 1em;  width: 1em;  +mobile(){display:none;}}.my_post_copyright .copy-path:hover {  color: #808080;  cursor: pointer;}</code></pre><ul><li>在<code>Blog/themes/next/source/css/_common/components/post/</code>添加文件<code>my-post-copyright.styl</code>，文件内容如下：</li></ul><pre><code>.my_post_copyright {  width: 85%;  max-width: 45em;  margin: 2.8em auto 0;  padding: 0.5em 1.0em;  border: 1px solid #d3d3d3;  font-size: 0.93rem;  line-height: 1.6em;  word-break: break-all;  background: rgba(255,255,255,0.4);}.my_post_copyright p{margin:0;}.my_post_copyright span {  display: inline-block;  width: 5.2em;  color: #b5b5b5;  font-weight: bold;}.my_post_copyright .raw {  margin-left: 1em;  width: 5em;}.my_post_copyright a {  color: #808080;  border-bottom:0;}.my_post_copyright a:hover {  color: #a3d2a3;  text-decoration: underline;}.my_post_copyright:hover .fa-clipboard {  color: #000;}.my_post_copyright .post-url:hover {  font-weight: normal;}.my_post_copyright .copy-path {  margin-left: 1em;  width: 1em;  +mobile(){display:none;}}.my_post_copyright .copy-path:hover {  color: #808080;  cursor: pointer;}</code></pre><ul><li>修改<code>Blog/themes/next/layout/_macro/post.swig</code>，在如图位置添加以下代码：</li></ul><pre><code>&lt;div&gt;      {% if not is_index %}        {% include 'my-copyright.swig' %}      {% endif %}&lt;/div&gt;</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/3072214-52a341c7f39b9ba6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p><ul><li>在<code>Blog/themes/next/source/css/_common/components/post/post.styl</code>文件最后加入下面的代码：</li></ul><pre><code>@import &quot;my-post-copyright&quot;</code></pre><ul><li>在Markdown文章中加入<code>copyright : ture</code>：</li></ul><pre><code>---title: Hexo-NexT主题配置date: 2018-01-20 20:41:08categories: Hexotags:- Hexo- NexTtop: 100copyright: ture---</code></pre><ul><li>配置根目录下的<code>_config.yml</code>文件，配置为：</li></ul><pre><code># URL## If your site is put in a subdirectory, set url as &#39;http://yoursite.com/child&#39; and root as &#39;/child/&#39;url: https://wenmobo.github.io/  //你的网站地址root: /permalink: :year/:month/:day/:title/permalink_defaults:</code></pre><ul><li>效果图如下所示：</li></ul><p><img src="https://upload-images.jianshu.io/upload_images/3072214-f14827039037cb3d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p><h4 id="Hexo博客添加站内搜索"><a href="#Hexo博客添加站内搜索" class="headerlink" title="Hexo博客添加站内搜索"></a>Hexo博客添加站内搜索</h4><ul><li>NexT主题支持集成 Swiftype、 微搜索、Local Search 和 Algolia。下面介绍Local Search的安装吧。</li><li>安装 hexo-generator-search</li></ul><pre><code>npm install hexo-generator-search --save</code></pre><ul><li>安装 hexo-generator-searchdb</li></ul><pre><code> npm install hexo-generator-searchdb --save </code></pre><ul><li>编辑站点配置文件，添加以下内容 </li></ul><p><img src="https://upload-images.jianshu.io/upload_images/3072214-aff43f0e07e85647.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/972/format/webp" alt="img"></p><pre><code>search:  path: search.xml  field: post  format: html  limit: 10000</code></pre><ul><li>编辑主题配置文件，设置<code>Local search</code>enable为<code>ture</code> </li></ul><pre><code># Local search# Dependencies: https://github.com/flashlab/hexo-generator-searchlocal_search:  enable: ture  # if auto, trigger search by changing input  # if manual, trigger search by pressing enter key or search button  trigger: auto  # show top n results per article, show all results by setting to -1  top_n_per_article: 1</code></pre><ul><li>效果如下图所示：</li></ul><p><img src="https://upload-images.jianshu.io/upload_images/3072214-7d4440ed648d76c7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/972/format/webp" alt="img"> </p>]]></content>
-      
-      
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Github</tag>
+        <tag>Blog</tag>
+        <tag>NexT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[配置Hexo-NexT，使你的博客酷炫]]></title>
+    <url>%2F2019%2F03%2F29%2FNexT%2F</url>
+    <content type="text"><![CDATA[目录NexT安装 切换到Blog文件夹下（就是hexo init的文件夹），查看文件 cd [Blog] ls _config.yml node_modules scaffolds themes db.json package.json source 通过git安装，前提是你的电脑安装了git. git clone https://github.com/iissnan/hexo-theme-next themes/next 查看标签列表 git tag -l 输出： ... v5.1.3 v5.1.4 切换到v5.1.4 git checkout tags/v5.1.4 输出： HEAD is now at 4f75fe5... 2018 NY update. 通过curl安装NexT mkdir themes/next curl -s https://api.github.com/repos/iissnan/hexo-theme-next/releases/latest | grep tarball_url | cut -d &#39;&quot;&#39; -f 4 | wget -i - -O- | tar -zx -C themes/next --strip-components=1 更新主题NexT cd themes/next git pull 切换成NexT主题，在hexo根文件夹下，编辑_config.yml文件 theme: next //切换后，用命令清除下缓存 hexo clean //执行hexo s本地产看NexT主题效果 hexo s 切换主题 在列表中选择一款自己喜欢的主题风格。 # Schemes #scheme: Muse //默认主题 scheme: Mist #scheme: Pisces #scheme: Gemini 设置Menu 默认只有两个首页和归档，如下图所示： 如果还要添加，编辑themes/next/_config.yml： menu: home: / || home //首页 about: /about/ || user //关于 tags: /tags/ || tags //标签 categories: /categories/ || th //分类 archives: /archives/ || archive //归档 schedule: /schedule/ || calendar //日程表 sitemap: /sitemap.xml || sitemap //站点地图 将需要的Menu前面#号去掉。如下图所示: 初始化对应的Menu文件夹没有创建Menu对应的文件夹，Blog/source文件目录如下： 在博客网站点击标签菜单可能会提示： 比如要创建标签文件夹，终端中输入（前提在Hexo文件路径下）： hexo new page &quot;tags&quot; 输出： INFO Created: ~/Desktop/MyBlog/Blog/source/tags/index.md 成功过后目录如下： 编辑Blog/source/tags中index.md文件，添加type: &quot;tags&quot;，其他Menu也同理创建。 title: tags date: 2018-01-20 18:57:48 type: &quot;tags&quot; 设置动态背景 主题配置文件内置4种特效，选择你喜欢的，设置成ture就OK啦。 # Canvas-nest canvas_nest: false # three_waves three_waves: true # canvas_lines canvas_lines: false # canvas_sphere canvas_sphere: false 在右上角或者左上角实现fork me on github 效果图如下所示： 在GitHub Ribbons或GitHub Corners选择一款你喜欢的挂饰，拷贝方框内的代码： 将刚刚复制的挂饰代码，添加到Blog/themes/next/layout/_layout.swig文件中，添加位置如下图所示(放在&lt;div class=&quot;headband&quot;&gt;&lt;/div&gt;下方)： 添加添加RSS 切换到Blog文件夹（hexo init的文件夹）下 cd [Blog] 安装Hexo插件 npm install --save hexo-generator-feed 安装成功之后，编辑Blog/_config.yml文件，在文件末尾添加 # Extensions ## Plugins: http://hexo.io/plugins/ plugins: hexo-generate-feed 配置主题_config.yml文件，command+f搜索rss，在后面加上/atom.xml # Set rss to false to disable feed link. # Leave rss as empty to use site&#39;s feed link. # Set rss to specific value if you have burned your feed already. rss: /atom.xml //注意：有一个空格 之后，终端输入hexo s查看效果 hexo s 修改文章内链接文本样式 修改Blog/themes/next/source/css/_common/components/post/post.styl，在末尾添加CSS样式： // 文章内链接文本样式 .post-body p a{ color: #0593d3; //原始链接颜色 border-bottom: none; border-bottom: 1px solid #0593d3; //底部分割线颜色 &amp;:hover { color: #fc6423; //鼠标经过颜色 border-bottom: none; border-bottom: 1px solid #fc6423; //底部分割线颜色 } } 设置后，效果如下 修改底部标签样式 修改Blog\themes\next\layout\_macro\post.swig中文件，command+f搜索rel=&quot;tag&quot;&gt;#，将#替换成&lt;i class=&quot;fa fa-tag&quot;&gt;&lt;/i&gt;。输入以下命令，查看效果： hexo clean hexo s 在文章末尾添加“文章结束”标记 在路径Blog\themes\next\layout\_macro文件夹中新建passage-end-tag.swig文件。 //切换到路径_macro cd [_macro路径] //创建passage-end-tag.swig文件 touch passage-end-tag.swig 在passage-end-tag.swig添加以下内容，直接用文本编辑器打开，粘贴以下内容后保存 &lt;div&gt; {% if not is_index %} -------------本文结束感谢您的阅读------------- {% endif %} &lt;/div&gt; 打开Blog\themes\next\layout\_macro\post.swig，在post-body之后，post-footer之前（post-footer之前两个DIV），添加以下代码： &lt;div&gt; {% if not is_index %} {% include 'passage-end-tag.swig' %} {% endif %} &lt;/div&gt; 添加位置，如下图所示： 修改主题配置文件_config.yml，在末尾添加： # 文章末尾添加“本文结束”标记 passage_end_tag: enabled: true 配置完成之后，效果如下： 设置头像并设置动画效果 在Blog/_config.yml中添加头像链接地址： //添加头像地址 avatar: [ http://....] 设置头像圆角并旋转，打开Blog/themes/next/source/css/_common/components/sidebar/sidebar-author.styl，添加以下代码： .site-author-image { display: block; margin: 0 auto; padding: $site-author-image-padding; max-width: $site-author-image-width; height: $site-author-image-height; border: $site-author-image-border-width solid $site-author-image-border-color; /* 头像圆形 */ border-radius: 80px; -webkit-border-radius: 80px; -moz-border-radius: 80px; box-shadow: inset 0 -1px 0 #333sf; /* 设置循环动画 [animation: (play)动画名称 (2s)动画播放时长单位秒或微秒 (ase-out)动画播放的速度曲线为以低速结束 (1s)等待1秒然后开始动画 (1)动画播放次数(infinite为循环播放) ]*/ /* 鼠标经过头像旋转360度 */ -webkit-transition: -webkit-transform 1.0s ease-out; -moz-transition: -moz-transform 1.0s ease-out; transition: transform 1.0s ease-out; } img:hover { /* 鼠标经过停止头像旋转 -webkit-animation-play-state:paused; animation-play-state:paused;*/ /* 鼠标经过头像旋转360度 */ -webkit-transform: rotateZ(360deg); -moz-transform: rotateZ(360deg); transform: rotateZ(360deg); } /* Z 轴旋转动画 */ @-webkit-keyframes play { 0% { -webkit-transform: rotateZ(0deg); } 100% { -webkit-transform: rotateZ(-360deg); } } @-moz-keyframes play { 0% { -moz-transform: rotateZ(0deg); } 100% { -moz-transform: rotateZ(-360deg); } } @keyframes play { 0% { transform: rotateZ(0deg); } 100% { transform: rotateZ(-360deg); } } 效果如下： 修改代码块自定义样式 打开Blog\themes\next\source\css\_custom\custom.styl，添加以下代码： // Custom styles. code { color: #ff7600; background: #fbf7f8; margin: 2px; } // 大代码块的自定义样式 .highlight, pre { margin: 5px 0; padding: 5px; border-radius: 3px; } .highlight, code, pre { border: 1px solid #d6d6d6; } 侧边栏社交小图标设置 打开主题配置文件_config.yml，command+f搜索Social，将你有的社交账号前面的#号去掉。格式为： [社交平台名]: [社交地址] || [图标名称] #social: GitHub: https://github.com/yourname || github 简书: https://www.jianshu.com/u/63445e24e8bf || heartbeat 掘金: https://juejin.im/user/5a371ae551882512d0607108 || spinner #E-Mail: mailto:yourname@gmail.com || envelope #Google: https://plus.google.com/yourname || google #Twitter: https://twitter.com/yourname || twitter #FB Page: https://www.facebook.com/yourname || facebook #VK Group: https://vk.com/yourname || vk #StackOverflow: https://stackoverflow.com/yourname || stack-overflow #YouTube: https://youtube.com/yourname || youtube #Instagram: https://instagram.com/yourname || instagram #Skype: skype:yourname?call|chat || skype 效果图如下： 图标可以去Font Awesome Icon网站去找，找到后复制名字到相应的位置即可。 主页文章添加阴影效果 打开Blog\themes\next\source\css\_custom\custom.styl，添加以下代码： // 主页文章添加阴影效果 .post { margin-top: 60px; margin-bottom: 60px; padding: 25px; -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5); -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5); } 效果如下： 网站底部加上访问量 打开Blog/themes/next/layout/_partials/footer.swig文件，在copyright加上如下代码： &lt;script async src=&quot;https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt; 在适当的位置添加显示统计代码 &lt;div class=&quot;powered-by&quot;&gt; &lt;i class=&quot;fa fa-user-md&quot;&gt;&lt;/i&gt;&lt;span id=&quot;busuanzi_container_site_uv&quot;&gt; 本站访客数:&lt;span id=&quot;busuanzi_value_site_uv&quot;&gt;&lt;/span&gt; &lt;/span&gt; &lt;/div&gt; 设置统计方式 //pv的方式，单个用户连续点击n篇文章，记录n次访问量 &lt;span id=&quot;busuanzi_container_site_pv&quot;&gt; 本站总访问量&lt;span id=&quot;busuanzi_value_site_pv&quot;&gt;&lt;/span&gt;次 &lt;/span&gt; //uv的方式，单个用户连续点击n篇文章，只记录1次访客数 &lt;span id=&quot;busuanzi_container_site_uv&quot;&gt; 本站总访问量&lt;span id=&quot;busuanzi_value_site_uv&quot;&gt;&lt;/span&gt;次 &lt;/span&gt; 效果图如下： 网站底部字数统计 安装hexo插件，切换到根目录： npm install hexo-wordcount --save 在Blog/themes/next/layout/_partials/footer.swig末尾添加代码： &lt;div class=&quot;theme-info&quot;&gt; &lt;div class=&quot;powered-by&quot;&gt;&lt;/div&gt; &lt;span class=&quot;post-count&quot;&gt;博客全站共{{ totalcount(site) }}字&lt;/span&gt; &lt;/div&gt; 效果图如下图所示： 设置网站的图标Favicon 在图标网站找一张你喜欢的图标（大：32x32 小：16x16），图标网站：easyicon或者阿里巴巴矢量图标库。将下载下来的小图和中图放在Blog/themes/next/source/images，将默认的两张图片替换掉。命名和默认的一样也可以自己定义： 修改主题配置文件，如果你自定义了图片名字，需要做修改： # For example, you put your favicons into `hexo-site/source/images` directory. # Then need to rename &amp; redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo. favicon: small: /images/favicon-16x16-next.png //16X16小图 medium: /images/favicon-32x32-next.png //32X32大图 apple_touch_icon: /images/apple-touch-icon-next.png //apple-touch-icon safari_pinned_tab: /images/logo.svg #android_manifest: /images/manifest.json #ms_browserconfig: /images/browserconfig.xml 实现文章统计功能 安装Hexo插件，参考网站底部字数统计。 编辑主题配置文件，配置如下： # Post wordcount display settings # Dependencies: https://github.com/willin/hexo-wordcount post_wordcount: item_text: true wordcount: true min2read: true totalcount: true separated_meta: true 效果图： 添加网页顶部进度加载条 编辑主题配置文件，command+F搜索pace，将其值改为ture就可以了，选择一款你喜欢的样式。 # Progress bar in the top during page loading. pace: ture # Themes list: #pace-theme-big-counter #pace-theme-bounce #pace-theme-barber-shop #pace-theme-center-atom #pace-theme-center-circle #pace-theme-center-radar #pace-theme-center-simple #pace-theme-corner-indicator #pace-theme-fill-left #pace-theme-flash #pace-theme-loading-bar #pace-theme-mac-osx #pace-theme-minimal # For example # pace_theme: pace-theme-center-simple pace_theme: pace-theme-minimal 底部隐藏由Hexo强力驱动、主题–NexT.Mist 打开Blog/themes/next/layout/_partials/footer.swig，注释掉相应代码。 //用下面的符号注释，注释代码用下面括号括起来 &lt;!-- --&gt; &lt;!-- &lt;span class=&quot;post-meta-divider&quot;&gt;|&lt;/span&gt; {% if theme.footer.powered %} {# #}{{ __('footer.powered', 'Hexo') }}{# #} {% endif %} {% if theme.footer.powered and theme.footer.theme.enable %} | {% endif %} {% if theme.footer.theme.enable %} {# #}{{ __('footer.theme') }} &mdash; {# #}{# #}NexT.{{ theme.scheme }}{# #}{% if theme.footer.theme.version %} v{{ theme.version }}{% endif %}&lt;/div&gt; {% endif %} {% if theme.footer.custom_text %} {# #}{{ theme.footer.custom_text }}{# #} {% endif %} --&gt; 去掉底部重复字数统计 注释掉如下代码： &lt;!-- {% if theme.post_wordcount.totalcount %} | {% if theme.post_wordcount.item_text %} {{ __('post.totalcount') }}&#58; {% endif %} &lt;span title=&quot;{{ __('post.totalcount') }}&quot;&gt;{{ totalcount(site, '0,0.0a') }}&lt;/span&gt; {% endif %} --&gt; 博文置顶 修改hexo-generator-index插件，把node_modules/hexo-generator-index/lib/generator.js中代码替换为： &#39;use strict&#39;; var pagination = require(&#39;hexo-pagination&#39;); module.exports = function(locals){ var config = this.config; var posts = locals.posts; posts.data = posts.data.sort(function(a, b) { if(a.top &amp;&amp; b.top) { // 两篇文章top都有定义 if(a.top == b.top) return b.date - a.date; // 若top值一样则按照文章日期降序排 else return b.top - a.top; // 否则按照top值降序排 } else if(a.top &amp;&amp; !b.top) { // 以下是只有一篇文章top有定义，那么将有top的排在前面（这里用异或操作居然不行233） return -1; } else if(!a.top &amp;&amp; b.top) { return 1; } else return b.date - a.date; // 都没定义按照文章日期降序排 }); var paginationDir = config.pagination_dir || &#39;page&#39;; return pagination(&#39;&#39;, posts, { perPage: config.index_generator.per_page, layout: [&#39;index&#39;, &#39;archive&#39;], format: paginationDir + &#39;/%d/&#39;, data: { __index: true } }); }; 文章添加Top值，值越大，越靠前： --- title: Hexo-NexT主题配置 date: 2018-01-20 20:41:08 categories: Hexo tags: - Hexo - NexT top: 100 --- 修改字体大小 编辑Blog/themes/next/source/css/_variables/base.styl，command+F搜索$font-size-base，修改为你想要的大小： // Font size $font-size-base = 16px 添加DaoVoice在线联系 首先到DaoVoice注册账号，登录成过后，进入到后台管理，点击应用设置——&gt;安装到网站查看安装代码和AppID。 将安装代码添加到Blog/themes/next/layout/_partials/head.swig中： {% if theme.daovoice %} (function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/0f81ff2f.js","daovoice") daovoice('init', { app_id: "{{theme.daovoice_app_id}}" }); daovoice('update'); {% endif %} 编辑主题配置文件，添加如下代码： # Online contact daovoice: true daovoice_app_id: daovoice_app_id 效果图如下所示： 添加底部桃心 打开Blog/themes/next/layout/_partials/footer.swig搜索with-love，在fontawesom找到你喜欢的图标，在如下位置替换即可： 添加侧栏推荐阅读 编辑主题配置文件，如下配置即可： # Blog rolls links_icon: link links_title: 推荐阅读 #links_layout: block links_layout: inline links: Swift 4: https://developer.apple.com/swift/ Objective-C: https://developer.apple.com/documentation/objectivec 在文章底部增加版权信息 在目录Blog/themes/next/layout/_macro/，添加文件 my-copyright.swig，内容如下： {% if page.copyright %} 本文标题:{{ page.title }} 文章作者:{{ theme.author }} 发布时间:{{ page.date.format("YYYY年MM月DD日 - HH:MM") }} 最后更新:{{ page.updated.format("YYYY年MM月DD日 - HH:MM") }} 原始链接:{{ page.permalink }} 许可协议: 署名-非商业性使用-禁止演绎 4.0 国际 转载请保留原文链接及作者。 var clipboard = new Clipboard('.fa-clipboard'); $(".fa-clipboard").click(function(){ clipboard.on('success', function(){ swal({ title: "", text: '复制成功', icon: "success", showConfirmButton: true }); }); }); {% endif %} 在目录Blog/themes/next/source/css/_common/components/post/下添加文件my-post-copyright.styl，添加以下代码： .my_post_copyright { width: 85%; max-width: 45em; margin: 2.8em auto 0; padding: 0.5em 1.0em; border: 1px solid #d3d3d3; font-size: 0.93rem; line-height: 1.6em; word-break: break-all; background: rgba(255,255,255,0.4); } .my_post_copyright p{margin:0;} .my_post_copyright span { display: inline-block; width: 5.2em; color: #b5b5b5; font-weight: bold; } .my_post_copyright .raw { margin-left: 1em; width: 5em; } .my_post_copyright a { color: #808080; border-bottom:0; } .my_post_copyright a:hover { color: #a3d2a3; text-decoration: underline; } .my_post_copyright:hover .fa-clipboard { color: #000; } .my_post_copyright .post-url:hover { font-weight: normal; } .my_post_copyright .copy-path { margin-left: 1em; width: 1em; +mobile(){display:none;} } .my_post_copyright .copy-path:hover { color: #808080; cursor: pointer; } 在Blog/themes/next/source/css/_common/components/post/添加文件my-post-copyright.styl，文件内容如下： .my_post_copyright { width: 85%; max-width: 45em; margin: 2.8em auto 0; padding: 0.5em 1.0em; border: 1px solid #d3d3d3; font-size: 0.93rem; line-height: 1.6em; word-break: break-all; background: rgba(255,255,255,0.4); } .my_post_copyright p{margin:0;} .my_post_copyright span { display: inline-block; width: 5.2em; color: #b5b5b5; font-weight: bold; } .my_post_copyright .raw { margin-left: 1em; width: 5em; } .my_post_copyright a { color: #808080; border-bottom:0; } .my_post_copyright a:hover { color: #a3d2a3; text-decoration: underline; } .my_post_copyright:hover .fa-clipboard { color: #000; } .my_post_copyright .post-url:hover { font-weight: normal; } .my_post_copyright .copy-path { margin-left: 1em; width: 1em; +mobile(){display:none;} } .my_post_copyright .copy-path:hover { color: #808080; cursor: pointer; } 修改Blog/themes/next/layout/_macro/post.swig，在如图位置添加以下代码： &lt;div&gt; {% if not is_index %} {% include 'my-copyright.swig' %} {% endif %} &lt;/div&gt; 在Blog/themes/next/source/css/_common/components/post/post.styl文件最后加入下面的代码： @import &quot;my-post-copyright&quot; 在Markdown文章中加入copyright : ture： --- title: Hexo-NexT主题配置 date: 2018-01-20 20:41:08 categories: Hexo tags: - Hexo - NexT top: 100 copyright: ture --- 配置根目录下的_config.yml文件，配置为： # URL ## If your site is put in a subdirectory, set url as &#39;http://yoursite.com/child&#39; and root as &#39;/child/&#39; url: https://wenmobo.github.io/ //你的网站地址 root: / permalink: :year/:month/:day/:title/ permalink_defaults: 效果图如下所示： Hexo博客添加站内搜索 NexT主题支持集成 Swiftype、 微搜索、Local Search 和 Algolia。下面介绍Local Search的安装吧。 安装 hexo-generator-search npm install hexo-generator-search --save 安装 hexo-generator-searchdb npm install hexo-generator-searchdb --save 编辑站点配置文件，添加以下内容 search: path: search.xml field: post format: html limit: 10000 编辑主题配置文件，设置Local searchenable为ture # Local search # Dependencies: https://github.com/flashlab/hexo-generator-search local_search: enable: ture # if auto, trigger search by changing input # if manual, trigger search by pressing enter key or search button trigger: auto # show top n results per article, show all results by setting to -1 top_n_per_article: 1 效果如下图所示：]]></content>
       <categories>
-          
-          <category> 博客搭建 </category>
-          
+        <category>博客搭建</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Hexo </tag>
-            
-            <tag> Github </tag>
-            
-            <tag> NexT </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>前端基础知识——CSS3</title>
-      <link href="/2019/03/28/CSS3/"/>
-      <url>/2019/03/28/CSS3/</url>
-      
-        <content type="html"><![CDATA[<h3 id="CSS3篇："><a href="#CSS3篇：" class="headerlink" title="CSS3篇："></a><strong>CSS3篇：</strong></h3><h5 id="1-CSS清除浮动的几种方法（至少两种）"><a href="#1-CSS清除浮动的几种方法（至少两种）" class="headerlink" title="1.CSS清除浮动的几种方法（至少两种）"></a>1.CSS清除浮动的几种方法（至少两种）</h5><pre><code>   使用带clear属性的空元素;        使用CSS的overflow属性；   使用CSS的:after伪元素；         使用邻接元素处理；</code></pre><a id="more"></a><h5 id="2-页面导入样式时，使用link和-import有什么区别？"><a href="#2-页面导入样式时，使用link和-import有什么区别？" class="headerlink" title="2.页面导入样式时，使用link和@import有什么区别？"></a>2.页面导入样式时，使用link和@import有什么区别？</h5><p>​    link属于HTML标签，除了加载CSS外，还能用于定义RSS, 定义rel连接属性等作用；而    　@import是CSS提供的，只能用于加载CSS;</p><p>​    页面被加载的时，link会同时被加载，而@import引用的CSS会等到页面被加载完再加载;</p><p>​    import是CSS2.1 提出的，只在IE5以上才能被识别，而link是XHTML标签，无兼容问题;</p>]]></content>
-      
-      
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Github</tag>
+        <tag>NexT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[前端基础知识——CSS3]]></title>
+    <url>%2F2019%2F03%2F28%2FCSS3%2F</url>
+    <content type="text"><![CDATA[CSS3篇：1.CSS清除浮动的几种方法（至少两种） 使用带clear属性的空元素; 使用CSS的overflow属性； 使用CSS的:after伪元素； 使用邻接元素处理； 2.页面导入样式时，使用link和@import有什么区别？​ link属于HTML标签，除了加载CSS外，还能用于定义RSS, 定义rel连接属性等作用；而 @import是CSS提供的，只能用于加载CSS; ​ 页面被加载的时，link会同时被加载，而@import引用的CSS会等到页面被加载完再加载; ​ import是CSS2.1 提出的，只在IE5以上才能被识别，而link是XHTML标签，无兼容问题;]]></content>
       <categories>
-          
-          <category> 前端知识 </category>
-          
+        <category>前端知识</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Front </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>前端基础知识——Webpack</title>
-      <link href="/2019/03/28/Webpack/"/>
-      <url>/2019/03/28/Webpack/</url>
-      
-        <content type="html"><![CDATA[<h3 id="Webpack篇："><a href="#Webpack篇：" class="headerlink" title="Webpack篇："></a><strong>Webpack篇：</strong></h3><h5 id="1-Webpack是什么？"><a href="#1-Webpack是什么？" class="headerlink" title="1.Webpack是什么？"></a>1.Webpack是什么？</h5><p>​    Webpack 是一个前端资源加载/打包工具。它将根据模块的依赖关系进行静态分析，然后将这些模块按照指定的规则生成对应的静态资源</p><a id="more"></a><h5 id="2-loader的作用："><a href="#2-loader的作用：" class="headerlink" title="2.loader的作用："></a>2.loader的作用：</h5><p>​    实现对不同格式的文件的处理，比如说将scss转换为css，或者typescript转化为js </p><p>转换这些文件，从而使其能够被添加到依赖图中</p><h5 id="3-优化插件："><a href="#3-优化插件：" class="headerlink" title="3.优化插件："></a>3.优化插件：</h5><p>​    OccurenceOrderPlugin: 为组件分配ID,通过这个插件webpack可以分析和优先考虑使用最多 的模块，然后为他们分配最小的ID</p><p>​    UglifyJsPlugin: 压缩代码</p>]]></content>
-      
-      
+      <tags>
+        <tag>Front</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[前端基础知识——Webpack]]></title>
+    <url>%2F2019%2F03%2F28%2FWebpack%2F</url>
+    <content type="text"><![CDATA[Webpack篇：1.Webpack是什么？​ Webpack 是一个前端资源加载/打包工具。它将根据模块的依赖关系进行静态分析，然后将这些模块按照指定的规则生成对应的静态资源 2.loader的作用：​ 实现对不同格式的文件的处理，比如说将scss转换为css，或者typescript转化为js 转换这些文件，从而使其能够被添加到依赖图中 3.优化插件：​ OccurenceOrderPlugin: 为组件分配ID,通过这个插件webpack可以分析和优先考虑使用最多 的模块，然后为他们分配最小的ID ​ UglifyJsPlugin: 压缩代码]]></content>
       <categories>
-          
-          <category> 前端知识 </category>
-          
+        <category>前端知识</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Front </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>前端基础知识——JavaScript</title>
-      <link href="/2019/03/28/JavaScript/"/>
-      <url>/2019/03/28/JavaScript/</url>
-      
-        <content type="html"><![CDATA[<h3 id="JavaScript篇："><a href="#JavaScript篇：" class="headerlink" title="JavaScript篇："></a><strong>JavaScript篇：</strong></h3><h5 id="1-javascript的typeof返回哪些数据类型"><a href="#1-javascript的typeof返回哪些数据类型" class="headerlink" title="1.javascript的typeof返回哪些数据类型?"></a>1.javascript的typeof返回哪些数据类型?</h5><p>​    string、number、boolean、Ｏbject、underfind、function ;</p><h5 id="2-js的数据类型都有哪些？"><a href="#2-js的数据类型都有哪些？" class="headerlink" title="2.js的数据类型都有哪些？"></a>2.js的数据类型都有哪些？</h5><pre><code> 字符串、数字、布尔、数组、对象、Null、Undefined、Symbol\</code></pre><a id="more"></a><h5 id="3-例举3种强制类型转换和2种隐式类型转换"><a href="#3-例举3种强制类型转换和2种隐式类型转换" class="headerlink" title="3.例举3种强制类型转换和2种隐式类型转换?"></a>3.例举3种强制类型转换和2种隐式类型转换?</h5><p>​    强制类型转换：parseInt,parseFloat,number</p><p>​    隐世类型转换：==和===</p><h5 id="4-数组方法pop-push-unshift-shift"><a href="#4-数组方法pop-push-unshift-shift" class="headerlink" title="4.数组方法pop() push() unshift() shift()"></a>4.数组方法pop() push() unshift() shift()</h5><p>​    Push()尾部添加            pop()尾部删除</p><p>​    Unshift()头部添加        shift()头部删除</p><h5 id="5-谈谈This对象的理解。"><a href="#5-谈谈This对象的理解。" class="headerlink" title="5.谈谈This对象的理解。"></a>5.谈谈This对象的理解。</h5><p>​    this是js的一个关键字，随着函数使用场合不同，this的值会发生变化。</p><p>​    但是有一个总原则，那就是this指的是调用函数的那个对象。</p><p>​    this一般情况下：是全局对象Global。 作为方法调用，那么this就是指这个对象</p>]]></content>
-      
-      
+      <tags>
+        <tag>Front</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[前端基础知识——JavaScript]]></title>
+    <url>%2F2019%2F03%2F28%2FJavaScript%2F</url>
+    <content type="text"><![CDATA[JavaScript篇：1.javascript的typeof返回哪些数据类型?​ string、number、boolean、Ｏbject、underfind、function ; 2.js的数据类型都有哪些？ 字符串、数字、布尔、数组、对象、Null、Undefined、Symbol\ 3.例举3种强制类型转换和2种隐式类型转换?​ 强制类型转换：parseInt,parseFloat,number ​ 隐世类型转换：==和=== 4.数组方法pop() push() unshift() shift()​ Push()尾部添加 pop()尾部删除 ​ Unshift()头部添加 shift()头部删除 5.谈谈This对象的理解。​ this是js的一个关键字，随着函数使用场合不同，this的值会发生变化。 ​ 但是有一个总原则，那就是this指的是调用函数的那个对象。 ​ this一般情况下：是全局对象Global。 作为方法调用，那么this就是指这个对象]]></content>
       <categories>
-          
-          <category> 前端知识 </category>
-          
+        <category>前端知识</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Front </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>前端基础知识——HTML5</title>
-      <link href="/2019/03/28/HTML5/"/>
-      <url>/2019/03/28/HTML5/</url>
-      
-        <content type="html"><![CDATA[<h3 id="HTML5篇："><a href="#HTML5篇：" class="headerlink" title="HTML5篇："></a><strong>HTML5篇：</strong></h3><h5 id="1-html5有哪些新特性、移除了那些元素？"><a href="#1-html5有哪些新特性、移除了那些元素？" class="headerlink" title="1.html5有哪些新特性、移除了那些元素？"></a>1.html5有哪些新特性、移除了那些元素？</h5><p>​    新增的元素有绘画 canvas ，用于媒介回放的 video 和 audio 元素，本地离线存储         localStorage 长期存储数据，浏览器关闭后数据不丢失，而sessionStorage的数据在浏览器关闭后自动删除，此外，还新增了以下的几大类元素。</p><pre><code>内容元素:</code></pre><pre><code>article、footer、header、nav、section</code></pre><pre><code>表单控件:</code></pre><pre><code>calendar、date、time、email、url、search</code></pre><a id="more"></a><pre><code>控件元素:</code></pre><pre><code>webworker, websockt, Geolocation</code></pre><pre><code>移出的元素有下列这些：显现层元素：</code></pre><pre><code>basefont，big，center，font, s，strike，tt，u</code></pre><pre><code>性能较差元素：</code></pre><pre><code>frame，frameset，noframes</code></pre><h5 id="2-如何处理HTML5新标签的浏览器兼容问题？"><a href="#2-如何处理HTML5新标签的浏览器兼容问题？" class="headerlink" title="2.如何处理HTML5新标签的浏览器兼容问题？"></a>2.如何处理HTML5新标签的浏览器兼容问题？</h5><p> 处理兼容问题有两种方式：</p><pre><code>    (1)    IE8/IE7/IE6支持通过document.createElement方法产生的标签，利用这一特性让这些浏览器支持HTML5新标签。    (2)    最好的方式是直接使用成熟的框架、使用最多的是html5shim框架</code></pre><h5 id="3-如何区分-HTML-和HTML5？"><a href="#3-如何区分-HTML-和HTML5？" class="headerlink" title="3.如何区分 HTML 和HTML5？"></a>3.如何区分 HTML 和HTML5？</h5><p>​    DOCTYPE声明的方式是区分HTML和HTML5标志的一个重要因素，此外，还可以根据新增的结构、功能元素来加以区分。</p><h5 id="4-行内元素有哪些？块级元素有哪些？空（void）元素有哪些？"><a href="#4-行内元素有哪些？块级元素有哪些？空（void）元素有哪些？" class="headerlink" title="4.行内元素有哪些？块级元素有哪些？空（void）元素有哪些？"></a>4.行内元素有哪些？块级元素有哪些？空（void）元素有哪些？</h5><pre><code>行内元素有：</code></pre><pre><code>a b span img input select strong</code></pre><pre><code>块级元素有：</code></pre><pre><code>div ul ol li dl dt dd h1 h2 h3 h4…p</code></pre><pre><code>知名的空元素： </code></pre><pre><code>&lt;br&gt;&lt;hr&gt; &lt;img&gt; &lt;input&gt; &lt;link&gt; &lt;meta&gt;</code></pre><pre><code>鲜为人知的是：</code></pre><pre><code> &lt;area&gt; &lt;base&gt; &lt;col&gt; &lt;command&gt; &lt;embed&gt; &lt;keygen&gt; &lt;param&gt; &lt;source&gt; &lt;track&gt; &lt;wbr&gt;</code></pre><h5 id="5-什么是-FOUC（无样式内容闪烁）？你如何来避免-FOUC？"><a href="#5-什么是-FOUC（无样式内容闪烁）？你如何来避免-FOUC？" class="headerlink" title="5.什么是 FOUC（无样式内容闪烁）？你如何来避免 FOUC？"></a>5.什么是 FOUC（无样式内容闪烁）？你如何来避免 FOUC？</h5><pre><code>&lt;style type=&quot;text/css&quot; media=&quot;all&quot;&gt;@import &quot;../fouc.css&quot;;&lt;/style&gt;</code></pre><p>​    而引用CSS文件的@import就是造成这个问题的罪魁祸首。</p><p>​    IE会先加载整个HTML文档的DOM，然后再去导入外部的CSS文件，</p><p>​    因此，在页面DOM加载完成到CSS导入完成中间会有一段时间页面上的内容是没有样式的，这段时间的长短跟网速，电脑速度都有关系。</p><p>​    解决方法简单的出奇，只要在<head><meta name="generator" content="Hexo 3.8.0">之间加入一个<link>或者<script>元素就可以了。</p></script><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head></p>]]></content>
-      
-      
+      <tags>
+        <tag>Front</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[前端基础知识——HTML5]]></title>
+    <url>%2F2019%2F03%2F28%2FHTML5%2F</url>
+    <content type="text"><![CDATA[HTML5篇：1.html5有哪些新特性、移除了那些元素？​ 新增的元素有绘画 canvas ，用于媒介回放的 video 和 audio 元素，本地离线存储 localStorage 长期存储数据，浏览器关闭后数据不丢失，而sessionStorage的数据在浏览器关闭后自动删除，此外，还新增了以下的几大类元素。 内容元素: article、footer、header、nav、section 表单控件: calendar、date、time、email、url、search 控件元素: webworker, websockt, Geolocation 移出的元素有下列这些： 显现层元素： basefont，big，center，font, s，strike，tt，u 性能较差元素： frame，frameset，noframes 2.如何处理HTML5新标签的浏览器兼容问题？ 处理兼容问题有两种方式： (1) IE8/IE7/IE6支持通过document.createElement方法产生的标签，利用这一特性让这些浏览器支持HTML5新标签。 (2) 最好的方式是直接使用成熟的框架、使用最多的是html5shim框架 3.如何区分 HTML 和HTML5？​ DOCTYPE声明的方式是区分HTML和HTML5标志的一个重要因素，此外，还可以根据新增的结构、功能元素来加以区分。 4.行内元素有哪些？块级元素有哪些？空（void）元素有哪些？行内元素有： a b span img input select strong 块级元素有： div ul ol li dl dt dd h1 h2 h3 h4…p 知名的空元素： &lt;br&gt;&lt;hr&gt; &lt;img&gt; &lt;input&gt; &lt;link&gt; &lt;meta&gt; 鲜为人知的是： &lt;area&gt; &lt;base&gt; &lt;col&gt; &lt;command&gt; &lt;embed&gt; &lt;keygen&gt; &lt;param&gt; &lt;source&gt; &lt;track&gt; &lt;wbr&gt; 5.什么是 FOUC（无样式内容闪烁）？你如何来避免 FOUC？&lt;style type=&quot;text/css&quot; media=&quot;all&quot;&gt;@import &quot;../fouc.css&quot;;&lt;/style&gt; ​ 而引用CSS文件的@import就是造成这个问题的罪魁祸首。 ​ IE会先加载整个HTML文档的DOM，然后再去导入外部的CSS文件， ​ 因此，在页面DOM加载完成到CSS导入完成中间会有一段时间页面上的内容是没有样式的，这段时间的长短跟网速，电脑速度都有关系。 ​ 解决方法简单的出奇，只要在之间加入一个或者元素就可以了。]]></content>
       <categories>
-          
-          <category> 前端知识 </category>
-          
+        <category>前端知识</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Front </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>前端基础知识——Web</title>
-      <link href="/2019/03/27/Web/"/>
-      <url>/2019/03/27/Web/</url>
-      
-        <content type="html"><![CDATA[<h3 id="Web篇："><a href="#Web篇：" class="headerlink" title="Web篇："></a><strong>Web篇</strong>：</h3><h5 id="1-常见的浏览器内核有哪些？"><a href="#1-常见的浏览器内核有哪些？" class="headerlink" title="1.常见的浏览器内核有哪些？"></a>1.常见的浏览器内核有哪些？</h5><pre><code>    IE：Trident内核             FireFox：gecko内核                    Opera ：原是用Presto，现改用Blink    Safari ：webkit内核       Chrome：Blink（WebKit的分支）    </code></pre><a id="more"></a><h5 id="2-前端页面有哪三层构成，分别是什么-作用是什么"><a href="#2-前端页面有哪三层构成，分别是什么-作用是什么" class="headerlink" title="2.前端页面有哪三层构成，分别是什么?作用是什么?"></a>2.前端页面有哪三层构成，分别是什么?作用是什么?</h5><p>​    结构层 Html    ， 表示层 CSS  ，   行为层 js　</p><h5 id="3-请描述一下-cookies，sessionStorage-和-localStorage-的区别？"><a href="#3-请描述一下-cookies，sessionStorage-和-localStorage-的区别？" class="headerlink" title="3.请描述一下 cookies，sessionStorage 和 localStorage 的区别？"></a>3.请描述一下 cookies，sessionStorage 和 localStorage 的区别？</h5><pre><code>    sessionStorage 和 localStorage 是HTML5 Web Storage API 提供的，可以方便的在web请求之间保存数据。有了本地数据，就可以避免数据在浏览器和服务器间不必要地来回传递。    sessionStorage、localStorage、cookie都是在浏览器端存储的数据，其中sessionStorage的概念很特别，引入了一个”浏览器窗口”的概念。sessionStorage是在同源的同窗口（或tab）中，始终存在的数据。也就是说只要这个浏览器窗口没有关闭，即使刷新页面或进入同源另一页面，数据仍然存在。关闭窗口后，sessionStorage即被销毁。同时”独立”打开的不同窗口，即使是同一页面，sessionStorage对象也是不同的     cookies会发送到服务器端。其余两个不会。</code></pre><h5 id="4-ajax的缺点"><a href="#4-ajax的缺点" class="headerlink" title="4.ajax的缺点"></a>4.ajax的缺点</h5><ul><li><p>ajax不支持浏览器back按钮。</p></li><li><p>安全问题 AJAX暴露了与服务器交互的细节。</p></li><li><p>对搜索引擎的支持比较弱。</p></li><li><p>破坏了程序的异常机制。不容易调试。</p></li></ul><h5 id="5-怎样添加、移除、移动、复制、创建和查找节点。"><a href="#5-怎样添加、移除、移动、复制、创建和查找节点。" class="headerlink" title="5.怎样添加、移除、移动、复制、创建和查找节点。"></a>5.怎样添加、移除、移动、复制、创建和查找节点。</h5><p>1）创建新节点</p><pre><code>  createDocumentFragment()    //创建一个DOM片段  createElement()   //创建一个具体的元素  createTextNode()   //创建一个文本节点</code></pre><p>2）添加、移除、替换、插入</p><pre><code>  appendChild()  removeChild()  replaceChild()  insertBefore() //并没有insertAfter()</code></pre><p>3）查找</p><pre><code>  getElementsByTagName()    //通过标签名称  getElementsByName()    //通过元素的Name属性的值(IE容错能力较强，会得到一个数组，其中包括id等于name值的)  getElementById()    //通过元素Id，唯一性</code></pre>]]></content>
-      
-      
+      <tags>
+        <tag>Front</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[前端基础知识——Web]]></title>
+    <url>%2F2019%2F03%2F27%2FWeb%2F</url>
+    <content type="text"><![CDATA[Web篇：1.常见的浏览器内核有哪些？ IE：Trident内核 FireFox：gecko内核 Opera ：原是用Presto，现改用Blink Safari ：webkit内核 Chrome：Blink（WebKit的分支） 2.前端页面有哪三层构成，分别是什么?作用是什么?​ 结构层 Html ， 表示层 CSS ， 行为层 js 3.请描述一下 cookies，sessionStorage 和 localStorage 的区别？ sessionStorage 和 localStorage 是HTML5 Web Storage API 提供的，可以方便的在web请求之间保存数据。有了本地数据，就可以避免数据在浏览器和服务器间不必要地来回传递。 sessionStorage、localStorage、cookie都是在浏览器端存储的数据，其中sessionStorage的概念很特别，引入了一个”浏览器窗口”的概念。sessionStorage是在同源的同窗口（或tab）中，始终存在的数据。也就是说只要这个浏览器窗口没有关闭，即使刷新页面或进入同源另一页面，数据仍然存在。关闭窗口后，sessionStorage即被销毁。同时”独立”打开的不同窗口，即使是同一页面，sessionStorage对象也是不同的 cookies会发送到服务器端。其余两个不会。 4.ajax的缺点 ajax不支持浏览器back按钮。 安全问题 AJAX暴露了与服务器交互的细节。 对搜索引擎的支持比较弱。 破坏了程序的异常机制。不容易调试。 5.怎样添加、移除、移动、复制、创建和查找节点。1）创建新节点 createDocumentFragment() //创建一个DOM片段 createElement() //创建一个具体的元素 createTextNode() //创建一个文本节点 2）添加、移除、替换、插入 appendChild() removeChild() replaceChild() insertBefore() //并没有insertAfter() 3）查找 getElementsByTagName() //通过标签名称 getElementsByName() //通过元素的Name属性的值(IE容错能力较强，会得到一个数组，其中包括id等于name值的) getElementById() //通过元素Id，唯一性]]></content>
       <categories>
-          
-          <category> 前端知识 </category>
-          
+        <category>前端知识</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Front </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>Front</tag>
+      </tags>
+  </entry>
 </search>
