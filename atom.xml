@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wjingc.github.io/"/>
-  <updated>2019-10-11T11:16:59.897Z</updated>
+  <updated>2019-10-11T11:18:00.326Z</updated>
   <id>http://wjingc.github.io/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vue</title>
+    <link href="http://wjingc.github.io/2019/10/11/vue-1/"/>
+    <id>http://wjingc.github.io/2019/10/11/vue-1/</id>
+    <published>2019-10-11T11:18:00.000Z</published>
+    <updated>2019-10-11T11:18:00.326Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>vuepress</title>
@@ -155,8 +169,6 @@
       <category term="博客搭建" scheme="http://wjingc.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-      <category term="MacOS" scheme="http://wjingc.github.io/tags/MacOS/"/>
-    
       <category term="gitee" scheme="http://wjingc.github.io/tags/gitee/"/>
     
       <category term="hexo" scheme="http://wjingc.github.io/tags/hexo/"/>
@@ -164,6 +176,8 @@
       <category term="ssh key" scheme="http://wjingc.github.io/tags/ssh-key/"/>
     
       <category term="Github" scheme="http://wjingc.github.io/tags/Github/"/>
+    
+      <category term="MacOS" scheme="http://wjingc.github.io/tags/MacOS/"/>
     
   </entry>
   
@@ -284,9 +298,9 @@
     </summary>
     
     
-      <category term="Hackintosh" scheme="http://wjingc.github.io/tags/Hackintosh/"/>
-    
       <category term="MacOS" scheme="http://wjingc.github.io/tags/MacOS/"/>
+    
+      <category term="Hackintosh" scheme="http://wjingc.github.io/tags/Hackintosh/"/>
     
       <category term="Tools" scheme="http://wjingc.github.io/tags/Tools/"/>
     
@@ -340,9 +354,9 @@
       <category term="博客搭建" scheme="http://wjingc.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-      <category term="MacOS" scheme="http://wjingc.github.io/tags/MacOS/"/>
-    
       <category term="Github" scheme="http://wjingc.github.io/tags/Github/"/>
+    
+      <category term="MacOS" scheme="http://wjingc.github.io/tags/MacOS/"/>
     
       <category term="MacOS Mojave 10.14.4" scheme="http://wjingc.github.io/tags/MacOS-Mojave-10-14-4/"/>
     
@@ -377,9 +391,9 @@
       <category term="MacOS Mojave 10.14.4安装教程" scheme="http://wjingc.github.io/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/MacOS-Mojave-10-14-4%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="Hackintosh" scheme="http://wjingc.github.io/tags/Hackintosh/"/>
-    
       <category term="MacOS" scheme="http://wjingc.github.io/tags/MacOS/"/>
+    
+      <category term="Hackintosh" scheme="http://wjingc.github.io/tags/Hackintosh/"/>
     
       <category term="Tools" scheme="http://wjingc.github.io/tags/Tools/"/>
     
@@ -520,33 +534,6 @@ db.json     package.json    source
     
       &lt;h3 id=&quot;JavaScript篇：&quot;&gt;&lt;a href=&quot;#JavaScript篇：&quot; class=&quot;headerlink&quot; title=&quot;JavaScript篇：&quot;&gt;&lt;/a&gt;&lt;strong&gt;JavaScript篇：&lt;/strong&gt;&lt;/h3&gt;&lt;h5 id=&quot;1-javascript的typeof返回哪些数据类型&quot;&gt;&lt;a href=&quot;#1-javascript的typeof返回哪些数据类型&quot; class=&quot;headerlink&quot; title=&quot;1.javascript的typeof返回哪些数据类型?&quot;&gt;&lt;/a&gt;1.javascript的typeof返回哪些数据类型?&lt;/h5&gt;&lt;p&gt;​    string、number、boolean、Ｏbject、underfind、function ;&lt;/p&gt;
 &lt;h5 id=&quot;2-js的数据类型都有哪些？&quot;&gt;&lt;a href=&quot;#2-js的数据类型都有哪些？&quot; class=&quot;headerlink&quot; title=&quot;2.js的数据类型都有哪些？&quot;&gt;&lt;/a&gt;2.js的数据类型都有哪些？&lt;/h5&gt;&lt;pre&gt;&lt;code&gt; 字符串、数字、布尔、数组、对象、Null、Undefined、Symbol\
-&lt;/code&gt;&lt;/pre&gt;
-    
-    </summary>
-    
-      <category term="前端知识" scheme="http://wjingc.github.io/categories/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86/"/>
-    
-    
-      <category term="Front" scheme="http://wjingc.github.io/tags/Front/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>前端基础知识——HTML5</title>
-    <link href="http://wjingc.github.io/2019/03/28/HTML5/"/>
-    <id>http://wjingc.github.io/2019/03/28/HTML5/</id>
-    <published>2019-03-28T02:14:45.000Z</published>
-    <updated>2019-04-03T02:34:23.000Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="HTML5篇："><a href="#HTML5篇：" class="headerlink" title="HTML5篇："></a><strong>HTML5篇：</strong></h3><h5 id="1-html5有哪些新特性、移除了那些元素？"><a href="#1-html5有哪些新特性、移除了那些元素？" class="headerlink" title="1.html5有哪些新特性、移除了那些元素？"></a>1.html5有哪些新特性、移除了那些元素？</h5><p>​    新增的元素有绘画 canvas ，用于媒介回放的 video 和 audio 元素，本地离线存储         localStorage 长期存储数据，浏览器关闭后数据不丢失，而sessionStorage的数据在浏览器关闭后自动删除，此外，还新增了以下的几大类元素。</p><pre><code>内容元素:</code></pre><pre><code>article、footer、header、nav、section</code></pre><pre><code>表单控件:</code></pre><pre><code>calendar、date、time、email、url、search</code></pre><a id="more"></a><pre><code>控件元素:</code></pre><pre><code>webworker, websockt, Geolocation</code></pre><pre><code>移出的元素有下列这些：显现层元素：</code></pre><pre><code>basefont，big，center，font, s，strike，tt，u</code></pre><pre><code>性能较差元素：</code></pre><pre><code>frame，frameset，noframes</code></pre><h5 id="2-如何处理HTML5新标签的浏览器兼容问题？"><a href="#2-如何处理HTML5新标签的浏览器兼容问题？" class="headerlink" title="2.如何处理HTML5新标签的浏览器兼容问题？"></a>2.如何处理HTML5新标签的浏览器兼容问题？</h5><p> 处理兼容问题有两种方式：</p><pre><code>    (1)    IE8/IE7/IE6支持通过document.createElement方法产生的标签，利用这一特性让这些浏览器支持HTML5新标签。    (2)    最好的方式是直接使用成熟的框架、使用最多的是html5shim框架</code></pre><h5 id="3-如何区分-HTML-和HTML5？"><a href="#3-如何区分-HTML-和HTML5？" class="headerlink" title="3.如何区分 HTML 和HTML5？"></a>3.如何区分 HTML 和HTML5？</h5><p>​    DOCTYPE声明的方式是区分HTML和HTML5标志的一个重要因素，此外，还可以根据新增的结构、功能元素来加以区分。</p><h5 id="4-行内元素有哪些？块级元素有哪些？空（void）元素有哪些？"><a href="#4-行内元素有哪些？块级元素有哪些？空（void）元素有哪些？" class="headerlink" title="4.行内元素有哪些？块级元素有哪些？空（void）元素有哪些？"></a>4.行内元素有哪些？块级元素有哪些？空（void）元素有哪些？</h5><pre><code>行内元素有：</code></pre><pre><code>a b span img input select strong</code></pre><pre><code>块级元素有：</code></pre><pre><code>div ul ol li dl dt dd h1 h2 h3 h4…p</code></pre><pre><code>知名的空元素： </code></pre><pre><code>&lt;br&gt;&lt;hr&gt; &lt;img&gt; &lt;input&gt; &lt;link&gt; &lt;meta&gt;</code></pre><pre><code>鲜为人知的是：</code></pre><pre><code> &lt;area&gt; &lt;base&gt; &lt;col&gt; &lt;command&gt; &lt;embed&gt; &lt;keygen&gt; &lt;param&gt; &lt;source&gt; &lt;track&gt; &lt;wbr&gt;</code></pre><h5 id="5-什么是-FOUC（无样式内容闪烁）？你如何来避免-FOUC？"><a href="#5-什么是-FOUC（无样式内容闪烁）？你如何来避免-FOUC？" class="headerlink" title="5.什么是 FOUC（无样式内容闪烁）？你如何来避免 FOUC？"></a>5.什么是 FOUC（无样式内容闪烁）？你如何来避免 FOUC？</h5><pre><code>&lt;style type=&quot;text/css&quot; media=&quot;all&quot;&gt;@import &quot;../fouc.css&quot;;&lt;/style&gt;</code></pre><p>​    而引用CSS文件的@import就是造成这个问题的罪魁祸首。</p><p>​    IE会先加载整个HTML文档的DOM，然后再去导入外部的CSS文件，</p><p>​    因此，在页面DOM加载完成到CSS导入完成中间会有一段时间页面上的内容是没有样式的，这段时间的长短跟网速，电脑速度都有关系。</p><p>​    解决方法简单的出奇，只要在<head><meta name="generator" content="Hexo 3.8.0">之间加入一个<link>或者<script>元素就可以了。</p></script><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;HTML5篇：&quot;&gt;&lt;a href=&quot;#HTML5篇：&quot; class=&quot;headerlink&quot; title=&quot;HTML5篇：&quot;&gt;&lt;/a&gt;&lt;strong&gt;HTML5篇：&lt;/strong&gt;&lt;/h3&gt;&lt;h5 id=&quot;1-html5有哪些新特性、移除了那些元素？&quot;&gt;&lt;a href=&quot;#1-html5有哪些新特性、移除了那些元素？&quot; class=&quot;headerlink&quot; title=&quot;1.html5有哪些新特性、移除了那些元素？&quot;&gt;&lt;/a&gt;1.html5有哪些新特性、移除了那些元素？&lt;/h5&gt;&lt;p&gt;​    新增的元素有绘画 canvas ，用于媒介回放的 video 和 audio 元素，本地离线存储         localStorage 长期存储数据，浏览器关闭后数据不丢失，而sessionStorage的数据在浏览器关闭后自动删除，此外，还新增了以下的几大类元素。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;内容元素:
-&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;article、footer、header、nav、section
-&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;表单控件:
-&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;calendar、date、time、email、url、search
 &lt;/code&gt;&lt;/pre&gt;
     
     </summary>
