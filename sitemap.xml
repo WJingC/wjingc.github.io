@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://wjingc.github.io/2019/10/12/vue-2/</loc>
+    
+    <lastmod>2019-10-12T14:09:31.634Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wjingc.github.io/2019/04/01/blogspace/</loc>
+    
+    <lastmod>2019-10-12T02:34:31.010Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://wjingc.github.io/2019/10/11/vue-1/</loc>
     
     <lastmod>2019-10-11T11:18:00.326Z</lastmod>
@@ -33,13 +47,6 @@
     <loc>http://wjingc.github.io/2019/09/05/macbook/</loc>
     
     <lastmod>2019-09-05T12:35:48.811Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wjingc.github.io/2019/04/01/blogspace/</loc>
-    
-    <lastmod>2019-08-19T04:36:38.728Z</lastmod>
     
   </url>
   

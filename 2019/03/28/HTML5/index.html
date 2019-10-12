@@ -28,8 +28,9 @@
     </style>
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+</head>
 
+<link rel="stylesheet" href="/js/prism/prism.css">
 
 <body>
 
@@ -442,7 +443,7 @@
 <p>​    IE会先加载整个HTML文档的DOM，然后再去导入外部的CSS文件，</p>
 <p>​    因此，在页面DOM加载完成到CSS导入完成中间会有一段时间页面上的内容是没有样式的，这段时间的长短跟网速，电脑速度都有关系。</p>
 <p>​    解决方法简单的出奇，只要在<head><meta name="generator" content="Hexo 3.8.0">之间加入一个<link>或者<script>元素就可以了。</p>
-</script><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head></p>
+</script></head></p>
             </div>
             <hr/>
 
@@ -922,7 +923,8 @@
 </footer>
 
 <div class="progress-bar"></div>
-
+<script src="/js/prism/clipboard.min.js"></script>
+<script src="/js/prism/prism.js" async></script>
 
 <!-- 搜索遮罩框 -->
 <div id="searchModal" class="modal">
