@@ -357,12 +357,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Hexo/" target="_blank">
-                                <span class="chip bg-color">Hexo</span>
-                            </a>
-                        
                             <a href="/tags/Github/" target="_blank">
                                 <span class="chip bg-color">Github</span>
+                            </a>
+                        
+                            <a href="/tags/Hexo/" target="_blank">
+                                <span class="chip bg-color">Hexo</span>
                             </a>
                         
                             <a href="/tags/Blog/" target="_blank">
@@ -439,13 +439,13 @@
 <h4 id="系统环境配置"><a href="#系统环境配置" class="headerlink" title="系统环境配置"></a>系统环境配置</h4><h5 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h5><p>参考地址：<a href="http://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="noopener">Node.js安装配置</a></p>
 <h5 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h5><pre class=" language-bash"><code class="language-bash">$ <span class="token function">apt-get</span> <span class="token function">install</span> <span class="token function">git</span>
 </code></pre>
-<h5 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h5><pre class=" language-bash"><code class="language-bash">$ <span class="token function">cd</span> d:/hexo
-$ <span class="token function">npm</span> <span class="token function">install</span> hexo-cli -g
+<h5 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h5><pre class=" language-shell-session"><code class="language-shell-session">$ cd d:/hexo
+$ npm install hexo-cli -g
 $ hexo init blog
-$ <span class="token function">cd</span> blog
-$ <span class="token function">npm</span> <span class="token function">install</span>
-$ hexo g <span class="token comment" spellcheck="true"># 或者hexo generate</span>
-$ hexo s <span class="token comment" spellcheck="true"># 或者hexo server，可以在http://localhost:4000/ 查看</span>
+$ cd blog
+$ npm install
+$ hexo g # 或者hexo generate
+$ hexo s # 或者hexo server，可以在http://localhost:4000/ 查看
 </code></pre>
 <p>这里有必要提下Hexo常用的几个命令：</p>
 <ol>
@@ -499,8 +499,9 @@ scheme: Mist
 #scheme: Pisces
 </code></pre>
 <h5 id="设置语言"><a href="#设置语言" class="headerlink" title="设置语言"></a>设置语言</h5><p>编辑 <strong>站点配置文件</strong>， 将 <code>language</code> 设置成你所需要的语言。建议明确设置你所需要的语言，例如选用简体中文，配置如下：</p>
-<pre><code>language: zh-Hans
-</code></pre><p>目前 NexT 支持的语言如以下表格所示：</p>
+<pre class=" language-yml"><code class="language-yml">language: zh-Hans
+</code></pre>
+<p>目前 NexT 支持的语言如以下表格所示：</p>
 <table>
 <thead>
 <tr>
@@ -567,13 +568,13 @@ scheme: Mist
 <ol>
 <li><p>设定菜单内容，对应的字段是 <code>menu</code>。 菜单内容的设置格式是：<code>item name: link</code>。其中 <code>item name</code>是一个名称，这个名称并不直接显示在页面上，她将用于匹配图标以及翻译。</p>
 <p>菜单示例配置</p>
-<pre class=" language-bash"><code class="language-bash">menu:
+<pre class=" language-yml"><code class="language-yml">menu:
   home: /
   archives: /archives
-  <span class="token comment" spellcheck="true">#about: /about</span>
-  <span class="token comment" spellcheck="true">#categories: /categories</span>
+  #about: /about
+  #categories: /categories
   tags: /tags
-  <span class="token comment" spellcheck="true">#commonweal: /404.html</span>
+  #commonweal: /404.html
 </code></pre>
 <p>若你的站点运行在子目录中，请将链接前缀的 <code>/</code> 去掉</p>
 <p>NexT 默认的菜单项有（标注  的项表示需要手动创建这个页面）：</p>
@@ -581,7 +582,7 @@ scheme: Mist
 </li>
 <li><p>设置菜单项的显示文本。在第一步中设置的菜单的名称并不直接用于界面上的展示。Hexo 在生成的时候将使用 这个名称查找对应的语言翻译，并提取显示文本。这些翻译文本放置在 NexT 主题目录下的 <code>languages/{language}.yml</code>（<code>{language}</code> 为你所使用的语言）。</p>
 <p>以简体中文为例，若你需要添加一个菜单项，比如 <code>something</code>。那么就需要修改简体中文对应的翻译文件<code>languages/zh-Hans.yml</code>，在 <code>menu</code> 字段下添加一项：</p>
-<pre class=" language-bash"><code class="language-bash">menu:
+<pre class=" language-yml"><code class="language-yml">menu:
   home: 首页
   archives: 归档
   categories: 分类
@@ -594,9 +595,9 @@ scheme: Mist
 </li>
 <li><p>设定菜单项的图标，对应的字段是 <code>menu_icons</code>。 此设定格式是 <code>item name: icon name</code>，其中 <code>item name</code> 与上一步所配置的菜单名字对应，<code>icon name</code> 是 Font Awesome 图标的 名字。而 <code>enable</code> 可用于控制是否显示图标，你可以设置成 <code>false</code> 来去掉图标。</p>
 <p>菜单图标配置示例</p>
-<pre class=" language-bash"><code class="language-bash">menu_icons:
-  enable: <span class="token boolean">true</span>
-  <span class="token comment" spellcheck="true"># Icon Mapping.</span>
+<pre class=" language-yml"><code class="language-yml">menu_icons:
+  enable: true
+  # Icon Mapping.
   home: home
   about: user
   categories: th
@@ -616,7 +617,7 @@ scheme: Mist
 <li>right - 靠右放置</li>
 </ul>
 <p>目前仅 Pisces Scheme 支持 <code>position</code> 配置。影响版本5.0.0及更低版本。</p>
-<pre class=" language-bash"><code class="language-bash">sidebar:
+<pre class=" language-yml"><code class="language-yml">sidebar:
   position: left
 </code></pre>
 </li>
@@ -627,7 +628,7 @@ scheme: Mist
 <li><code>hide</code> - 在所有页面中都隐藏（可以手动展开）</li>
 <li><code>remove</code> - 完全移除</li>
 </ul>
-<pre class=" language-bash"><code class="language-bash">sidebar:
+<pre class=" language-yml"><code class="language-yml">sidebar:
   display: post
 </code></pre>
 <p>已知侧栏在 <code>use motion: false</code> 的情况下不会展示。 影响版本5.0.0及更低版本。</p>
@@ -890,12 +891,12 @@ scheme: Mist
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Hackintosh/" target="_blank">
-                        <span class="chip bg-color">Hackintosh</span>
-                    </a>
-                    
                     <a href="/tags/MacOS/" target="_blank">
                         <span class="chip bg-color">MacOS</span>
+                    </a>
+                    
+                    <a href="/tags/Hackintosh/" target="_blank">
+                        <span class="chip bg-color">Hackintosh</span>
                     </a>
                     
                     <a href="/tags/Tools/" target="_blank">
@@ -962,12 +963,12 @@ db.json     pac
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Hexo/" target="_blank">
-                        <span class="chip bg-color">Hexo</span>
-                    </a>
-                    
                     <a href="/tags/Github/" target="_blank">
                         <span class="chip bg-color">Github</span>
+                    </a>
+                    
+                    <a href="/tags/Hexo/" target="_blank">
+                        <span class="chip bg-color">Hexo</span>
                     </a>
                     
                     <a href="/tags/NexT/" target="_blank">
