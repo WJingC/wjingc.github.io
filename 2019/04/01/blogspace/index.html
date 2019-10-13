@@ -437,15 +437,15 @@
 <p>后面的操作照配图做就可以了</p>
 <h5 id="生成Github-Pages"><a href="#生成Github-Pages" class="headerlink" title="生成Github Pages"></a>生成Github Pages</h5><p>建完仓库后，在当前页面右边选择Settings，进入设置页面，在这里生成你的github pages</p>
 <h4 id="系统环境配置"><a href="#系统环境配置" class="headerlink" title="系统环境配置"></a>系统环境配置</h4><h5 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h5><p>参考地址：<a href="http://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="noopener">Node.js安装配置</a></p>
-<h5 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h5><pre><code class="bash">$ apt-get install git
+<h5 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h5><pre class=" language-bash"><code class="language-bash">$ <span class="token function">apt-get</span> <span class="token function">install</span> <span class="token function">git</span>
 </code></pre>
-<h5 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h5><pre><code class="powershell">$ cd d:/hexo
-$ npm install hexo-cli -g
+<h5 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h5><pre class=" language-bash"><code class="language-bash">$ <span class="token function">cd</span> d:/hexo
+$ <span class="token function">npm</span> <span class="token function">install</span> hexo-cli -g
 $ hexo init blog
-$ cd blog
-$ npm install
-$ hexo g # 或者hexo generate
-$ hexo s # 或者hexo server，可以在http://localhost:4000/ 查看
+$ <span class="token function">cd</span> blog
+$ <span class="token function">npm</span> <span class="token function">install</span>
+$ hexo g <span class="token comment" spellcheck="true"># 或者hexo generate</span>
+$ hexo s <span class="token comment" spellcheck="true"># 或者hexo server，可以在http://localhost:4000/ 查看</span>
 </code></pre>
 <p>这里有必要提下Hexo常用的几个命令：</p>
 <ol>
@@ -455,34 +455,34 @@ $ hexo s # 或者hexo server，可以在http://localhost:4000/ 查看
 </ol>
 <p>另外还有其他几个常用命令：</p>
 <p>另外还有其他几个常用命令：</p>
-<pre><code class="bash">$ hexo new &quot;postName&quot; #新建文章
-$ hexo new page &quot;pageName&quot; #新建页面
+<pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"postName"</span> <span class="token comment" spellcheck="true">#新建文章</span>
+$ hexo new page <span class="token string">"pageName"</span> <span class="token comment" spellcheck="true">#新建页面</span>
 </code></pre>
 <p>常用简写</p>
-<pre><code class="bash">$ hexo n == hexo new
-$ hexo g == hexo generate
-$ hexo s == hexo server
-$ hexo d == hexo deploy
+<pre class=" language-bash"><code class="language-bash">$ hexo n <span class="token operator">==</span> hexo new
+$ hexo g <span class="token operator">==</span> hexo generate
+$ hexo s <span class="token operator">==</span> hexo server
+$ hexo d <span class="token operator">==</span> hexo deploy
 </code></pre>
 <p>常用组合</p>
-<pre><code class="bash">$ hexo d -g #生成部署
-$ hexo s -g #生成预览
+<pre class=" language-bash"><code class="language-bash">$ hexo d -g <span class="token comment" spellcheck="true">#生成部署</span>
+$ hexo s -g <span class="token comment" spellcheck="true">#生成预览</span>
 </code></pre>
 <p>现在我们打开<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> 已经可以看到一篇内置的blog了。</p>
 <h4 id="Hexo主题设置"><a href="#Hexo主题设置" class="headerlink" title="Hexo主题设置"></a>Hexo主题设置</h4><p>我选的是<strong>NexT</strong>主题，主题喜好根据自己选择。</p>
 <p>Hexo 安装主题的方式非常简单，只需要将主题文件拷贝至站点目录的 <code>themes</code> 目录下， 然后修改下配置文件即可。具体到 NexT 来说，安装步骤如下。</p>
 <h5 id="下载主题"><a href="#下载主题" class="headerlink" title="下载主题"></a>下载主题</h5><p>如果你熟悉 <a href="http://git-scm.com/" target="_blank" rel="noopener">Git</a>，建议你使用克隆最新版本的方式，之后的更新可以通过 <code>git pull</code> 来快速更新， 而不用再次下载压缩包替换。</p>
 <p>在终端窗口下，定位到 Hexo 站点目录下。使用 <code>Git</code> checkout 代码：</p>
-<pre><code class="bash">$ cd blog
-$ git clone https://github.com/iissnan/hexo-theme-next themes/next
+<pre class=" language-bash"><code class="language-bash">$ <span class="token function">cd</span> blog
+$ <span class="token function">git</span> clone https://github.com/iissnan/hexo-theme-next themes/next
 </code></pre>
 <h5 id="启用主题"><a href="#启用主题" class="headerlink" title="启用主题"></a>启用主题</h5><p>与所有 Hexo 主题启用的模式一样。当克隆/下载完成后，打开 <strong>站点配置文件</strong>， 找到 <code>theme</code> 字段，并将其值更改为 <code>next</code>。</p>
 <p>启用 NexT 主题</p>
-<pre><code class="bash">theme: next
+<pre class=" language-yml"><code class="language-yml">theme: next
 </code></pre>
 <p>到此，NexT 主题安装完成。下一步我们将验证主题是否正确启用。在切换主题之后、验证之前， 我们最好使用 <code>hexo clean</code> 来清除 Hexo 的缓存。</p>
 <h5 id="验证主题"><a href="#验证主题" class="headerlink" title="验证主题"></a>验证主题</h5><p>首先启动 Hexo 本地站点，并开启调试模式（即加上 <code>--debug</code>），整个命令是 <code>hexo s --debug</code>。 在服务启动的过程，注意观察命令行输出是否有任何异常信息，如果你碰到问题，这些信息将帮助他人更好的定位错误。 当命令行输出中提示出：</p>
-<pre><code class="bash">INFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.
+<pre class=" language-bash"><code class="language-bash">INFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.
 </code></pre>
 <p>此时即可使用浏览器访问 <code>http://localhost:4000</code>，检查站点是否正确运行。</p>
 <p>当你看到站点的外观与下图所示类似时即说明你已成功安装 NexT 主题。这是 NexT 默认的 Scheme —— Muse</p>
@@ -494,7 +494,7 @@ $ git clone https://github.com/iissnan/hexo-theme-next themes/next
 </ul>
 <p>Scheme 的切换通过更改 主题配置文件，搜索 scheme 关键字。 你会看到有三行 scheme 的配置，将你需用启用的 scheme 前面注释 <code>#</code> 去除即可。</p>
 <p>选择 Mist Scheme</p>
-<pre><code class="bash">#scheme: Muse
+<pre class=" language-yml"><code class="language-yml">#scheme: Muse
 scheme: Mist
 #scheme: Pisces
 </code></pre>
@@ -567,13 +567,13 @@ scheme: Mist
 <ol>
 <li><p>设定菜单内容，对应的字段是 <code>menu</code>。 菜单内容的设置格式是：<code>item name: link</code>。其中 <code>item name</code>是一个名称，这个名称并不直接显示在页面上，她将用于匹配图标以及翻译。</p>
 <p>菜单示例配置</p>
-<pre><code class="bash">menu:
+<pre class=" language-bash"><code class="language-bash">menu:
   home: /
   archives: /archives
-  #about: /about
-  #categories: /categories
+  <span class="token comment" spellcheck="true">#about: /about</span>
+  <span class="token comment" spellcheck="true">#categories: /categories</span>
   tags: /tags
-  #commonweal: /404.html
+  <span class="token comment" spellcheck="true">#commonweal: /404.html</span>
 </code></pre>
 <p>若你的站点运行在子目录中，请将链接前缀的 <code>/</code> 去掉</p>
 <p>NexT 默认的菜单项有（标注  的项表示需要手动创建这个页面）：</p>
@@ -581,7 +581,7 @@ scheme: Mist
 </li>
 <li><p>设置菜单项的显示文本。在第一步中设置的菜单的名称并不直接用于界面上的展示。Hexo 在生成的时候将使用 这个名称查找对应的语言翻译，并提取显示文本。这些翻译文本放置在 NexT 主题目录下的 <code>languages/{language}.yml</code>（<code>{language}</code> 为你所使用的语言）。</p>
 <p>以简体中文为例，若你需要添加一个菜单项，比如 <code>something</code>。那么就需要修改简体中文对应的翻译文件<code>languages/zh-Hans.yml</code>，在 <code>menu</code> 字段下添加一项：</p>
-<pre><code class="bash">menu:
+<pre class=" language-bash"><code class="language-bash">menu:
   home: 首页
   archives: 归档
   categories: 分类
@@ -594,9 +594,9 @@ scheme: Mist
 </li>
 <li><p>设定菜单项的图标，对应的字段是 <code>menu_icons</code>。 此设定格式是 <code>item name: icon name</code>，其中 <code>item name</code> 与上一步所配置的菜单名字对应，<code>icon name</code> 是 Font Awesome 图标的 名字。而 <code>enable</code> 可用于控制是否显示图标，你可以设置成 <code>false</code> 来去掉图标。</p>
 <p>菜单图标配置示例</p>
-<pre><code class="bash">menu_icons:
-  enable: true
-  # Icon Mapping.
+<pre class=" language-bash"><code class="language-bash">menu_icons:
+  enable: <span class="token boolean">true</span>
+  <span class="token comment" spellcheck="true"># Icon Mapping.</span>
   home: home
   about: user
   categories: th
@@ -616,7 +616,7 @@ scheme: Mist
 <li>right - 靠右放置</li>
 </ul>
 <p>目前仅 Pisces Scheme 支持 <code>position</code> 配置。影响版本5.0.0及更低版本。</p>
-<pre><code class="bash">sidebar:
+<pre class=" language-bash"><code class="language-bash">sidebar:
   position: left
 </code></pre>
 </li>
@@ -627,7 +627,7 @@ scheme: Mist
 <li><code>hide</code> - 在所有页面中都隐藏（可以手动展开）</li>
 <li><code>remove</code> - 完全移除</li>
 </ul>
-<pre><code class="bash">sidebar:
+<pre class=" language-bash"><code class="language-bash">sidebar:
   display: post
 </code></pre>
 <p>已知侧栏在 <code>use motion: false</code> 的情况下不会展示。 影响版本5.0.0及更低版本。</p>
@@ -653,7 +653,7 @@ scheme: Mist
 </tbody>
 </table>
 <p>头像设置示例</p>
-<pre><code class="js">avatar: http://example.com/avatar.png
+<pre class=" language-js"><code class="language-js">avatar<span class="token punctuation">:</span> http<span class="token punctuation">:</span><span class="token operator">/</span><span class="token operator">/</span>example<span class="token punctuation">.</span>com<span class="token operator">/</span>avatar<span class="token punctuation">.</span>png
 </code></pre>
 <h5 id="设置作者昵称"><a href="#设置作者昵称" class="headerlink" title="设置作者昵称"></a>设置作者昵称</h5><p>编辑 站点配置文件， 设置 <code>author</code> 为你的昵称。</p>
 <h5 id="站点描述"><a href="#站点描述" class="headerlink" title="站点描述"></a>站点描述</h5><p>编辑 站点配置文件， 设置 <code>description</code> 字段为你的站点描述。站点描述可以是你喜欢的一句签名:) </p>
