@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wjingc.github.io/"/>
-  <updated>2019-10-14T07:44:23.286Z</updated>
+  <updated>2019-10-13T03:20:19.425Z</updated>
   <id>http://wjingc.github.io/</id>
   
   <author>
@@ -15,20 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>vue</title>
-    <link href="http://wjingc.github.io/2019/10/14/vue-2/"/>
-    <id>http://wjingc.github.io/2019/10/14/vue-2/</id>
-    <published>2019-10-14T07:44:23.000Z</published>
-    <updated>2019-10-14T07:44:23.286Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>vue</title>
@@ -525,6 +511,30 @@ db.json     package.json    source
     <summary type="html">
     
       &lt;h3 id=&quot;Webpack篇：&quot;&gt;&lt;a href=&quot;#Webpack篇：&quot; class=&quot;headerlink&quot; title=&quot;Webpack篇：&quot;&gt;&lt;/a&gt;&lt;strong&gt;Webpack篇：&lt;/strong&gt;&lt;/h3&gt;&lt;h5 id=&quot;1-Webpack是什么？&quot;&gt;&lt;a href=&quot;#1-Webpack是什么？&quot; class=&quot;headerlink&quot; title=&quot;1.Webpack是什么？&quot;&gt;&lt;/a&gt;1.Webpack是什么？&lt;/h5&gt;&lt;p&gt;​    Webpack 是一个前端资源加载/打包工具。它将根据模块的依赖关系进行静态分析，然后将这些模块按照指定的规则生成对应的静态资源&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="前端知识" scheme="http://wjingc.github.io/categories/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86/"/>
+    
+    
+      <category term="Front" scheme="http://wjingc.github.io/tags/Front/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>前端基础知识——JavaScript</title>
+    <link href="http://wjingc.github.io/2019/03/28/JavaScript/"/>
+    <id>http://wjingc.github.io/2019/03/28/JavaScript/</id>
+    <published>2019-03-28T02:18:43.000Z</published>
+    <updated>2019-04-03T02:34:36.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="JavaScript篇："><a href="#JavaScript篇：" class="headerlink" title="JavaScript篇："></a><strong>JavaScript篇：</strong></h3><h5 id="1-javascript的typeof返回哪些数据类型"><a href="#1-javascript的typeof返回哪些数据类型" class="headerlink" title="1.javascript的typeof返回哪些数据类型?"></a>1.javascript的typeof返回哪些数据类型?</h5><p>​    string、number、boolean、Ｏbject、underfind、function ;</p><h5 id="2-js的数据类型都有哪些？"><a href="#2-js的数据类型都有哪些？" class="headerlink" title="2.js的数据类型都有哪些？"></a>2.js的数据类型都有哪些？</h5><pre><code> 字符串、数字、布尔、数组、对象、Null、Undefined、Symbol\</code></pre><a id="more"></a><h5 id="3-例举3种强制类型转换和2种隐式类型转换"><a href="#3-例举3种强制类型转换和2种隐式类型转换" class="headerlink" title="3.例举3种强制类型转换和2种隐式类型转换?"></a>3.例举3种强制类型转换和2种隐式类型转换?</h5><p>​    强制类型转换：parseInt,parseFloat,number</p><p>​    隐世类型转换：==和===</p><h5 id="4-数组方法pop-push-unshift-shift"><a href="#4-数组方法pop-push-unshift-shift" class="headerlink" title="4.数组方法pop() push() unshift() shift()"></a>4.数组方法pop() push() unshift() shift()</h5><p>​    Push()尾部添加            pop()尾部删除</p><p>​    Unshift()头部添加        shift()头部删除</p><h5 id="5-谈谈This对象的理解。"><a href="#5-谈谈This对象的理解。" class="headerlink" title="5.谈谈This对象的理解。"></a>5.谈谈This对象的理解。</h5><p>​    this是js的一个关键字，随着函数使用场合不同，this的值会发生变化。</p><p>​    但是有一个总原则，那就是this指的是调用函数的那个对象。</p><p>​    this一般情况下：是全局对象Global。 作为方法调用，那么this就是指这个对象</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;JavaScript篇：&quot;&gt;&lt;a href=&quot;#JavaScript篇：&quot; class=&quot;headerlink&quot; title=&quot;JavaScript篇：&quot;&gt;&lt;/a&gt;&lt;strong&gt;JavaScript篇：&lt;/strong&gt;&lt;/h3&gt;&lt;h5 id=&quot;1-javascript的typeof返回哪些数据类型&quot;&gt;&lt;a href=&quot;#1-javascript的typeof返回哪些数据类型&quot; class=&quot;headerlink&quot; title=&quot;1.javascript的typeof返回哪些数据类型?&quot;&gt;&lt;/a&gt;1.javascript的typeof返回哪些数据类型?&lt;/h5&gt;&lt;p&gt;​    string、number、boolean、Ｏbject、underfind、function ;&lt;/p&gt;
+&lt;h5 id=&quot;2-js的数据类型都有哪些？&quot;&gt;&lt;a href=&quot;#2-js的数据类型都有哪些？&quot; class=&quot;headerlink&quot; title=&quot;2.js的数据类型都有哪些？&quot;&gt;&lt;/a&gt;2.js的数据类型都有哪些？&lt;/h5&gt;&lt;pre&gt;&lt;code&gt; 字符串、数字、布尔、数组、对象、Null、Undefined、Symbol\
+&lt;/code&gt;&lt;/pre&gt;
     
     </summary>
     
