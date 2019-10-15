@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wjingc.github.io/"/>
-  <updated>2019-10-15T15:28:27.378Z</updated>
+  <updated>2019-10-14T07:44:23.286Z</updated>
   <id>http://wjingc.github.io/</id>
   
   <author>
@@ -15,20 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>vue</title>
-    <link href="http://wjingc.github.io/2019/10/15/vue-3/"/>
-    <id>http://wjingc.github.io/2019/10/15/vue-3/</id>
-    <published>2019-10-15T15:28:27.000Z</published>
-    <updated>2019-10-15T15:28:27.378Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>vue</title>
@@ -197,6 +183,8 @@
       <category term="博客搭建" scheme="http://wjingc.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
+      <category term="MacOS" scheme="http://wjingc.github.io/tags/MacOS/"/>
+    
       <category term="gitee" scheme="http://wjingc.github.io/tags/gitee/"/>
     
       <category term="hexo" scheme="http://wjingc.github.io/tags/hexo/"/>
@@ -204,8 +192,6 @@
       <category term="ssh key" scheme="http://wjingc.github.io/tags/ssh-key/"/>
     
       <category term="Github" scheme="http://wjingc.github.io/tags/Github/"/>
-    
-      <category term="MacOS" scheme="http://wjingc.github.io/tags/MacOS/"/>
     
   </entry>
   
@@ -326,9 +312,9 @@
     </summary>
     
     
-      <category term="MacOS" scheme="http://wjingc.github.io/tags/MacOS/"/>
-    
       <category term="Hackintosh" scheme="http://wjingc.github.io/tags/Hackintosh/"/>
+    
+      <category term="MacOS" scheme="http://wjingc.github.io/tags/MacOS/"/>
     
       <category term="Tools" scheme="http://wjingc.github.io/tags/Tools/"/>
     
@@ -382,9 +368,9 @@
       <category term="博客搭建" scheme="http://wjingc.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-      <category term="Github" scheme="http://wjingc.github.io/tags/Github/"/>
-    
       <category term="MacOS" scheme="http://wjingc.github.io/tags/MacOS/"/>
+    
+      <category term="Github" scheme="http://wjingc.github.io/tags/Github/"/>
     
       <category term="MacOS Mojave 10.14.4" scheme="http://wjingc.github.io/tags/MacOS-Mojave-10-14-4/"/>
     
@@ -419,9 +405,9 @@
       <category term="MacOS Mojave 10.14.4安装教程" scheme="http://wjingc.github.io/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/MacOS-Mojave-10-14-4%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="MacOS" scheme="http://wjingc.github.io/tags/MacOS/"/>
-    
       <category term="Hackintosh" scheme="http://wjingc.github.io/tags/Hackintosh/"/>
+    
+      <category term="MacOS" scheme="http://wjingc.github.io/tags/MacOS/"/>
     
       <category term="Tools" scheme="http://wjingc.github.io/tags/Tools/"/>
     
@@ -517,6 +503,28 @@ db.json     package.json    source
 
    使用CSS的:after伪元素；         使用邻接元素处理；
 &lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+      <category term="前端知识" scheme="http://wjingc.github.io/categories/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86/"/>
+    
+    
+      <category term="Front" scheme="http://wjingc.github.io/tags/Front/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>前端基础知识——Webpack</title>
+    <link href="http://wjingc.github.io/2019/03/28/Webpack/"/>
+    <id>http://wjingc.github.io/2019/03/28/Webpack/</id>
+    <published>2019-03-28T02:18:57.000Z</published>
+    <updated>2019-04-03T02:35:01.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Webpack篇："><a href="#Webpack篇：" class="headerlink" title="Webpack篇："></a><strong>Webpack篇：</strong></h3><h5 id="1-Webpack是什么？"><a href="#1-Webpack是什么？" class="headerlink" title="1.Webpack是什么？"></a>1.Webpack是什么？</h5><p>​    Webpack 是一个前端资源加载/打包工具。它将根据模块的依赖关系进行静态分析，然后将这些模块按照指定的规则生成对应的静态资源</p><a id="more"></a><h5 id="2-loader的作用："><a href="#2-loader的作用：" class="headerlink" title="2.loader的作用："></a>2.loader的作用：</h5><p>​    实现对不同格式的文件的处理，比如说将scss转换为css，或者typescript转化为js </p><p>转换这些文件，从而使其能够被添加到依赖图中</p><h5 id="3-优化插件："><a href="#3-优化插件：" class="headerlink" title="3.优化插件："></a>3.优化插件：</h5><p>​    OccurenceOrderPlugin: 为组件分配ID,通过这个插件webpack可以分析和优先考虑使用最多 的模块，然后为他们分配最小的ID</p><p>​    UglifyJsPlugin: 压缩代码</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Webpack篇：&quot;&gt;&lt;a href=&quot;#Webpack篇：&quot; class=&quot;headerlink&quot; title=&quot;Webpack篇：&quot;&gt;&lt;/a&gt;&lt;strong&gt;Webpack篇：&lt;/strong&gt;&lt;/h3&gt;&lt;h5 id=&quot;1-Webpack是什么？&quot;&gt;&lt;a href=&quot;#1-Webpack是什么？&quot; class=&quot;headerlink&quot; title=&quot;1.Webpack是什么？&quot;&gt;&lt;/a&gt;1.Webpack是什么？&lt;/h5&gt;&lt;p&gt;​    Webpack 是一个前端资源加载/打包工具。它将根据模块的依赖关系进行静态分析，然后将这些模块按照指定的规则生成对应的静态资源&lt;/p&gt;
     
     </summary>
     
