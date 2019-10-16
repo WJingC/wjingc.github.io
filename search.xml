@@ -2,11 +2,6 @@
 <search>
   <entry>
     <title><![CDATA[vue]]></title>
-    <url>%2F2019%2F10%2F13%2Fvue-1%2F</url>
-    <content type="text"></content>
-  </entry>
-  <entry>
-    <title><![CDATA[vue]]></title>
     <url>%2F2019%2F10%2F13%2Fvue%2F</url>
     <content type="text"></content>
   </entry>
@@ -59,11 +54,11 @@
         <category>博客搭建</category>
       </categories>
       <tags>
+        <tag>MacOS</tag>
         <tag>gitee</tag>
         <tag>hexo</tag>
         <tag>ssh key</tag>
         <tag>Github</tag>
-        <tag>MacOS</tag>
       </tags>
   </entry>
   <entry>
@@ -107,8 +102,8 @@
     <url>%2F2019%2F04%2F15%2Fevil%2F</url>
     <content type="text"><![CDATA[Terminal 主题，让你的 macOS 终端更好看]]></content>
       <tags>
-        <tag>MacOS</tag>
         <tag>Hackintosh</tag>
+        <tag>MacOS</tag>
         <tag>Tools</tag>
         <tag>Terminal</tag>
       </tags>
@@ -126,8 +121,8 @@
         <category>博客搭建</category>
       </categories>
       <tags>
-        <tag>Github</tag>
         <tag>MacOS</tag>
+        <tag>Github</tag>
         <tag>MacOS Mojave 10.14.4</tag>
         <tag>Hexo</tag>
         <tag>Deepin</tag>
@@ -143,8 +138,8 @@
         <category>MacOS Mojave 10.14.4安装教程</category>
       </categories>
       <tags>
-        <tag>MacOS</tag>
         <tag>Hackintosh</tag>
+        <tag>MacOS</tag>
         <tag>Tools</tag>
         <tag>小米Pro</tag>
         <tag>macOS Mojave 10.14.4</tag>
