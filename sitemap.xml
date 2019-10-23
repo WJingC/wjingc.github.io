@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://wjingc.github.io/2019/04/01/blogspace/</loc>
+    
+    <lastmod>2019-10-23T16:13:27.445Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://wjingc.github.io/contact/index.html</loc>
     
     <lastmod>2019-10-19T14:37:20.937Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://wjingc.github.io/2019/10/13/vue/</loc>
     
     <lastmod>2019-10-13T03:19:17.879Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wjingc.github.io/2019/04/01/blogspace/</loc>
-    
-    <lastmod>2019-10-13T02:55:32.572Z</lastmod>
     
   </url>
   
