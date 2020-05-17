@@ -29,6 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
+    <link rel="stylesheet" href="/js/prism/prism.css">
+
+
 </head>
 
 
@@ -479,66 +482,73 @@
                 <h3 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h3><h4 id="NexT安装"><a href="#NexT安装" class="headerlink" title="NexT安装"></a>NexT安装</h4><ul>
 <li>切换到<strong>Blog</strong>文件夹下（就是<code>hexo init</code>的文件夹），查看文件</li>
 </ul>
-<pre><code>cd [Blog]
-
-ls
+<pre class=" language-bash"><code class="language-bash"><span class="token function">cd</span> <span class="token punctuation">[</span>Blog<span class="token punctuation">]</span>
+<span class="token function">ls</span>
 _config.yml node_modules    scaffolds   themes
-db.json     package.json    source
-</code></pre><ul>
+db.json     package.json    <span class="token function">source</span>
+</code></pre>
+<ul>
 <li>通过git安装，前提是你的电脑安装了git.</li>
 </ul>
-<pre><code>git clone https://github.com/iissnan/hexo-theme-next themes/next
-</code></pre><a id="more"></a>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> clone https://github.com/iissnan/hexo-theme-next themes/next
+</code></pre>
+<a id="more"></a>
 <ul>
 <li>查看标签列表</li>
 </ul>
-<pre><code>git tag -l
+<pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> tag -l
 输出：
-...
+<span class="token punctuation">..</span>.
 v5.1.3
 v5.1.4
-</code></pre><ul>
+</code></pre>
+<ul>
 <li>切换到<strong>v5.1.4</strong> </li>
 </ul>
-<pre><code>git checkout tags/v5.1.4
+<pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> checkout tags/v5.1.4
 输出：
-HEAD is now at 4f75fe5... 2018 NY update.
-</code></pre><ul>
+HEAD is now at 4f75fe5<span class="token punctuation">..</span>. 2018 NY update.
+</code></pre>
+<ul>
 <li>通过<strong>curl</strong>安装NexT</li>
 </ul>
-<pre><code>mkdir themes/next
-curl -s https://api.github.com/repos/iissnan/hexo-theme-next/releases/latest | grep tarball_url | cut -d &#39;&quot;&#39; -f 4 | wget -i - -O- | tar -zx -C themes/next --strip-components=1
-</code></pre><ul>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">mkdir</span> themes/next
+curl -s https://api.github.com/repos/iissnan/hexo-theme-next/releases/latest <span class="token operator">|</span> <span class="token function">grep</span> tarball_url <span class="token operator">|</span> <span class="token function">cut</span> -d <span class="token string">'"'</span> -f 4 <span class="token operator">|</span> <span class="token function">wget</span> -i - -O- <span class="token operator">|</span> <span class="token function">tar</span> -zx -C themes/next --strip-components<span class="token operator">=</span>1
+</code></pre>
+<ul>
 <li>更新主题NexT</li>
 </ul>
-<pre><code>cd themes/next
-git pull
-</code></pre><ul>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">cd</span> themes/next
+<span class="token function">git</span> pull
+</code></pre>
+<ul>
 <li>切换成NexT主题，在hexo根文件夹下，编辑<strong>_config.yml</strong>文件</li>
 </ul>
-<pre><code>theme: next
+<pre class=" language-yml"><code class="language-yml">theme: next
 
 //切换后，用命令清除下缓存
 hexo clean
 
 //执行hexo s本地产看NexT主题效果
 hexo s
-</code></pre><h4 id="切换主题"><a href="#切换主题" class="headerlink" title="切换主题"></a>切换主题</h4><ul>
+</code></pre>
+<h4 id="切换主题"><a href="#切换主题" class="headerlink" title="切换主题"></a>切换主题</h4><ul>
 <li>在列表中选择一款自己喜欢的主题风格。</li>
 </ul>
-<pre><code># Schemes
+<pre class=" language-yml"><code class="language-yml"># Schemes
 #scheme: Muse  //默认主题
 scheme: Mist
 #scheme: Pisces
 #scheme: Gemini
-</code></pre><h4 id="设置Menu"><a href="#设置Menu" class="headerlink" title="设置Menu"></a>设置Menu</h4><ul>
+</code></pre>
+<h4 id="设置Menu"><a href="#设置Menu" class="headerlink" title="设置Menu"></a>设置Menu</h4><ul>
 <li><p>默认只有两个首页和归档，如下图所示：  </p>
 <p><img src="https://upload-images.jianshu.io/upload_images/3072214-cbbe8efe8b4b7bbc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/438/format/webp" alt="img"></p>
 </li>
 <li><p>如果还要添加，编辑<code>themes/next/_config.yml</code>：</p>
 </li>
 </ul>
-<pre><code>menu:
+<pre class=" language-yml"><code class="language-yml">menu:
   home: / || home  //首页
   about: /about/ || user  //关于
   tags: /tags/ || tags  //标签
@@ -546,7 +556,8 @@ scheme: Mist
   archives: /archives/ || archive //归档
   schedule: /schedule/ || calendar   //日程表
   sitemap: /sitemap.xml || sitemap   //站点地图
-</code></pre><ul>
+</code></pre>
+<ul>
 <li><p>将需要的Menu前面<code>#</code>号去掉。如下图所示: </p>
 <p><img src="https://upload-images.jianshu.io/upload_images/3072214-47bacb2e4f2852f4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p>
 </li>
@@ -560,21 +571,23 @@ scheme: Mist
 <li><p>比如要创建标签文件夹，终端中输入（前提在<strong>Hexo</strong>文件路径下）：</p>
 </li>
 </ul>
-<pre><code>  hexo new page &quot;tags&quot;
+<pre class=" language-bash"><code class="language-bash">hexo new page <span class="token string">"tags"</span>
 输出：
 INFO  Created: ~/Desktop/MyBlog/Blog/source/tags/index.md
-</code></pre><ul>
+</code></pre>
+<ul>
 <li><p>成功过后目录如下：</p>
 </li>
 <li><p>编辑<code>Blog/source/tags</code>中<strong>index.md</strong>文件，添加<code>type: &quot;tags&quot;</code>，其他Menu也同理创建。</p>
 </li>
 </ul>
-<pre><code>title: tags
+<pre class=" language-yml"><code class="language-yml">title: tags
 date: 2018-01-20 18:57:48
-type: &quot;tags&quot;
-</code></pre><h4 id="设置动态背景"><a href="#设置动态背景" class="headerlink" title="设置动态背景"></a>设置动态背景</h4><ul>
+type: "tags"
+</code></pre>
+<h4 id="设置动态背景"><a href="#设置动态背景" class="headerlink" title="设置动态背景"></a>设置动态背景</h4><ul>
 <li><p><strong>主题配置文件</strong>内置4种特效，选择你喜欢的，设置成<strong>ture</strong>就OK啦。</p>
-<pre><code># Canvas-nest
+<pre class=" language-yml"><code class="language-yml"># Canvas-nest
 canvas_nest: false
 
 # three_waves
@@ -585,7 +598,8 @@ canvas_lines: false
 
 # canvas_sphere
 canvas_sphere: false
-</code></pre></li>
+</code></pre>
+</li>
 </ul>
 <h4 id="在右上角或者左上角实现fork-me-on-github"><a href="#在右上角或者左上角实现fork-me-on-github" class="headerlink" title="在右上角或者左上角实现fork me on github"></a>在右上角或者左上角实现fork me on github</h4><ul>
 <li>效果图如下所示：</li>
@@ -602,179 +616,194 @@ canvas_sphere: false
 <h4 id="添加添加RSS"><a href="#添加添加RSS" class="headerlink" title="添加添加RSS"></a>添加添加RSS</h4><ul>
 <li>切换到<strong>Blog</strong>文件夹（hexo init的文件夹）下</li>
 </ul>
-<pre><code>cd [Blog]
-</code></pre><ul>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">cd</span> <span class="token punctuation">[</span>Blog<span class="token punctuation">]</span>
+</code></pre>
+<ul>
 <li>安装Hexo插件</li>
 </ul>
-<pre><code> npm install --save hexo-generator-feed
-</code></pre><ul>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> --save hexo-generator-feed
+</code></pre>
+<ul>
 <li>安装成功之后，编辑<code>Blog/_config.yml</code>文件，在文件末尾添加</li>
 </ul>
-<pre><code># Extensions
+<pre class=" language-yml"><code class="language-yml"># Extensions
 ## Plugins: http://hexo.io/plugins/
 plugins: hexo-generate-feed
-</code></pre><ul>
+</code></pre>
+<ul>
 <li>配置主题<code>_config.yml</code>文件，<code>command+f</code>搜索<code>rss</code>，在后面加上<code>/atom.xml</code> </li>
 </ul>
-<pre><code># Set rss to false to disable feed link.
-# Leave rss as empty to use site&#39;s feed link.
+<pre class=" language-yml"><code class="language-yml"># Set rss to false to disable feed link.
+# Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
 rss: /atom.xml //注意：有一个空格
-</code></pre><ul>
+</code></pre>
+<ul>
 <li>之后，终端输入<code>hexo s</code>查看效果</li>
 </ul>
-<pre><code>hexo s
-</code></pre><p>  <img src="https://upload-images.jianshu.io/upload_images/3072214-313c1804b92eb9a0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/344/format/webp" alt="img"></p>
+<pre class=" language-zsh"><code class="language-zsh">hexo s
+</code></pre>
+<p>  <img src="https://upload-images.jianshu.io/upload_images/3072214-313c1804b92eb9a0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/344/format/webp" alt="img"></p>
 <h4 id="修改文章内链接文本样式"><a href="#修改文章内链接文本样式" class="headerlink" title="修改文章内链接文本样式"></a>修改文章内链接文本样式</h4><ul>
 <li>修改<code>Blog/themes/next/source/css/_common/components/post/post.styl</code>，在末尾添加CSS样式：</li>
 </ul>
-<pre><code>// 文章内链接文本样式
-.post-body p a{
-  color: #0593d3; //原始链接颜色
-  border-bottom: none;
-  border-bottom: 1px solid #0593d3; //底部分割线颜色
-  &amp;:hover {
-    color: #fc6423; //鼠标经过颜色
-    border-bottom: none;
-    border-bottom: 1px solid #fc6423; //底部分割线颜色
-  }
-}
-</code></pre><ul>
+<pre class=" language-javascript"><code class="language-javascript"><span class="token comment" spellcheck="true">// 文章内链接文本样式</span>
+<span class="token punctuation">.</span>post<span class="token operator">-</span>body p a<span class="token punctuation">{</span>
+  color<span class="token punctuation">:</span> #0593d3<span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//原始链接颜色</span>
+  border<span class="token operator">-</span>bottom<span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+  border<span class="token operator">-</span>bottom<span class="token punctuation">:</span> 1px solid #0593d3<span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//底部分割线颜色</span>
+  <span class="token operator">&amp;</span><span class="token punctuation">:</span>hover <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> #fc6423<span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//鼠标经过颜色</span>
+    border<span class="token operator">-</span>bottom<span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+    border<span class="token operator">-</span>bottom<span class="token punctuation">:</span> 1px solid #fc6423<span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//底部分割线颜色</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<ul>
 <li>设置后，效果如下</li>
 </ul>
 <p><img src="https://upload-images.jianshu.io/upload_images/3072214-36e89e89696a255a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"> </p>
 <h4 id="修改底部标签样式"><a href="#修改底部标签样式" class="headerlink" title="修改底部标签样式"></a>修改底部标签样式</h4><ul>
 <li>修改<code>Blog\themes\next\layout\_macro\post.swig</code>中文件，<code>command+f</code>搜索<code>rel=&quot;tag&quot;&gt;#</code>，将<code>#</code>替换成<code>&lt;i class=&quot;fa fa-tag&quot;&gt;&lt;/i&gt;</code>。输入以下命令，查看效果：</li>
 </ul>
-<pre><code>hexo clean
+<pre class=" language-bash"><code class="language-bash">hexo clean
 hexo s
-</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/3072214-36dcbfd6cd83d271.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/386/format/webp" alt="img"></p>
+</code></pre>
+<p><img src="https://upload-images.jianshu.io/upload_images/3072214-36dcbfd6cd83d271.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/386/format/webp" alt="img"></p>
 <h4 id="在文章末尾添加“文章结束”标记"><a href="#在文章末尾添加“文章结束”标记" class="headerlink" title="在文章末尾添加“文章结束”标记"></a>在文章末尾添加“文章结束”标记</h4><ul>
 <li>在路径<code>Blog\themes\next\layout\_macro</code>文件夹中新建<code>passage-end-tag.swig</code>文件。</li>
 </ul>
-<pre><code>//切换到路径_macro
-cd [_macro路径]
+<pre class=" language-bash"><code class="language-bash">//切换到路径_macro
+<span class="token function">cd</span> <span class="token punctuation">[</span>_macro路径<span class="token punctuation">]</span>
 
 //创建passage-end-tag.swig文件
-touch passage-end-tag.swig
-</code></pre><ul>
+<span class="token function">touch</span> passage-end-tag.swig
+</code></pre>
+<ul>
 <li>在passage-end-tag.swig添加以下内容，直接用文本编辑器打开，粘贴以下内容后保存</li>
 </ul>
-<pre><code>&lt;div&gt;
+<pre class=" language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span>
     {% if not is_index %}
-        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token style-attr language-css"><span class="token attr-name"> <span class="token attr-name">style</span></span><span class="token punctuation">="</span><span class="token attr-value"><span class="token property">text-align</span><span class="token punctuation">:</span>center<span class="token punctuation">;</span><span class="token property">color</span><span class="token punctuation">:</span> <span class="token hexcode">#ccc</span><span class="token punctuation">;</span><span class="token property">font-size</span><span class="token punctuation">:</span><span class="token number">14</span>px<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span><span class="token punctuation">></span></span>-------------本文结束<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>fa fa-paw<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">></span></span>感谢您的阅读-------------<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
     {% endif %}
-&lt;/div&gt;
-</code></pre><ul>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+</code></pre>
+<ul>
 <li>打开<code>Blog\themes\next\layout\_macro\post.swig</code>，在<code>post-body</code>之后，<code>post-footer</code>之前（<strong>post-footer之前两个DIV</strong>），添加以下代码：</li>
 </ul>
-<pre><code>&lt;div&gt;
+<pre class=" language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span>
   {% if not is_index %}
     {% include 'passage-end-tag.swig' %}
   {% endif %}
-&lt;/div&gt;
-</code></pre><ul>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+</code></pre>
+<ul>
 <li>添加位置，如下图所示：  </li>
 </ul>
 <p><img src="https://upload-images.jianshu.io/upload_images/3072214-976a8cf36c994dc7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p>
 <ul>
 <li>修改主题配置文件<strong>_config.yml</strong>，在末尾添加：</li>
 </ul>
-<pre><code># 文章末尾添加“本文结束”标记
+<pre class=" language-yml"><code class="language-yml"># 文章末尾添加“本文结束”标记
 passage_end_tag:
   enabled: true
-</code></pre><ul>
+</code></pre>
+<ul>
 <li>配置完成之后，效果如下： </li>
 </ul>
 <p><img src="https://upload-images.jianshu.io/upload_images/3072214-b1b5a73b99793610.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/788/format/webp" alt="img"></p>
 <h4 id="设置头像并设置动画效果"><a href="#设置头像并设置动画效果" class="headerlink" title="设置头像并设置动画效果"></a>设置头像并设置动画效果</h4><ul>
 <li>在<code>Blog/_config.yml</code>中添加头像链接地址：</li>
 </ul>
-<pre><code>//添加头像地址
+<pre class=" language-yml"><code class="language-yml">//添加头像地址
 avatar: [ http://....]
-</code></pre><ul>
+</code></pre>
+<ul>
 <li>设置头像圆角并旋转，打开<code>Blog/themes/next/source/css/_common/components/sidebar/sidebar-author.styl</code>，添加以下代码：</li>
 </ul>
-<pre><code>.site-author-image {
-  display: block;
-  margin: 0 auto;
-  padding: $site-author-image-padding;
-  max-width: $site-author-image-width;
-  height: $site-author-image-height;
-  border: $site-author-image-border-width solid $site-author-image-border-color;
-  /* 头像圆形 */
-  border-radius: 80px;
-  -webkit-border-radius: 80px;
-  -moz-border-radius: 80px;
-  box-shadow: inset 0 -1px 0 #333sf;
-  /* 设置循环动画 [animation: (play)动画名称 (2s)动画播放时长单位秒或微秒 (ase-out)动画播放的速度曲线为以低速结束 
-    (1s)等待1秒然后开始动画 (1)动画播放次数(infinite为循环播放) ]*/
+<pre class=" language-javascript"><code class="language-javascript"><span class="token punctuation">.</span>site<span class="token operator">-</span>author<span class="token operator">-</span>image <span class="token punctuation">{</span>
+  display<span class="token punctuation">:</span> block<span class="token punctuation">;</span>
+  margin<span class="token punctuation">:</span> <span class="token number">0</span> auto<span class="token punctuation">;</span>
+  padding<span class="token punctuation">:</span> $site<span class="token operator">-</span>author<span class="token operator">-</span>image<span class="token operator">-</span>padding<span class="token punctuation">;</span>
+  max<span class="token operator">-</span>width<span class="token punctuation">:</span> $site<span class="token operator">-</span>author<span class="token operator">-</span>image<span class="token operator">-</span>width<span class="token punctuation">;</span>
+  height<span class="token punctuation">:</span> $site<span class="token operator">-</span>author<span class="token operator">-</span>image<span class="token operator">-</span>height<span class="token punctuation">;</span>
+  border<span class="token punctuation">:</span> $site<span class="token operator">-</span>author<span class="token operator">-</span>image<span class="token operator">-</span>border<span class="token operator">-</span>width solid $site<span class="token operator">-</span>author<span class="token operator">-</span>image<span class="token operator">-</span>border<span class="token operator">-</span>color<span class="token punctuation">;</span>
+  <span class="token comment" spellcheck="true">/* 头像圆形 */</span>
+  border<span class="token operator">-</span>radius<span class="token punctuation">:</span> 80px<span class="token punctuation">;</span>
+  <span class="token operator">-</span>webkit<span class="token operator">-</span>border<span class="token operator">-</span>radius<span class="token punctuation">:</span> 80px<span class="token punctuation">;</span>
+  <span class="token operator">-</span>moz<span class="token operator">-</span>border<span class="token operator">-</span>radius<span class="token punctuation">:</span> 80px<span class="token punctuation">;</span>
+  box<span class="token operator">-</span>shadow<span class="token punctuation">:</span> inset <span class="token number">0</span> <span class="token operator">-</span>1px <span class="token number">0</span> #333sf<span class="token punctuation">;</span>
+  <span class="token comment" spellcheck="true">/* 设置循环动画 [animation: (play)动画名称 (2s)动画播放时长单位秒或微秒 (ase-out)动画播放的速度曲线为以低速结束 
+    (1s)等待1秒然后开始动画 (1)动画播放次数(infinite为循环播放) ]*/</span>
 
-  /* 鼠标经过头像旋转360度 */
-  -webkit-transition: -webkit-transform 1.0s ease-out;
-  -moz-transition: -moz-transform 1.0s ease-out;
-  transition: transform 1.0s ease-out;
-}
-img:hover {
-  /* 鼠标经过停止头像旋转 
+  <span class="token comment" spellcheck="true">/* 鼠标经过头像旋转360度 */</span>
+  <span class="token operator">-</span>webkit<span class="token operator">-</span>transition<span class="token punctuation">:</span> <span class="token operator">-</span>webkit<span class="token operator">-</span>transform <span class="token number">1</span><span class="token punctuation">.</span>0s ease<span class="token operator">-</span>out<span class="token punctuation">;</span>
+  <span class="token operator">-</span>moz<span class="token operator">-</span>transition<span class="token punctuation">:</span> <span class="token operator">-</span>moz<span class="token operator">-</span>transform <span class="token number">1</span><span class="token punctuation">.</span>0s ease<span class="token operator">-</span>out<span class="token punctuation">;</span>
+  transition<span class="token punctuation">:</span> transform <span class="token number">1</span><span class="token punctuation">.</span>0s ease<span class="token operator">-</span>out<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+img<span class="token punctuation">:</span>hover <span class="token punctuation">{</span>
+  <span class="token comment" spellcheck="true">/* 鼠标经过停止头像旋转 
   -webkit-animation-play-state:paused;
-  animation-play-state:paused;*/
-  /* 鼠标经过头像旋转360度 */
-  -webkit-transform: rotateZ(360deg);
-  -moz-transform: rotateZ(360deg);
-  transform: rotateZ(360deg);
-}
-/* Z 轴旋转动画 */
-@-webkit-keyframes play {
-  0% {
-    -webkit-transform: rotateZ(0deg);
-  }
-  100% {
-    -webkit-transform: rotateZ(-360deg);
-  }
-}
-@-moz-keyframes play {
-  0% {
-    -moz-transform: rotateZ(0deg);
-  }
-  100% {
-    -moz-transform: rotateZ(-360deg);
-  }
-}
-@keyframes play {
-  0% {
-    transform: rotateZ(0deg);
-  }
-  100% {
-    transform: rotateZ(-360deg);
-  }
-}
-</code></pre><ul>
+  animation-play-state:paused;*/</span>
+  <span class="token comment" spellcheck="true">/* 鼠标经过头像旋转360度 */</span>
+  <span class="token operator">-</span>webkit<span class="token operator">-</span>transform<span class="token punctuation">:</span> <span class="token function">rotateZ</span><span class="token punctuation">(</span>360deg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token operator">-</span>moz<span class="token operator">-</span>transform<span class="token punctuation">:</span> <span class="token function">rotateZ</span><span class="token punctuation">(</span>360deg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  transform<span class="token punctuation">:</span> <span class="token function">rotateZ</span><span class="token punctuation">(</span>360deg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment" spellcheck="true">/* Z 轴旋转动画 */</span>
+@<span class="token operator">-</span>webkit<span class="token operator">-</span>keyframes play <span class="token punctuation">{</span>
+  <span class="token number">0</span><span class="token operator">%</span> <span class="token punctuation">{</span>
+    <span class="token operator">-</span>webkit<span class="token operator">-</span>transform<span class="token punctuation">:</span> <span class="token function">rotateZ</span><span class="token punctuation">(</span>0deg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token number">100</span><span class="token operator">%</span> <span class="token punctuation">{</span>
+    <span class="token operator">-</span>webkit<span class="token operator">-</span>transform<span class="token punctuation">:</span> <span class="token function">rotateZ</span><span class="token punctuation">(</span><span class="token operator">-</span>360deg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+@<span class="token operator">-</span>moz<span class="token operator">-</span>keyframes play <span class="token punctuation">{</span>
+  <span class="token number">0</span><span class="token operator">%</span> <span class="token punctuation">{</span>
+    <span class="token operator">-</span>moz<span class="token operator">-</span>transform<span class="token punctuation">:</span> <span class="token function">rotateZ</span><span class="token punctuation">(</span>0deg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token number">100</span><span class="token operator">%</span> <span class="token punctuation">{</span>
+    <span class="token operator">-</span>moz<span class="token operator">-</span>transform<span class="token punctuation">:</span> <span class="token function">rotateZ</span><span class="token punctuation">(</span><span class="token operator">-</span>360deg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+@keyframes play <span class="token punctuation">{</span>
+  <span class="token number">0</span><span class="token operator">%</span> <span class="token punctuation">{</span>
+    transform<span class="token punctuation">:</span> <span class="token function">rotateZ</span><span class="token punctuation">(</span>0deg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token number">100</span><span class="token operator">%</span> <span class="token punctuation">{</span>
+    transform<span class="token punctuation">:</span> <span class="token function">rotateZ</span><span class="token punctuation">(</span><span class="token operator">-</span>360deg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<ul>
 <li>效果如下：</li>
 </ul>
 <h4 id="修改代码块自定义样式"><a href="#修改代码块自定义样式" class="headerlink" title="修改代码块自定义样式"></a>修改代码块<code></code>自定义样式</h4><ul>
 <li>打开<code>Blog\themes\next\source\css\_custom\custom.styl</code>，添加以下代码：</li>
 </ul>
-<pre><code>// Custom styles.
-code {
-    color: #ff7600;
-    background: #fbf7f8;
-    margin: 2px;
-}
-// 大代码块的自定义样式
-.highlight, pre {
-    margin: 5px 0;
-    padding: 5px;
-    border-radius: 3px;
-}
-.highlight, code, pre {
-    border: 1px solid #d6d6d6;
-}
-</code></pre><h4 id="侧边栏社交小图标设置"><a href="#侧边栏社交小图标设置" class="headerlink" title="侧边栏社交小图标设置"></a>侧边栏社交小图标设置</h4><ul>
+<pre class=" language-javascript"><code class="language-javascript"><span class="token comment" spellcheck="true">// Custom styles.</span>
+code <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> #ff7600<span class="token punctuation">;</span>
+    background<span class="token punctuation">:</span> #fbf7f8<span class="token punctuation">;</span>
+    margin<span class="token punctuation">:</span> 2px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment" spellcheck="true">// 大代码块的自定义样式</span>
+<span class="token punctuation">.</span>highlight<span class="token punctuation">,</span> pre <span class="token punctuation">{</span>
+    margin<span class="token punctuation">:</span> 5px <span class="token number">0</span><span class="token punctuation">;</span>
+    padding<span class="token punctuation">:</span> 5px<span class="token punctuation">;</span>
+    border<span class="token operator">-</span>radius<span class="token punctuation">:</span> 3px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">.</span>highlight<span class="token punctuation">,</span> code<span class="token punctuation">,</span> pre <span class="token punctuation">{</span>
+    border<span class="token punctuation">:</span> 1px solid #d6d6d6<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h4 id="侧边栏社交小图标设置"><a href="#侧边栏社交小图标设置" class="headerlink" title="侧边栏社交小图标设置"></a>侧边栏社交小图标设置</h4><ul>
 <li>打开主题配置文件<code>_config.yml</code>，<code>command+f</code>搜索<code>Social</code>，将你有的社交账号前面的<code>#</code>号去掉。格式为：</li>
 </ul>
-<pre><code>[社交平台名]: [社交地址] || [图标名称]
-</code></pre><pre><code>#social:
+<pre class=" language-yml"><code class="language-yml">[社交平台名]: [社交地址] || [图标名称]
+</code></pre>
+<pre class=" language-yml"><code class="language-yml">#social:
   GitHub: https://github.com/yourname || github
   简书: https://www.jianshu.com/u/63445e24e8bf || heartbeat
   掘金: https://juejin.im/user/5a371ae551882512d0607108 || spinner
@@ -787,7 +816,8 @@ code {
   #YouTube: https://youtube.com/yourname || youtube
   #Instagram: https://instagram.com/yourname || instagram
   #Skype: skype:yourname?call|chat || skype
-</code></pre><ul>
+</code></pre>
+<ul>
 <li>效果图如下：</li>
 </ul>
 <p><img src="https://upload-images.jianshu.io/upload_images/3072214-8291624f1f133bb4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/624/format/webp" alt="img"></p>
@@ -797,45 +827,49 @@ code {
 <h4 id="主页文章添加阴影效果"><a href="#主页文章添加阴影效果" class="headerlink" title="主页文章添加阴影效果"></a>主页文章添加阴影效果</h4><ul>
 <li>打开<code>Blog\themes\next\source\css\_custom\custom.styl</code>，添加以下代码：</li>
 </ul>
-<pre><code>// 主页文章添加阴影效果
- .post {
-   margin-top: 60px;
-   margin-bottom: 60px;
-   padding: 25px;
-   -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
-   -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
-  }
-</code></pre><ul>
+<pre class=" language-javascript"><code class="language-javascript"><span class="token comment" spellcheck="true">// 主页文章添加阴影效果</span>
+ <span class="token punctuation">.</span>post <span class="token punctuation">{</span>
+   margin<span class="token operator">-</span>top<span class="token punctuation">:</span> 60px<span class="token punctuation">;</span>
+   margin<span class="token operator">-</span>bottom<span class="token punctuation">:</span> 60px<span class="token punctuation">;</span>
+   padding<span class="token punctuation">:</span> 25px<span class="token punctuation">;</span>
+   <span class="token operator">-</span>webkit<span class="token operator">-</span>box<span class="token operator">-</span>shadow<span class="token punctuation">:</span> <span class="token number">0</span> <span class="token number">0</span> 5px <span class="token function">rgba</span><span class="token punctuation">(</span><span class="token number">202</span><span class="token punctuation">,</span> <span class="token number">203</span><span class="token punctuation">,</span> <span class="token number">203</span><span class="token punctuation">,</span> <span class="token punctuation">.</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+   <span class="token operator">-</span>moz<span class="token operator">-</span>box<span class="token operator">-</span>shadow<span class="token punctuation">:</span> <span class="token number">0</span> <span class="token number">0</span> 5px <span class="token function">rgba</span><span class="token punctuation">(</span><span class="token number">202</span><span class="token punctuation">,</span> <span class="token number">203</span><span class="token punctuation">,</span> <span class="token number">204</span><span class="token punctuation">,</span> <span class="token punctuation">.</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+</code></pre>
+<ul>
 <li>效果如下：</li>
 </ul>
 <p><img src="https://upload-images.jianshu.io/upload_images/3072214-8d203b9886de2f5f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p>
 <h4 id="网站底部加上访问量"><a href="#网站底部加上访问量" class="headerlink" title="网站底部加上访问量"></a>网站底部加上访问量</h4><ul>
 <li>打开<code>Blog/themes/next/layout/_partials/footer.swig</code>文件，在<code>copyright</code>加上如下代码：</li>
 </ul>
-<pre><code>&lt;script async src=&quot;https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt;
-</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/3072214-edfa365aee1b5839.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p>
+<pre class=" language-javascript"><code class="language-javascript"><span class="token operator">&lt;</span>script <span class="token keyword">async</span> src<span class="token operator">=</span><span class="token string">"https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"</span><span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span>
+</code></pre>
+<p><img src="https://upload-images.jianshu.io/upload_images/3072214-edfa365aee1b5839.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p>
 <ul>
 <li>在适当的位置添加显示统计代码</li>
 </ul>
-<pre><code>&lt;div class=&quot;powered-by&quot;&gt;
-&lt;i class=&quot;fa fa-user-md&quot;&gt;&lt;/i&gt;&lt;span id=&quot;busuanzi_container_site_uv&quot;&gt;
-  本站访客数:&lt;span id=&quot;busuanzi_value_site_uv&quot;&gt;&lt;/span&gt;
-&lt;/span&gt;
-&lt;/div&gt;
-</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/3072214-63afac6bc7922943.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"> </p>
+<pre class=" language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>powered-by<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>fa fa-user-md<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>busuanzi_container_site_uv<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+  本站访客数:<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>busuanzi_value_site_uv<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+</code></pre>
+<p><img src="https://upload-images.jianshu.io/upload_images/3072214-63afac6bc7922943.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"> </p>
 <ul>
 <li>设置统计方式</li>
 </ul>
-<pre><code>//pv的方式，单个用户连续点击n篇文章，记录n次访问量
-&lt;span id=&quot;busuanzi_container_site_pv&quot;&gt;
-    本站总访问量&lt;span id=&quot;busuanzi_value_site_pv&quot;&gt;&lt;/span&gt;次
-&lt;/span&gt;
+<pre class=" language-html"><code class="language-html">//pv的方式，单个用户连续点击n篇文章，记录n次访问量
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>busuanzi_container_site_pv<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    本站总访问量<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>busuanzi_value_site_pv<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span>次
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span>
 
 //uv的方式，单个用户连续点击n篇文章，只记录1次访客数
-&lt;span id=&quot;busuanzi_container_site_uv&quot;&gt;
-  本站总访问量&lt;span id=&quot;busuanzi_value_site_uv&quot;&gt;&lt;/span&gt;次
-&lt;/span&gt;
-</code></pre><ul>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>busuanzi_container_site_uv<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+  本站总访问量<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>busuanzi_value_site_uv<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span>次
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span>
+</code></pre>
+<ul>
 <li><p>效果图如下： </p>
 <p><img src="https://upload-images.jianshu.io/upload_images/3072214-5372d142a230191c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p>
 </li>
@@ -843,15 +877,17 @@ code {
 <h4 id="网站底部字数统计"><a href="#网站底部字数统计" class="headerlink" title="网站底部字数统计"></a>网站底部字数统计</h4><ul>
 <li>安装hexo插件，切换到根目录：</li>
 </ul>
-<pre><code>npm install hexo-wordcount --save
-</code></pre><ul>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> hexo-wordcount --save
+</code></pre>
+<ul>
 <li>在<code>Blog/themes/next/layout/_partials/footer.swig</code>末尾添加代码：</li>
 </ul>
-<pre><code>&lt;div class=&quot;theme-info&quot;&gt;
-  &lt;div class=&quot;powered-by&quot;&gt;&lt;/div&gt;
-  &lt;span class=&quot;post-count&quot;&gt;博客全站共{{ totalcount(site) }}字&lt;/span&gt;
-&lt;/div&gt;
-</code></pre><ul>
+<pre class=" language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>theme-info<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>powered-by<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>post-count<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>博客全站共{{ totalcount(site) }}字<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+</code></pre>
+<ul>
 <li><p>效果图如下图所示： </p>
 <p><img src="https://upload-images.jianshu.io/upload_images/3072214-6c9e57b47b80946a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p>
 </li>
@@ -863,8 +899,8 @@ code {
 <ul>
 <li>修改主题配置文件，如果你自定义了图片名字，需要做修改：</li>
 </ul>
-<pre><code># For example, you put your favicons into `hexo-site/source/images` directory.
-# Then need to rename &amp; redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
+<pre class=" language-yml"><code class="language-yml"># For example, you put your favicons into `hexo-site/source/images` directory.
+# Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
   small: /images/favicon-16x16-next.png  //16X16小图
   medium: /images/favicon-32x32-next.png  //32X32大图
@@ -872,11 +908,12 @@ favicon:
   safari_pinned_tab: /images/logo.svg 
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
-</code></pre><h4 id="实现文章统计功能"><a href="#实现文章统计功能" class="headerlink" title="实现文章统计功能"></a>实现文章统计功能</h4><ul>
+</code></pre>
+<h4 id="实现文章统计功能"><a href="#实现文章统计功能" class="headerlink" title="实现文章统计功能"></a>实现文章统计功能</h4><ul>
 <li>安装Hexo插件，参考<strong>网站底部字数统计</strong>。</li>
 <li>编辑主题配置文件，配置如下：</li>
 </ul>
-<pre><code># Post wordcount display settings
+<pre class=" language-yml"><code class="language-yml"># Post wordcount display settings
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
@@ -884,14 +921,15 @@ post_wordcount:
   min2read: true
   totalcount: true
   separated_meta: true
-</code></pre><ul>
+</code></pre>
+<ul>
 <li>效果图： </li>
 </ul>
 <p><img src="https://upload-images.jianshu.io/upload_images/3072214-6e0b5bbaf686557c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/454/format/webp" alt="img"></p>
 <h4 id="添加网页顶部进度加载条"><a href="#添加网页顶部进度加载条" class="headerlink" title="添加网页顶部进度加载条"></a>添加网页顶部进度加载条</h4><ul>
 <li>编辑主题配置文件，<code>command+F</code>搜索<code>pace</code>，将其值改为<code>ture</code>就可以了，选择一款你喜欢的样式。</li>
 </ul>
-<pre><code># Progress bar in the top during page loading.
+<pre class=" language-yml"><code class="language-yml"># Progress bar in the top during page loading.
 pace: ture
 # Themes list:
 #pace-theme-big-counter
@@ -910,89 +948,93 @@ pace: ture
 # For example
 # pace_theme: pace-theme-center-simple
 pace_theme: pace-theme-minimal
-</code></pre><h4 id="底部隐藏由Hexo强力驱动、主题–NexT-Mist"><a href="#底部隐藏由Hexo强力驱动、主题–NexT-Mist" class="headerlink" title="底部隐藏由Hexo强力驱动、主题–NexT.Mist"></a>底部隐藏由Hexo强力驱动、主题–NexT.Mist</h4><ul>
+</code></pre>
+<h4 id="底部隐藏由Hexo强力驱动、主题–NexT-Mist"><a href="#底部隐藏由Hexo强力驱动、主题–NexT-Mist" class="headerlink" title="底部隐藏由Hexo强力驱动、主题–NexT.Mist"></a>底部隐藏由Hexo强力驱动、主题–NexT.Mist</h4><ul>
 <li>打开<code>Blog/themes/next/layout/_partials/footer.swig</code>，注释掉相应代码。</li>
 </ul>
-<pre><code>//用下面的符号注释，注释代码用下面括号括起来
-&lt;!-- --&gt;
+<pre class=" language-javascript"><code class="language-javascript"><span class="token comment" spellcheck="true">//用下面的符号注释，注释代码用下面括号括起来</span>
+<span class="token operator">&lt;</span><span class="token operator">!</span><span class="token operator">--</span> <span class="token operator">--</span><span class="token operator">></span>
 
-&lt;!--
-&lt;span class=&quot;post-meta-divider&quot;&gt;|&lt;/span&gt;
+<span class="token operator">&lt;</span><span class="token operator">!</span><span class="token operator">--</span>
+<span class="token operator">&lt;</span>span <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"post-meta-divider"</span><span class="token operator">></span><span class="token operator">|</span><span class="token operator">&lt;</span><span class="token operator">/</span>span<span class="token operator">></span>
 
-{% if theme.footer.powered %}
-  <div class="powered-by">{#
-  #}{{ __('footer.powered', '<a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a>') }}{#
-#}</div>
-{% endif %}
+<span class="token punctuation">{</span><span class="token operator">%</span> <span class="token keyword">if</span> theme<span class="token punctuation">.</span>footer<span class="token punctuation">.</span>powered <span class="token operator">%</span><span class="token punctuation">}</span>
+  <span class="token operator">&lt;</span>div <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"powered-by"</span><span class="token operator">></span><span class="token punctuation">{</span>#
+  #<span class="token punctuation">}</span><span class="token punctuation">{</span><span class="token punctuation">{</span> <span class="token function">__</span><span class="token punctuation">(</span><span class="token string">'footer.powered'</span><span class="token punctuation">,</span> <span class="token string">'&lt;a class="theme-link" target="_blank" href="https://hexo.io">Hexo&lt;/a>'</span><span class="token punctuation">)</span> <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">{</span>#
+#<span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+<span class="token punctuation">{</span><span class="token operator">%</span> endif <span class="token operator">%</span><span class="token punctuation">}</span>
 
-{% if theme.footer.powered and theme.footer.theme.enable %}
-  <span class="post-meta-divider">|</span>
-{% endif %}
+<span class="token punctuation">{</span><span class="token operator">%</span> <span class="token keyword">if</span> theme<span class="token punctuation">.</span>footer<span class="token punctuation">.</span>powered and theme<span class="token punctuation">.</span>footer<span class="token punctuation">.</span>theme<span class="token punctuation">.</span>enable <span class="token operator">%</span><span class="token punctuation">}</span>
+  <span class="token operator">&lt;</span>span <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"post-meta-divider"</span><span class="token operator">></span><span class="token operator">|</span><span class="token operator">&lt;</span><span class="token operator">/</span>span<span class="token operator">></span>
+<span class="token punctuation">{</span><span class="token operator">%</span> endif <span class="token operator">%</span><span class="token punctuation">}</span>
 
-{% if theme.footer.theme.enable %}
-  <div class="theme-info">{#
-  #}{{ __('footer.theme') }} &mdash; {#
-  #}<a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">{#
-    #}NexT.{{ theme.scheme }}{#
-  #}</a>{% if theme.footer.theme.version %} v{{ theme.version }}{% endif %}&lt;/div&gt;
-{% endif %}
+<span class="token punctuation">{</span><span class="token operator">%</span> <span class="token keyword">if</span> theme<span class="token punctuation">.</span>footer<span class="token punctuation">.</span>theme<span class="token punctuation">.</span>enable <span class="token operator">%</span><span class="token punctuation">}</span>
+  <span class="token operator">&lt;</span>div <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"theme-info"</span><span class="token operator">></span><span class="token punctuation">{</span>#
+  #<span class="token punctuation">}</span><span class="token punctuation">{</span><span class="token punctuation">{</span> <span class="token function">__</span><span class="token punctuation">(</span><span class="token string">'footer.theme'</span><span class="token punctuation">)</span> <span class="token punctuation">}</span><span class="token punctuation">}</span> <span class="token operator">&amp;</span>mdash<span class="token punctuation">;</span> <span class="token punctuation">{</span>#
+  #<span class="token punctuation">}</span><span class="token operator">&lt;</span>a <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"theme-link"</span> target<span class="token operator">=</span><span class="token string">"_blank"</span> href<span class="token operator">=</span><span class="token string">"https://github.com/iissnan/hexo-theme-next"</span><span class="token operator">></span><span class="token punctuation">{</span>#
+    #<span class="token punctuation">}</span>NexT<span class="token punctuation">.</span><span class="token punctuation">{</span><span class="token punctuation">{</span> theme<span class="token punctuation">.</span>scheme <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">{</span>#
+  #<span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>a<span class="token operator">></span><span class="token punctuation">{</span><span class="token operator">%</span> <span class="token keyword">if</span> theme<span class="token punctuation">.</span>footer<span class="token punctuation">.</span>theme<span class="token punctuation">.</span>version <span class="token operator">%</span><span class="token punctuation">}</span> v<span class="token punctuation">{</span><span class="token punctuation">{</span> theme<span class="token punctuation">.</span>version <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">{</span><span class="token operator">%</span> endif <span class="token operator">%</span><span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+<span class="token punctuation">{</span><span class="token operator">%</span> endif <span class="token operator">%</span><span class="token punctuation">}</span>
 
-{% if theme.footer.custom_text %}
-  <div class="footer-custom">{#
-  #}{{ theme.footer.custom_text }}{#
-#}</div>
-{% endif %}
---&gt;
-</div></code></pre><h4 id="去掉底部重复字数统计"><a href="#去掉底部重复字数统计" class="headerlink" title="去掉底部重复字数统计"></a>去掉底部重复字数统计</h4><ul>
+<span class="token punctuation">{</span><span class="token operator">%</span> <span class="token keyword">if</span> theme<span class="token punctuation">.</span>footer<span class="token punctuation">.</span>custom_text <span class="token operator">%</span><span class="token punctuation">}</span>
+  <span class="token operator">&lt;</span>div <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"footer-custom"</span><span class="token operator">></span><span class="token punctuation">{</span>#
+  #<span class="token punctuation">}</span><span class="token punctuation">{</span><span class="token punctuation">{</span> theme<span class="token punctuation">.</span>footer<span class="token punctuation">.</span>custom_text <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">{</span>#
+#<span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+<span class="token punctuation">{</span><span class="token operator">%</span> endif <span class="token operator">%</span><span class="token punctuation">}</span>
+<span class="token operator">--</span><span class="token operator">></span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span></code></pre>
+<h4 id="去掉底部重复字数统计"><a href="#去掉底部重复字数统计" class="headerlink" title="去掉底部重复字数统计"></a>去掉底部重复字数统计</h4><ul>
 <li>注释掉如下代码：</li>
 </ul>
-<pre><code>&lt;!--
-  {% if theme.post_wordcount.totalcount %}
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item-icon">
-      <i class="fa fa-area-chart"></i>
-    </span>
-    {% if theme.post_wordcount.item_text %}
-      <span class="post-meta-item-text">{{ __('post.totalcount') }}&#58;</span>
-    {% endif %}
-    &lt;span title=&quot;{{ __('post.totalcount') }}&quot;&gt;{{ totalcount(site, '0,0.0a') }}&lt;/span&gt;
-  {% endif %}
---&gt;
-</code></pre><h4 id="博文置顶"><a href="#博文置顶" class="headerlink" title="博文置顶"></a>博文置顶</h4><ul>
+<pre class=" language-javascript"><code class="language-javascript"><span class="token operator">&lt;</span><span class="token operator">!</span><span class="token operator">--</span>
+  <span class="token punctuation">{</span><span class="token operator">%</span> <span class="token keyword">if</span> theme<span class="token punctuation">.</span>post_wordcount<span class="token punctuation">.</span>totalcount <span class="token operator">%</span><span class="token punctuation">}</span>
+    <span class="token operator">&lt;</span>span <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"post-meta-divider"</span><span class="token operator">></span><span class="token operator">|</span><span class="token operator">&lt;</span><span class="token operator">/</span>span<span class="token operator">></span>
+    <span class="token operator">&lt;</span>span <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"post-meta-item-icon"</span><span class="token operator">></span>
+      <span class="token operator">&lt;</span>i <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"fa fa-area-chart"</span><span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>i<span class="token operator">></span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>span<span class="token operator">></span>
+    <span class="token punctuation">{</span><span class="token operator">%</span> <span class="token keyword">if</span> theme<span class="token punctuation">.</span>post_wordcount<span class="token punctuation">.</span>item_text <span class="token operator">%</span><span class="token punctuation">}</span>
+      <span class="token operator">&lt;</span>span <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"post-meta-item-text"</span><span class="token operator">></span><span class="token punctuation">{</span><span class="token punctuation">{</span> <span class="token function">__</span><span class="token punctuation">(</span><span class="token string">'post.totalcount'</span><span class="token punctuation">)</span> <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token operator">&amp;</span>#<span class="token number">58</span><span class="token punctuation">;</span><span class="token operator">&lt;</span><span class="token operator">/</span>span<span class="token operator">></span>
+    <span class="token punctuation">{</span><span class="token operator">%</span> endif <span class="token operator">%</span><span class="token punctuation">}</span>
+    <span class="token operator">&lt;</span>span title<span class="token operator">=</span><span class="token string">"{{ __('post.totalcount') }}"</span><span class="token operator">></span><span class="token punctuation">{</span><span class="token punctuation">{</span> <span class="token function">totalcount</span><span class="token punctuation">(</span>site<span class="token punctuation">,</span> <span class="token string">'0,0.0a'</span><span class="token punctuation">)</span> <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>span<span class="token operator">></span>
+  <span class="token punctuation">{</span><span class="token operator">%</span> endif <span class="token operator">%</span><span class="token punctuation">}</span>
+<span class="token operator">--</span><span class="token operator">></span>
+</code></pre>
+<h4 id="博文置顶"><a href="#博文置顶" class="headerlink" title="博文置顶"></a>博文置顶</h4><ul>
 <li>修改<strong>hexo-generator-index</strong>插件，把<code>node_modules/hexo-generator-index/lib/generator.js</code>中代码替换为：</li>
 </ul>
-<pre><code>&#39;use strict&#39;;
-var pagination = require(&#39;hexo-pagination&#39;);
-module.exports = function(locals){
-  var config = this.config;
-  var posts = locals.posts;
-    posts.data = posts.data.sort(function(a, b) {
-        if(a.top &amp;&amp; b.top) { // 两篇文章top都有定义
-            if(a.top == b.top) return b.date - a.date; // 若top值一样则按照文章日期降序排
-            else return b.top - a.top; // 否则按照top值降序排
-        }
-        else if(a.top &amp;&amp; !b.top) { // 以下是只有一篇文章top有定义，那么将有top的排在前面（这里用异或操作居然不行233）
-            return -1;
-        }
-        else if(!a.top &amp;&amp; b.top) {
-            return 1;
-        }
-        else return b.date - a.date; // 都没定义按照文章日期降序排
-    });
-  var paginationDir = config.pagination_dir || &#39;page&#39;;
-  return pagination(&#39;&#39;, posts, {
-    perPage: config.index_generator.per_page,
-    layout: [&#39;index&#39;, &#39;archive&#39;],
-    format: paginationDir + &#39;/%d/&#39;,
-    data: {
-      __index: true
-    }
-  });
-};
-</code></pre><ul>
+<pre class=" language-javascript"><code class="language-javascript"><span class="token string">'use strict'</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> pagination <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'hexo-pagination'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span>locals<span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token keyword">var</span> config <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>config<span class="token punctuation">;</span>
+  <span class="token keyword">var</span> posts <span class="token operator">=</span> locals<span class="token punctuation">.</span>posts<span class="token punctuation">;</span>
+    posts<span class="token punctuation">.</span>data <span class="token operator">=</span> posts<span class="token punctuation">.</span>data<span class="token punctuation">.</span><span class="token function">sort</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span> b<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>a<span class="token punctuation">.</span>top <span class="token operator">&amp;&amp;</span> b<span class="token punctuation">.</span>top<span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment" spellcheck="true">// 两篇文章top都有定义</span>
+            <span class="token keyword">if</span><span class="token punctuation">(</span>a<span class="token punctuation">.</span>top <span class="token operator">==</span> b<span class="token punctuation">.</span>top<span class="token punctuation">)</span> <span class="token keyword">return</span> b<span class="token punctuation">.</span>date <span class="token operator">-</span> a<span class="token punctuation">.</span>date<span class="token punctuation">;</span> <span class="token comment" spellcheck="true">// 若top值一样则按照文章日期降序排</span>
+            <span class="token keyword">else</span> <span class="token keyword">return</span> b<span class="token punctuation">.</span>top <span class="token operator">-</span> a<span class="token punctuation">.</span>top<span class="token punctuation">;</span> <span class="token comment" spellcheck="true">// 否则按照top值降序排</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>a<span class="token punctuation">.</span>top <span class="token operator">&amp;&amp;</span> <span class="token operator">!</span>b<span class="token punctuation">.</span>top<span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment" spellcheck="true">// 以下是只有一篇文章top有定义，那么将有top的排在前面（这里用异或操作居然不行233）</span>
+            <span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>a<span class="token punctuation">.</span>top <span class="token operator">&amp;&amp;</span> b<span class="token punctuation">.</span>top<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">return</span> <span class="token number">1</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">else</span> <span class="token keyword">return</span> b<span class="token punctuation">.</span>date <span class="token operator">-</span> a<span class="token punctuation">.</span>date<span class="token punctuation">;</span> <span class="token comment" spellcheck="true">// 都没定义按照文章日期降序排</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">var</span> paginationDir <span class="token operator">=</span> config<span class="token punctuation">.</span>pagination_dir <span class="token operator">||</span> <span class="token string">'page'</span><span class="token punctuation">;</span>
+  <span class="token keyword">return</span> <span class="token function">pagination</span><span class="token punctuation">(</span><span class="token string">''</span><span class="token punctuation">,</span> posts<span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    perPage<span class="token punctuation">:</span> config<span class="token punctuation">.</span>index_generator<span class="token punctuation">.</span>per_page<span class="token punctuation">,</span>
+    layout<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">'index'</span><span class="token punctuation">,</span> <span class="token string">'archive'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    format<span class="token punctuation">:</span> paginationDir <span class="token operator">+</span> <span class="token string">'/%d/'</span><span class="token punctuation">,</span>
+    data<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+      __index<span class="token punctuation">:</span> <span class="token boolean">true</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre>
+<ul>
 <li>文章添加Top值，值越大，越靠前：</li>
 </ul>
-<pre><code>---
+<pre class=" language-yml"><code class="language-yml">---
 title: Hexo-NexT主题配置
 date: 2018-01-20 20:41:08
 categories: Hexo
@@ -1001,32 +1043,36 @@ tags:
 - NexT
 top: 100
 ---
-</code></pre><h4 id="修改字体大小"><a href="#修改字体大小" class="headerlink" title="修改字体大小"></a>修改字体大小</h4><ul>
+</code></pre>
+<h4 id="修改字体大小"><a href="#修改字体大小" class="headerlink" title="修改字体大小"></a>修改字体大小</h4><ul>
 <li>编辑<code>Blog/themes/next/source/css/_variables/base.styl</code>，<code>command+F</code>搜索<code>$font-size-base</code>，修改为你想要的大小：</li>
 </ul>
-<pre><code>// Font size
-$font-size-base           = 16px
-</code></pre><h4 id="添加DaoVoice在线联系"><a href="#添加DaoVoice在线联系" class="headerlink" title="添加DaoVoice在线联系"></a>添加DaoVoice在线联系</h4><ul>
+<pre class=" language-javascript"><code class="language-javascript"><span class="token comment" spellcheck="true">// Font size</span>
+$font<span class="token operator">-</span>size<span class="token operator">-</span>base           <span class="token operator">=</span> 16px
+</code></pre>
+<h4 id="添加DaoVoice在线联系"><a href="#添加DaoVoice在线联系" class="headerlink" title="添加DaoVoice在线联系"></a>添加DaoVoice在线联系</h4><ul>
 <li>首先到<a href="https://www.daocloud.io/" target="_blank" rel="noopener">DaoVoice</a>注册账号，登录成过后，进入到后台管理，点击<strong>应用设置——&gt;安装到网站</strong>查看安装代码和AppID。</li>
 <li>将安装代码添加到<code>Blog/themes/next/layout/_partials/head.swig</code>中：</li>
 </ul>
-<pre><code>{% if theme.daovoice %}
-  <script>
-  (function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/0f81ff2f.js","daovoice")
-  daovoice('init', {
-      app_id: "{{theme.daovoice_app_id}}"
-    });
-  daovoice('update');
-  </script>
-{% endif %}
-</code></pre><p>  <img src="https://upload-images.jianshu.io/upload_images/3072214-4d76c0b99050cc8f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p>
+<pre class=" language-javascript"><code class="language-javascript"><span class="token punctuation">{</span><span class="token operator">%</span> <span class="token keyword">if</span> theme<span class="token punctuation">.</span>daovoice <span class="token operator">%</span><span class="token punctuation">}</span>
+  <span class="token operator">&lt;</span>script<span class="token operator">></span>
+  <span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span>i<span class="token punctuation">,</span>s<span class="token punctuation">,</span>o<span class="token punctuation">,</span>g<span class="token punctuation">,</span>r<span class="token punctuation">,</span>a<span class="token punctuation">,</span>m<span class="token punctuation">)</span><span class="token punctuation">{</span>i<span class="token punctuation">[</span><span class="token string">"DaoVoiceObject"</span><span class="token punctuation">]</span><span class="token operator">=</span>r<span class="token punctuation">;</span>i<span class="token punctuation">[</span>r<span class="token punctuation">]</span><span class="token operator">=</span>i<span class="token punctuation">[</span>r<span class="token punctuation">]</span><span class="token operator">||</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token punctuation">(</span>i<span class="token punctuation">[</span>r<span class="token punctuation">]</span><span class="token punctuation">.</span>q<span class="token operator">=</span>i<span class="token punctuation">[</span>r<span class="token punctuation">]</span><span class="token punctuation">.</span>q<span class="token operator">||</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>arguments<span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token punctuation">,</span>i<span class="token punctuation">[</span>r<span class="token punctuation">]</span><span class="token punctuation">.</span>l<span class="token operator">=</span><span class="token number">1</span><span class="token operator">*</span><span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>a<span class="token operator">=</span>s<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span>o<span class="token punctuation">)</span><span class="token punctuation">,</span>m<span class="token operator">=</span>s<span class="token punctuation">.</span><span class="token function">getElementsByTagName</span><span class="token punctuation">(</span>o<span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span>a<span class="token punctuation">.</span><span class="token keyword">async</span><span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>a<span class="token punctuation">.</span>src<span class="token operator">=</span>g<span class="token punctuation">;</span>a<span class="token punctuation">.</span>charset<span class="token operator">=</span><span class="token string">"utf-8"</span><span class="token punctuation">;</span>m<span class="token punctuation">.</span>parentNode<span class="token punctuation">.</span><span class="token function">insertBefore</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span>m<span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span>window<span class="token punctuation">,</span>document<span class="token punctuation">,</span><span class="token string">"script"</span><span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token string">'https:'</span> <span class="token operator">==</span> document<span class="token punctuation">.</span>location<span class="token punctuation">.</span>protocol <span class="token operator">?</span> <span class="token string">'https:'</span> <span class="token punctuation">:</span> <span class="token string">'http:'</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">"//widget.daovoice.io/widget/0f81ff2f.js"</span><span class="token punctuation">,</span><span class="token string">"daovoice"</span><span class="token punctuation">)</span>
+  <span class="token function">daovoice</span><span class="token punctuation">(</span><span class="token string">'init'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+      app_id<span class="token punctuation">:</span> <span class="token string">"{{theme.daovoice_app_id}}"</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token function">daovoice</span><span class="token punctuation">(</span><span class="token string">'update'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span>
+<span class="token punctuation">{</span><span class="token operator">%</span> endif <span class="token operator">%</span><span class="token punctuation">}</span>
+</code></pre>
+<p>  <img src="https://upload-images.jianshu.io/upload_images/3072214-4d76c0b99050cc8f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p>
 <ul>
 <li>编辑主题配置文件，添加如下代码：</li>
 </ul>
-<pre><code># Online contact 
+<pre class=" language-yml"><code class="language-yml"># Online contact 
 daovoice: true
 daovoice_app_id: daovoice_app_id
-</code></pre><ul>
+</code></pre>
+<ul>
 <li><p>效果图如下所示： </p>
 <p><img src="https://upload-images.jianshu.io/upload_images/3072214-47892289003cae0e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/226/format/webp" alt="img"></p>
 </li>
@@ -1037,7 +1083,7 @@ daovoice_app_id: daovoice_app_id
 <h4 id="添加侧栏推荐阅读"><a href="#添加侧栏推荐阅读" class="headerlink" title="添加侧栏推荐阅读"></a>添加侧栏推荐阅读</h4><ul>
 <li>编辑主题配置文件，如下配置即可：</li>
 </ul>
-<pre><code># Blog rolls
+<pre class=" language-yml"><code class="language-yml"># Blog rolls
 links_icon: link
 links_title: 推荐阅读
 #links_layout: block
@@ -1045,152 +1091,158 @@ links_layout: inline
 links:
   Swift 4: https://developer.apple.com/swift/
   Objective-C: https://developer.apple.com/documentation/objectivec
-</code></pre><h4 id="在文章底部增加版权信息"><a href="#在文章底部增加版权信息" class="headerlink" title="在文章底部增加版权信息"></a>在文章底部增加版权信息</h4><ul>
+</code></pre>
+<h4 id="在文章底部增加版权信息"><a href="#在文章底部增加版权信息" class="headerlink" title="在文章底部增加版权信息"></a>在文章底部增加版权信息</h4><ul>
 <li>在目录<code>Blog/themes/next/layout/_macro/</code>，添加文件 <code>my-copyright.swig</code>，内容如下：</li>
 </ul>
-<pre><code>{% if page.copyright %}
-<div class="my_post_copyright">
-  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+<pre class=" language-javascript"><code class="language-javascript"><span class="token punctuation">{</span><span class="token operator">%</span> <span class="token keyword">if</span> page<span class="token punctuation">.</span>copyright <span class="token operator">%</span><span class="token punctuation">}</span>
+<span class="token operator">&lt;</span>div <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"my_post_copyright"</span><span class="token operator">></span>
+  <span class="token operator">&lt;</span>script src<span class="token operator">=</span><span class="token string">"//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"</span><span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span>
   
-  <!-- JS库 sweetalert 可修改路径 -->
-  <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
-  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-  <p><span>本文标题:</span><a href="{{ url_for(page.path) }}">{{ page.title }}</a></p>
-  <p><span>文章作者:</span><a href="/" title="访问 {{ theme.author }} 的个人博客">{{ theme.author }}</a></p>
-  <p><span>发布时间:</span>{{ page.date.format("YYYY年MM月DD日 - HH:MM") }}</p>
-  <p><span>最后更新:</span>{{ page.updated.format("YYYY年MM月DD日 - HH:MM") }}</p>
-  <p><span>原始链接:</span><a href="{{ url_for(page.path) }}" title="{{ page.title }}">{{ page.permalink }}</a>
-    <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="{{ page.permalink }}" aria-label="复制成功！"></i></span>
-  </p>
-  <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>  
-</div>
-<script> 
-    var clipboard = new Clipboard('.fa-clipboard');
-    $(".fa-clipboard").click(function(){
-      clipboard.on('success', function(){
-        swal({   
-          title: "",   
-          text: '复制成功',
-          icon: "success", 
-          showConfirmButton: true
-          });
-    });
-    });  
-</script>
-{% endif %}
-</code></pre><ul>
+  <span class="token operator">&lt;</span><span class="token operator">!</span><span class="token operator">--</span> JS库 sweetalert 可修改路径 <span class="token operator">--</span><span class="token operator">></span>
+  <span class="token operator">&lt;</span>script src<span class="token operator">=</span><span class="token string">"https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"</span><span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span>
+  <span class="token operator">&lt;</span>script src<span class="token operator">=</span><span class="token string">"https://unpkg.com/sweetalert/dist/sweetalert.min.js"</span><span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span>
+  <span class="token operator">&lt;</span>p<span class="token operator">></span><span class="token operator">&lt;</span>span<span class="token operator">></span>本文标题<span class="token punctuation">:</span><span class="token operator">&lt;</span><span class="token operator">/</span>span<span class="token operator">></span><span class="token operator">&lt;</span>a href<span class="token operator">=</span><span class="token string">"{{ url_for(page.path) }}"</span><span class="token operator">></span><span class="token punctuation">{</span><span class="token punctuation">{</span> page<span class="token punctuation">.</span>title <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>a<span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">></span>
+  <span class="token operator">&lt;</span>p<span class="token operator">></span><span class="token operator">&lt;</span>span<span class="token operator">></span>文章作者<span class="token punctuation">:</span><span class="token operator">&lt;</span><span class="token operator">/</span>span<span class="token operator">></span><span class="token operator">&lt;</span>a href<span class="token operator">=</span><span class="token string">"/"</span> title<span class="token operator">=</span><span class="token string">"访问 {{ theme.author }} 的个人博客"</span><span class="token operator">></span><span class="token punctuation">{</span><span class="token punctuation">{</span> theme<span class="token punctuation">.</span>author <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>a<span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">></span>
+  <span class="token operator">&lt;</span>p<span class="token operator">></span><span class="token operator">&lt;</span>span<span class="token operator">></span>发布时间<span class="token punctuation">:</span><span class="token operator">&lt;</span><span class="token operator">/</span>span<span class="token operator">></span><span class="token punctuation">{</span><span class="token punctuation">{</span> page<span class="token punctuation">.</span>date<span class="token punctuation">.</span><span class="token function">format</span><span class="token punctuation">(</span><span class="token string">"YYYY年MM月DD日 - HH:MM"</span><span class="token punctuation">)</span> <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">></span>
+  <span class="token operator">&lt;</span>p<span class="token operator">></span><span class="token operator">&lt;</span>span<span class="token operator">></span>最后更新<span class="token punctuation">:</span><span class="token operator">&lt;</span><span class="token operator">/</span>span<span class="token operator">></span><span class="token punctuation">{</span><span class="token punctuation">{</span> page<span class="token punctuation">.</span>updated<span class="token punctuation">.</span><span class="token function">format</span><span class="token punctuation">(</span><span class="token string">"YYYY年MM月DD日 - HH:MM"</span><span class="token punctuation">)</span> <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">></span>
+  <span class="token operator">&lt;</span>p<span class="token operator">></span><span class="token operator">&lt;</span>span<span class="token operator">></span>原始链接<span class="token punctuation">:</span><span class="token operator">&lt;</span><span class="token operator">/</span>span<span class="token operator">></span><span class="token operator">&lt;</span>a href<span class="token operator">=</span><span class="token string">"{{ url_for(page.path) }}"</span> title<span class="token operator">=</span><span class="token string">"{{ page.title }}"</span><span class="token operator">></span><span class="token punctuation">{</span><span class="token punctuation">{</span> page<span class="token punctuation">.</span>permalink <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>a<span class="token operator">></span>
+    <span class="token operator">&lt;</span>span <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"copy-path"</span> title<span class="token operator">=</span><span class="token string">"点击复制文章链接"</span><span class="token operator">></span><span class="token operator">&lt;</span>i <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"fa fa-clipboard"</span> data<span class="token operator">-</span>clipboard<span class="token operator">-</span>text<span class="token operator">=</span><span class="token string">"{{ page.permalink }}"</span> aria<span class="token operator">-</span>label<span class="token operator">=</span><span class="token string">"复制成功！"</span><span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>i<span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>span<span class="token operator">></span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">></span>
+  <span class="token operator">&lt;</span>p<span class="token operator">></span><span class="token operator">&lt;</span>span<span class="token operator">></span>许可协议<span class="token punctuation">:</span><span class="token operator">&lt;</span><span class="token operator">/</span>span<span class="token operator">></span><span class="token operator">&lt;</span>i <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"fa fa-creative-commons"</span><span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>i<span class="token operator">></span> <span class="token operator">&lt;</span>a rel<span class="token operator">=</span><span class="token string">"license"</span> href<span class="token operator">=</span><span class="token string">"https://creativecommons.org/licenses/by-nc-nd/4.0/"</span> target<span class="token operator">=</span><span class="token string">"_blank"</span> title<span class="token operator">=</span><span class="token string">"Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)"</span><span class="token operator">></span>署名<span class="token operator">-</span>非商业性使用<span class="token operator">-</span>禁止演绎 <span class="token number">4.0</span> 国际<span class="token operator">&lt;</span><span class="token operator">/</span>a<span class="token operator">></span> 转载请保留原文链接及作者。<span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">></span>  
+<span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+<span class="token operator">&lt;</span>script<span class="token operator">></span> 
+    <span class="token keyword">var</span> clipboard <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Clipboard</span><span class="token punctuation">(</span><span class="token string">'.fa-clipboard'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">".fa-clipboard"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">click</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      clipboard<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'success'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token function">swal</span><span class="token punctuation">(</span><span class="token punctuation">{</span>   
+          title<span class="token punctuation">:</span> <span class="token string">""</span><span class="token punctuation">,</span>   
+          text<span class="token punctuation">:</span> <span class="token string">'复制成功'</span><span class="token punctuation">,</span>
+          icon<span class="token punctuation">:</span> <span class="token string">"success"</span><span class="token punctuation">,</span> 
+          showConfirmButton<span class="token punctuation">:</span> <span class="token boolean">true</span>
+          <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+<span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span>
+<span class="token punctuation">{</span><span class="token operator">%</span> endif <span class="token operator">%</span><span class="token punctuation">}</span>
+</code></pre>
+<ul>
 <li>在目录<code>Blog/themes/next/source/css/_common/components/post/</code>下添加文件<code>my-post-copyright.styl</code>，添加以下代码：</li>
 </ul>
-<pre><code>.my_post_copyright {
-  width: 85%;
-  max-width: 45em;
-  margin: 2.8em auto 0;
-  padding: 0.5em 1.0em;
-  border: 1px solid #d3d3d3;
-  font-size: 0.93rem;
-  line-height: 1.6em;
-  word-break: break-all;
-  background: rgba(255,255,255,0.4);
-}
-.my_post_copyright p{margin:0;}
-.my_post_copyright span {
-  display: inline-block;
-  width: 5.2em;
-  color: #b5b5b5;
-  font-weight: bold;
-}
-.my_post_copyright .raw {
-  margin-left: 1em;
-  width: 5em;
-}
-.my_post_copyright a {
-  color: #808080;
-  border-bottom:0;
-}
-.my_post_copyright a:hover {
-  color: #a3d2a3;
-  text-decoration: underline;
-}
-.my_post_copyright:hover .fa-clipboard {
-  color: #000;
-}
-.my_post_copyright .post-url:hover {
-  font-weight: normal;
-}
-.my_post_copyright .copy-path {
-  margin-left: 1em;
-  width: 1em;
-  +mobile(){display:none;}
-}
-.my_post_copyright .copy-path:hover {
-  color: #808080;
-  cursor: pointer;
-}
-</code></pre><ul>
+<pre class=" language-javascript"><code class="language-javascript"><span class="token punctuation">.</span>my_post_copyright <span class="token punctuation">{</span>
+  width<span class="token punctuation">:</span> <span class="token number">85</span><span class="token operator">%</span><span class="token punctuation">;</span>
+  max<span class="token operator">-</span>width<span class="token punctuation">:</span> 45em<span class="token punctuation">;</span>
+  margin<span class="token punctuation">:</span> <span class="token number">2</span><span class="token punctuation">.</span>8em auto <span class="token number">0</span><span class="token punctuation">;</span>
+  padding<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">.</span>5em <span class="token number">1</span><span class="token punctuation">.</span>0em<span class="token punctuation">;</span>
+  border<span class="token punctuation">:</span> 1px solid #d3d3d3<span class="token punctuation">;</span>
+  font<span class="token operator">-</span>size<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">.</span>93rem<span class="token punctuation">;</span>
+  line<span class="token operator">-</span>height<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">.</span>6em<span class="token punctuation">;</span>
+  word<span class="token operator">-</span><span class="token keyword">break</span><span class="token punctuation">:</span> <span class="token keyword">break</span><span class="token operator">-</span>all<span class="token punctuation">;</span>
+  background<span class="token punctuation">:</span> <span class="token function">rgba</span><span class="token punctuation">(</span><span class="token number">255</span><span class="token punctuation">,</span><span class="token number">255</span><span class="token punctuation">,</span><span class="token number">255</span><span class="token punctuation">,</span><span class="token number">0.4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">.</span>my_post_copyright p<span class="token punctuation">{</span>margin<span class="token punctuation">:</span><span class="token number">0</span><span class="token punctuation">;</span><span class="token punctuation">}</span>
+<span class="token punctuation">.</span>my_post_copyright span <span class="token punctuation">{</span>
+  display<span class="token punctuation">:</span> inline<span class="token operator">-</span>block<span class="token punctuation">;</span>
+  width<span class="token punctuation">:</span> <span class="token number">5</span><span class="token punctuation">.</span>2em<span class="token punctuation">;</span>
+  color<span class="token punctuation">:</span> #b5b5b5<span class="token punctuation">;</span>
+  font<span class="token operator">-</span>weight<span class="token punctuation">:</span> bold<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">.</span>my_post_copyright <span class="token punctuation">.</span>raw <span class="token punctuation">{</span>
+  margin<span class="token operator">-</span>left<span class="token punctuation">:</span> 1em<span class="token punctuation">;</span>
+  width<span class="token punctuation">:</span> 5em<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">.</span>my_post_copyright a <span class="token punctuation">{</span>
+  color<span class="token punctuation">:</span> #<span class="token number">808080</span><span class="token punctuation">;</span>
+  border<span class="token operator">-</span>bottom<span class="token punctuation">:</span><span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">.</span>my_post_copyright a<span class="token punctuation">:</span>hover <span class="token punctuation">{</span>
+  color<span class="token punctuation">:</span> #a3d2a3<span class="token punctuation">;</span>
+  text<span class="token operator">-</span>decoration<span class="token punctuation">:</span> underline<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">.</span>my_post_copyright<span class="token punctuation">:</span>hover <span class="token punctuation">.</span>fa<span class="token operator">-</span>clipboard <span class="token punctuation">{</span>
+  color<span class="token punctuation">:</span> #<span class="token number">000</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">.</span>my_post_copyright <span class="token punctuation">.</span>post<span class="token operator">-</span>url<span class="token punctuation">:</span>hover <span class="token punctuation">{</span>
+  font<span class="token operator">-</span>weight<span class="token punctuation">:</span> normal<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">.</span>my_post_copyright <span class="token punctuation">.</span>copy<span class="token operator">-</span>path <span class="token punctuation">{</span>
+  margin<span class="token operator">-</span>left<span class="token punctuation">:</span> 1em<span class="token punctuation">;</span>
+  width<span class="token punctuation">:</span> 1em<span class="token punctuation">;</span>
+  <span class="token operator">+</span><span class="token function">mobile</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>display<span class="token punctuation">:</span>none<span class="token punctuation">;</span><span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">.</span>my_post_copyright <span class="token punctuation">.</span>copy<span class="token operator">-</span>path<span class="token punctuation">:</span>hover <span class="token punctuation">{</span>
+  color<span class="token punctuation">:</span> #<span class="token number">808080</span><span class="token punctuation">;</span>
+  cursor<span class="token punctuation">:</span> pointer<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<ul>
 <li>在<code>Blog/themes/next/source/css/_common/components/post/</code>添加文件<code>my-post-copyright.styl</code>，文件内容如下：</li>
 </ul>
-<pre><code>.my_post_copyright {
-  width: 85%;
-  max-width: 45em;
-  margin: 2.8em auto 0;
-  padding: 0.5em 1.0em;
-  border: 1px solid #d3d3d3;
-  font-size: 0.93rem;
-  line-height: 1.6em;
-  word-break: break-all;
-  background: rgba(255,255,255,0.4);
-}
-.my_post_copyright p{margin:0;}
-.my_post_copyright span {
-  display: inline-block;
-  width: 5.2em;
-  color: #b5b5b5;
-  font-weight: bold;
-}
-.my_post_copyright .raw {
-  margin-left: 1em;
-  width: 5em;
-}
-.my_post_copyright a {
-  color: #808080;
-  border-bottom:0;
-}
-.my_post_copyright a:hover {
-  color: #a3d2a3;
-  text-decoration: underline;
-}
-.my_post_copyright:hover .fa-clipboard {
-  color: #000;
-}
-.my_post_copyright .post-url:hover {
-  font-weight: normal;
-}
-.my_post_copyright .copy-path {
-  margin-left: 1em;
-  width: 1em;
-  +mobile(){display:none;}
-}
-.my_post_copyright .copy-path:hover {
-  color: #808080;
-  cursor: pointer;
-}
-</code></pre><ul>
+<pre class=" language-javascript"><code class="language-javascript"><span class="token punctuation">.</span>my_post_copyright <span class="token punctuation">{</span>
+  width<span class="token punctuation">:</span> <span class="token number">85</span><span class="token operator">%</span><span class="token punctuation">;</span>
+  max<span class="token operator">-</span>width<span class="token punctuation">:</span> 45em<span class="token punctuation">;</span>
+  margin<span class="token punctuation">:</span> <span class="token number">2</span><span class="token punctuation">.</span>8em auto <span class="token number">0</span><span class="token punctuation">;</span>
+  padding<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">.</span>5em <span class="token number">1</span><span class="token punctuation">.</span>0em<span class="token punctuation">;</span>
+  border<span class="token punctuation">:</span> 1px solid #d3d3d3<span class="token punctuation">;</span>
+  font<span class="token operator">-</span>size<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">.</span>93rem<span class="token punctuation">;</span>
+  line<span class="token operator">-</span>height<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">.</span>6em<span class="token punctuation">;</span>
+  word<span class="token operator">-</span><span class="token keyword">break</span><span class="token punctuation">:</span> <span class="token keyword">break</span><span class="token operator">-</span>all<span class="token punctuation">;</span>
+  background<span class="token punctuation">:</span> <span class="token function">rgba</span><span class="token punctuation">(</span><span class="token number">255</span><span class="token punctuation">,</span><span class="token number">255</span><span class="token punctuation">,</span><span class="token number">255</span><span class="token punctuation">,</span><span class="token number">0.4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">.</span>my_post_copyright p<span class="token punctuation">{</span>margin<span class="token punctuation">:</span><span class="token number">0</span><span class="token punctuation">;</span><span class="token punctuation">}</span>
+<span class="token punctuation">.</span>my_post_copyright span <span class="token punctuation">{</span>
+  display<span class="token punctuation">:</span> inline<span class="token operator">-</span>block<span class="token punctuation">;</span>
+  width<span class="token punctuation">:</span> <span class="token number">5</span><span class="token punctuation">.</span>2em<span class="token punctuation">;</span>
+  color<span class="token punctuation">:</span> #b5b5b5<span class="token punctuation">;</span>
+  font<span class="token operator">-</span>weight<span class="token punctuation">:</span> bold<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">.</span>my_post_copyright <span class="token punctuation">.</span>raw <span class="token punctuation">{</span>
+  margin<span class="token operator">-</span>left<span class="token punctuation">:</span> 1em<span class="token punctuation">;</span>
+  width<span class="token punctuation">:</span> 5em<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">.</span>my_post_copyright a <span class="token punctuation">{</span>
+  color<span class="token punctuation">:</span> #<span class="token number">808080</span><span class="token punctuation">;</span>
+  border<span class="token operator">-</span>bottom<span class="token punctuation">:</span><span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">.</span>my_post_copyright a<span class="token punctuation">:</span>hover <span class="token punctuation">{</span>
+  color<span class="token punctuation">:</span> #a3d2a3<span class="token punctuation">;</span>
+  text<span class="token operator">-</span>decoration<span class="token punctuation">:</span> underline<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">.</span>my_post_copyright<span class="token punctuation">:</span>hover <span class="token punctuation">.</span>fa<span class="token operator">-</span>clipboard <span class="token punctuation">{</span>
+  color<span class="token punctuation">:</span> #<span class="token number">000</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">.</span>my_post_copyright <span class="token punctuation">.</span>post<span class="token operator">-</span>url<span class="token punctuation">:</span>hover <span class="token punctuation">{</span>
+  font<span class="token operator">-</span>weight<span class="token punctuation">:</span> normal<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">.</span>my_post_copyright <span class="token punctuation">.</span>copy<span class="token operator">-</span>path <span class="token punctuation">{</span>
+  margin<span class="token operator">-</span>left<span class="token punctuation">:</span> 1em<span class="token punctuation">;</span>
+  width<span class="token punctuation">:</span> 1em<span class="token punctuation">;</span>
+  <span class="token operator">+</span><span class="token function">mobile</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>display<span class="token punctuation">:</span>none<span class="token punctuation">;</span><span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">.</span>my_post_copyright <span class="token punctuation">.</span>copy<span class="token operator">-</span>path<span class="token punctuation">:</span>hover <span class="token punctuation">{</span>
+  color<span class="token punctuation">:</span> #<span class="token number">808080</span><span class="token punctuation">;</span>
+  cursor<span class="token punctuation">:</span> pointer<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<ul>
 <li>修改<code>Blog/themes/next/layout/_macro/post.swig</code>，在如图位置添加以下代码：</li>
 </ul>
-<pre><code>&lt;div&gt;
-      {% if not is_index %}
-        {% include 'my-copyright.swig' %}
-      {% endif %}
-&lt;/div&gt;
-</code></pre><p><img src="https://upload-images.jianshu.io/upload_images/3072214-52a341c7f39b9ba6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p>
+<pre class=" language-javascript"><code class="language-javascript"><span class="token operator">&lt;</span>div<span class="token operator">></span>
+      <span class="token punctuation">{</span><span class="token operator">%</span> <span class="token keyword">if</span> not is_index <span class="token operator">%</span><span class="token punctuation">}</span>
+        <span class="token punctuation">{</span><span class="token operator">%</span> include <span class="token string">'my-copyright.swig'</span> <span class="token operator">%</span><span class="token punctuation">}</span>
+      <span class="token punctuation">{</span><span class="token operator">%</span> endif <span class="token operator">%</span><span class="token punctuation">}</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+</code></pre>
+<p><img src="https://upload-images.jianshu.io/upload_images/3072214-52a341c7f39b9ba6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p>
 <ul>
 <li>在<code>Blog/themes/next/source/css/_common/components/post/post.styl</code>文件最后加入下面的代码：</li>
 </ul>
-<pre><code>@import &quot;my-post-copyright&quot;
-</code></pre><ul>
+<pre class=" language-javascript"><code class="language-javascript">@<span class="token keyword">import</span> <span class="token string">"my-post-copyright"</span>
+</code></pre>
+<ul>
 <li>在Markdown文章中加入<code>copyright : ture</code>：</li>
 </ul>
-<pre><code>---
+<pre class=" language-yml"><code class="language-yml">---
 title: Hexo-NexT主题配置
 date: 2018-01-20 20:41:08
 categories: Hexo
@@ -1200,16 +1252,18 @@ tags:
 top: 100
 copyright: ture
 ---
-</code></pre><ul>
+</code></pre>
+<ul>
 <li>配置根目录下的<code>_config.yml</code>文件，配置为：</li>
 </ul>
-<pre><code># URL
-## If your site is put in a subdirectory, set url as &#39;http://yoursite.com/child&#39; and root as &#39;/child/&#39;
+<pre class=" language-yml"><code class="language-yml"># URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://wenmobo.github.io/  //你的网站地址
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
-</code></pre><ul>
+</code></pre>
+<ul>
 <li>效果图如下所示：</li>
 </ul>
 <p><img src="https://upload-images.jianshu.io/upload_images/3072214-f14827039037cb3d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt="img"></p>
@@ -1217,24 +1271,27 @@ permalink_defaults:
 <li>NexT主题支持集成 Swiftype、 微搜索、Local Search 和 Algolia。下面介绍Local Search的安装吧。</li>
 <li>安装 hexo-generator-search</li>
 </ul>
-<pre><code>npm install hexo-generator-search --save
-</code></pre><ul>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> hexo-generator-search --save
+</code></pre>
+<ul>
 <li>安装 hexo-generator-searchdb</li>
 </ul>
-<pre><code> npm install hexo-generator-searchdb --save 
-</code></pre><ul>
+<pre class=" language-bash"><code class="language-bash"> <span class="token function">npm</span> <span class="token function">install</span> hexo-generator-searchdb --save 
+</code></pre>
+<ul>
 <li>编辑站点配置文件，添加以下内容 </li>
 </ul>
 <p><img src="https://upload-images.jianshu.io/upload_images/3072214-aff43f0e07e85647.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/972/format/webp" alt="img"></p>
-<pre><code>search:
+<pre class=" language-yml"><code class="language-yml">search:
   path: search.xml
   field: post
   format: html
   limit: 10000
-</code></pre><ul>
+</code></pre>
+<ul>
 <li>编辑主题配置文件，设置<code>Local search</code>enable为<code>ture</code> </li>
 </ul>
-<pre><code># Local search
+<pre class=" language-yml"><code class="language-yml"># Local search
 # Dependencies: https://github.com/flashlab/hexo-generator-search
 local_search:
   enable: ture
@@ -1243,7 +1300,8 @@ local_search:
   trigger: auto
   # show top n results per article, show all results by setting to -1
   top_n_per_article: 1
-</code></pre><ul>
+</code></pre>
+<ul>
 <li>效果如下图所示：</li>
 </ul>
 <p><img src="https://upload-images.jianshu.io/upload_images/3072214-7d4440ed648d76c7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/972/format/webp" alt="img"> </p>
@@ -2131,6 +2189,11 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 </footer>
 
 <div class="progress-bar"></div>
+
+
+<script src="/js/prism/prism.js" async></script>
+
+
 
 
     <!-- 搜索遮罩框 -->

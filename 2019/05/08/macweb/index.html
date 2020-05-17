@@ -29,6 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
+    <link rel="stylesheet" href="/js/prism/prism.css">
+
+
 </head>
 
 
@@ -482,31 +485,37 @@
             <div id="articleContent">
                 <h2 id="macOS-Mojave-打造高效率前端开发环境"><a href="#macOS-Mojave-打造高效率前端开发环境" class="headerlink" title="macOS Mojave 打造高效率前端开发环境"></a><strong>macOS Mojave 打造高效率前端开发环境</strong></h2><p>### </p>
 <h3 id="安装Homebrew"><a href="#安装Homebrew" class="headerlink" title="安装Homebrew"></a><strong>安装Homebrew</strong></h3><p>​    包管理工具。类似于node下的npm。可以用来安装管理大部分的无界面的工具，如node，git，Python等。<br>​    摘自官网的安装命令：</p>
-<pre><code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
-</code></pre><a id="more"></a>
-<h3 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h3><pre><code>brew install git
-</code></pre><h3 id="安装npm"><a href="#安装npm" class="headerlink" title="安装npm"></a>安装npm</h3><pre><code>npm install npm -g
-</code></pre><h3 id="安装webpack"><a href="#安装webpack" class="headerlink" title="安装webpack"></a>安装webpack</h3><pre><code>npm install webpack -g
-</code></pre><h3 id="用-iTerm2-代替Mac-Terminal"><a href="#用-iTerm2-代替Mac-Terminal" class="headerlink" title="用 iTerm2 代替Mac Terminal "></a><strong>用 iTerm2 代替Mac Terminal </strong></h3><p>​    Mac原生terminal 也很强大也可以设置很美观，但是iTerm2 明显更优秀。</p>
+<pre class=" language-bash"><code class="language-bash">/usr/bin/ruby -e <span class="token string">"<span class="token variable"><span class="token variable">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install<span class="token variable">)</span></span>"</span>
+</code></pre>
+<a id="more"></a>
+<h3 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h3><pre class=" language-bash"><code class="language-bash">brew <span class="token function">install</span> <span class="token function">git</span>
+</code></pre>
+<h3 id="安装npm"><a href="#安装npm" class="headerlink" title="安装npm"></a>安装npm</h3><pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> <span class="token function">npm</span> -g
+</code></pre>
+<h3 id="安装webpack"><a href="#安装webpack" class="headerlink" title="安装webpack"></a>安装webpack</h3><pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> webpack -g
+</code></pre>
+<h3 id="用-iTerm2-代替Mac-Terminal"><a href="#用-iTerm2-代替Mac-Terminal" class="headerlink" title="用 iTerm2 代替Mac Terminal "></a><strong>用 iTerm2 代替Mac Terminal </strong></h3><p>​    Mac原生terminal 也很强大也可以设置很美观，但是iTerm2 明显更优秀。</p>
 <h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><p>​    首先我们下载的 iTem2 这个软件，比Mac自带的终端更加强大。直接官网 <a href="http://iterm2.com/" target="_blank" rel="noopener">http://iterm2.com/</a> 下载并安装即可。</p>
 <h4 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h4><p>​    将iTem2设置为默认终端：（菜单栏）iTerm2 -&gt; Make iTerm2 Default Term</p>
 <p>​                        <img src="/Users/evildevil/Pictures/Screen Shot/屏幕快照 2019-05-09 下午4.16.20.png" alt="屏幕快照 2019-05-09 下午4.16.20"></p>
 <p>​    然后打开偏好设置preference，选中Keys，勾选Hotkey下的Show/hide iTerm2 with a system-wide hotkey，我将热键设置为 Option + Space，这样你就可以通过Option + Space . 全局热键来打开或关闭iTerm2窗口，非常方便。</p>
 <h4 id="主题配色"><a href="#主题配色" class="headerlink" title="主题配色"></a>主题配色</h4><p>​    首先我来介绍一下如何下载并应用我们看好的主题配置文件。</p>
 <p>​    我们可以点击 <a href="https://github.com/mbadolato/iTerm2-Color-Schemes/archive/master.zip" target="_blank" rel="noopener">这个链接</a> 直接下载主题项目的所有文件，得到压缩包，解压即可。使用 <code>git</code> 版本控制系统的同学也可以通过下面这个命令将 GitHub 仓库整个克隆至本地：</p>
-<pre><code>git clone https://github.com/mbadolato/iTerm2-Color-Schemes.git
-
-</code></pre><p>​    我个人推荐One Dark 主题。One 系列主题同样也有一暗一亮两个配色方案。<strong>其中的 One Dark 是 Atom 编辑器的默认主题配色</strong>，简洁、养眼。不得不承认这一主题确实很符合我的胃口，我现在所有可以配色的地方（比如各种终端和 VS Code 等编辑器）几乎就直接使用 One Dark 配色。</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> clone https://github.com/mbadolato/iTerm2-Color-Schemes.git
+</code></pre>
+<p>​    我个人推荐One Dark 主题。One 系列主题同样也有一暗一亮两个配色方案。<strong>其中的 One Dark 是 Atom 编辑器的默认主题配色</strong>，简洁、养眼。不得不承认这一主题确实很符合我的胃口，我现在所有可以配色的地方（比如各种终端和 VS Code 等编辑器）几乎就直接使用 One Dark 配色。</p>
 <p><img src="https://cdn.sspai.com/2019/02/22/7cadc29a9e9ef2df38cff8d74c8b2f2e.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
 <p>​    这是我的iTerm2界面，自认为很简洁美观。</p>
 <p><img src="/Users/evildevil/Pictures/Screen Shot/屏幕快照 2019-05-09 下午4.23.47.png" alt="屏幕快照 2019-05-09 下午4.23.47"></p>
 <p>推荐链接：<a href="https://sspai.com/post/53008" target="_blank" rel="noopener">10 个 Terminal 主题，让你的 macOS 终端更好看</a></p>
 <h4 id="安装oh-my-zsh"><a href="#安装oh-my-zsh" class="headerlink" title="安装oh-my-zsh"></a>安装oh-my-zsh</h4><p>​    github连接：<a href="https://github.com/robbyrussell/oh-my-zsh" target="_blank" rel="noopener">https://github.com/robbyrussell/oh-my-zsh</a></p>
 <p>​    使用 crul 安装：</p>
-<pre><code>sh -c &quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;
-</code></pre><p>​    或使用wget：</p>
-<pre><code>`sh -c ``&quot;$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)&quot;`
-</code></pre><h3 id="编辑器"><a href="#编辑器" class="headerlink" title="编辑器"></a><strong>编辑器</strong></h3><h4 id="Vusual-Studio-Code"><a href="#Vusual-Studio-Code" class="headerlink" title="Vusual Studio Code"></a>Vusual Studio Code</h4><p>​    <strong>Visual Studio Code</strong> is a <strong>lightweight but powerful source code editor</strong> which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for <code>JavaScript, TypeScript and Node.js</code> and has <code>a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity)</code>.<br> 支持的拓展常见的包含如下：</p>
+<pre class=" language-bash"><code class="language-bash">sh -c <span class="token string">"<span class="token variable"><span class="token variable">$(</span>curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh<span class="token variable">)</span></span>"</span>
+</code></pre>
+<p>​    或使用wget：</p>
+<pre class=" language-bash"><code class="language-bash"><span class="token variable"><span class="token variable">`</span>sh -c <span class="token variable">`</span></span>`<span class="token string">"<span class="token variable"><span class="token variable">$(</span><span class="token function">wget</span> https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -<span class="token variable">)</span></span>"</span>`
+</code></pre>
+<h3 id="编辑器"><a href="#编辑器" class="headerlink" title="编辑器"></a><strong>编辑器</strong></h3><h4 id="Vusual-Studio-Code"><a href="#Vusual-Studio-Code" class="headerlink" title="Vusual Studio Code"></a>Vusual Studio Code</h4><p>​    <strong>Visual Studio Code</strong> is a <strong>lightweight but powerful source code editor</strong> which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for <code>JavaScript, TypeScript and Node.js</code> and has <code>a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity)</code>.<br> 支持的拓展常见的包含如下：</p>
 <p><img src="https://upload-images.jianshu.io/upload_images/3980862-5825acffe2b3a3f4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/793/format/webp" alt="img"></p>
 <h5 id="优点："><a href="#优点：" class="headerlink" title="优点："></a>优点：</h5><p>​    重新定义了 Code 编辑。</p>
 <p>​    在任何操作系统上编辑和调试应用程序 </p>
@@ -1408,6 +1417,11 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 </footer>
 
 <div class="progress-bar"></div>
+
+
+<script src="/js/prism/prism.js" async></script>
+
+
 
 
     <!-- 搜索遮罩框 -->
